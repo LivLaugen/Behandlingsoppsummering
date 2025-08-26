@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><template xmlns="openEHR/v1/Template">
+    <id>7cf818c4-1ceb-4b84-9a4d-3f81fbfe27fb</id>
+    <name>Oncology-MDT-Execution_v21</name>
+    <description>
+        <original_author>
+            <item>
+                <key>date</key>
+                <value>2021-01-06</value>
+            </item>
+        </original_author>
+        <lifecycle_state>unmanaged</lifecycle_state>
+        <details>
+            <purpose/>
+            <use/>
+            <misuse/>
+        </details>
+        <other_details>
+            <item>
+                <key>licence</key>
+                <value/>
+            </item>
+            <item>
+                <key>custodian_organisation</key>
+                <value/>
+            </item>
+            <item>
+                <key>original_namespace</key>
+                <value/>
+            </item>
+            <item>
+                <key>original_publisher</key>
+                <value/>
+            </item>
+            <item>
+                <key>custodian_namespace</key>
+                <value/>
+            </item>
+            <item>
+                <key>MD5-CAM-1.0.1</key>
+                <value>de55e3fc08412eee9d499ed3bafc622a</value>
+            </item>
+            <item>
+                <key>PARENT:MD5-CAM-1.0.1</key>
+                <value>6562F732112B8B3F94790E178F4243A5</value>
+            </item>
+            <item>
+                <key>original_language</key>
+                <value>ISO_639-1::nb</value>
+            </item>
+            <item>
+                <key>sem_ver</key>
+                <value>17.0.0</value>
+            </item>
+            <item>
+                <key>build_uid</key>
+                <value/>
+            </item>
+            <item>
+                <key>original_language</key>
+                <value>ISO_639-1::nb</value>
+            </item>
+        </other_details>
+    </description>
+    <definition archetype_id="openEHR-EHR-COMPOSITION.encounter.v1" concept_name="Klinisk kontakt" name="Oncology-MDT-Execution" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:COMPOSITION">
+        <Content archetype_id="openEHR-EHR-EVALUATION.problem_diagnosis.v1" max="1" path="/content" xsi:type="tem:EVALUATION">
+            <Rule max="0" path="/data[at0001]/items[at0009]"/>
+            <Rule max="0" path="/data[at0001]/items[at0012]"/>
+            <Rule max="0" path="/data[at0001]/items[at0078]"/>
+            <Rule max="0" path="/data[at0001]/items[at0077]"/>
+            <Rule max="0" path="/data[at0001]/items[at0003]"/>
+            <Rule max="0" path="/data[at0001]/items[at0005]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Coded_text</includedTypes>
+                    <includedTypes>Text</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/data[at0001]/items[at0072]"/>
+            <Rule max="0" path="/data[at0001]/items[at0030]"/>
+            <Rule max="0" path="/data[at0001]/items[at0073]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Coded_text</includedTypes>
+                    <includedTypes>Text</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/data[at0001]/items[at0069]"/>
+        </Content>
+        <Content archetype_id="openEHR-EHR-INSTRUCTION.service_request.v1" concept_name="Helsetjenesteforespørsel" max="1" name="MDT" path="/content" xsi:type="tem:INSTRUCTION">
+            <Rule path="/activities[at0001]/description[at0009]/items[at0148]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>SNOMED-CT::312384001::multidisiplinært teammøte</includedValues>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0135]"/>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0062]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>no.dips.oncology.mdt.cancertype::01::Sarkom</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::02::Hode og halskreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::03::Hjernesvulst</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::04::Brystkreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::05::Lungekreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::06::Kreft i fordøyelsessystemet</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::07::Gynekologisk kreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::08::Kreft i nyre og urinveier</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::09::Benmargs- og blodkreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::10::Lymfom</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::11::Hudkreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::12::Kreft i mannlige kjønnsorganer</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::13::Kreft i endokrine kjertler</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::14::Nevroendokrin kreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::15::Barnekreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::16::Øyekreft</includedValues>
+                    <includedValues>no.dips.oncology.mdt.cancertype::17::Svulst av ukjent opprinnelse / Annet kreft</includedValues>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0064]"/>
+            <Rule max="1" path="/activities[at0001]/description[at0009]/items[at0152]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>no.onk.kreftgruppering::01::Sarkom</includedValues>
+                    <includedValues>no.onk.kreftgruppering::02::Hode og halskreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::03::Hjernesvulst</includedValues>
+                    <includedValues>no.onk.kreftgruppering::04::Brystkreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::05::Lungekreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::06::Kreft i fordøyelsessystemet</includedValues>
+                    <includedValues>no.onk.kreftgruppering::07::Gynekologisk kreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::08::Kreft i nyre og urinveier</includedValues>
+                    <includedValues>no.onk.kreftgruppering::09::Benmargs- og blodkreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::10::Lymfom</includedValues>
+                    <includedValues>no.onk.kreftgruppering::11::Hudkreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::12::Kreft i mannlige kjønnsorganer</includedValues>
+                    <includedValues>no.onk.kreftgruppering::13::Kreft i endokrine kjertler</includedValues>
+                    <includedValues>no.onk.kreftgruppering::14::Nevroendokrin kreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::15::Barnekreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::16::Øyekreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::17::Svulst av ukjent opprinnelse / Annet kreft</includedValues>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0065]"/>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0068]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Coded_text</includedTypes>
+                    <includedTypes>Text</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule name="Tid/dato for neste MDT" path="/activities[at0001]/description[at0009]/items[at0040]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Date_Time</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0145]"/>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0144]"/>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0147]"/>
+            <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0150]"/>
+            <Rule max="0" path="/protocol[at0008]/items[at0010]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Text</includedTypes>
+                    <includedTypes>Identifier</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/protocol[at0008]/items[at0011]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Text</includedTypes>
+                    <includedTypes>Identifier</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule path="/protocol[at0008]/items[at0127]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>SNOMED-CT::410526009::Ønsket</includedValues>
+                </constraint>
+            </Rule>
+        </Content>
+        <Content archetype_id="openEHR-EHR-ACTION.service.v1" concept_name="Helsetjenesteaktivitet" max="1" name="MDT" path="/content" xsi:type="tem:ACTION">
+            <Rule path="/description[at0001]/items[at0014]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>SNOMED-CT::312384001::multidisiplinært teammøte</includedValues>
+                </constraint>
+            </Rule>
+            <Rule path="/description[at0001]/items[at0032]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Date_Time</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/description[at0001]/items[at0025]"/>
+            <Rule max="0" path="/description[at0001]/items[at0021]">
+                <constraint xsi:type="tem:countConstraint">
+                    <minMagnitude>1</minMagnitude>
+                    <includesMaximum>false</includesMaximum>
+                    <includesMinimum>true</includesMinimum>
+                </constraint>
+            </Rule>
+            <Rule path="/description[at0001]/items[at0012]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>no.onk.kreftgruppering::01::Sarkom</includedValues>
+                    <includedValues>no.onk.kreftgruppering::02::Hode og halskreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::03::Hjernesvulst</includedValues>
+                    <includedValues>no.onk.kreftgruppering::04::Brystkreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::05::Lungekreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::06::Kreft i fordøyelsessystemet</includedValues>
+                    <includedValues>no.onk.kreftgruppering::07::Gynekologisk kreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::08::Kreft i nyre og urinveier</includedValues>
+                    <includedValues>no.onk.kreftgruppering::09::Benmargs- og blodkreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::10::Lymfom</includedValues>
+                    <includedValues>no.onk.kreftgruppering::11::Hudkreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::12::Kreft i mannlige kjønnsorganer</includedValues>
+                    <includedValues>no.onk.kreftgruppering::13::Kreft i endokrine kjertler</includedValues>
+                    <includedValues>no.onk.kreftgruppering::14::Nevroendokrin kreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::15::Barnekreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::16::Øyekreft</includedValues>
+                    <includedValues>no.onk.kreftgruppering::17::Svulst av ukjent opprinnelse / Annet kreft</includedValues>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/protocol[at0015]/items[at0016]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Identifier</includedTypes>
+                    <includedTypes>Text</includedTypes>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/protocol[at0015]/items[at0018]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Identifier</includedTypes>
+                    <includedTypes>Text</includedTypes>
+                </constraint>
+            </Rule>
+            <Items archetype_id="openEHR-EHR-CLUSTER.mdt_tilleggsinformasjon_dips.v1" path="/description[at0001]/items[at0036]" xsi:type="tem:CLUSTER"/>
+        </Content>
+        <Content archetype_id="openEHR-EHR-SECTION.adhoc.v1" path="/content" xsi:type="tem:SECTION">
+            <Item archetype_id="openEHR-EHR-INSTRUCTION.service_request.v1" concept_name="Helsetjenesteforespørsel" max="1" name="Hoved/primærbehandling" path="/items" xsi:type="tem:INSTRUCTION">
+                <Rule max="1" path="/activities[at0001]"/>
+                <Rule name="Hovedbehandling" path="/activities[at0001]/description[at0009]/items[at0121]">
+                    <constraint xsi:type="tem:textConstraint">
+                        <includedValues>SNOMED-CT::128303001::Kirurgisk fjerning</includedValues>
+                        <includedValues>SNOMED-CT::64597002::Ablation</includedValues>
+                        <includedValues>SNOMED-CT::1287742003::Stråleterapi (alle typer)</includedValues>
+                        <includedValues>SNOMED-CT::1156506007::Fotonterapi - Stråle (ekstern)</includedValues>
+                        <includedValues>SNOMED-CT::10611004::Protonterapi -Stråle (ekstern)</includedValues>
+                        <includedValues>SNOMED-CT::45643008::Elektronterapi - Stråle (ekstern)</includedValues>
+                        <includedValues>SNOMED-CT::152198000::Brakyterapi - Stråle (intern)</includedValues>
+                        <includedValues>SNOMED-CT::399315003::Radioisotope/systemisk radionuklidebehandling - Stråle (intern)</includedValues>
+                        <includedValues>SNOMED-CT::416608005::Medikamentell behandling (alle typer)</includedValues>
+                        <includedValues>SNOMED-CT::367336001::Kjemoterapi - Medikamentell</includedValues>
+                        <includedValues>SNOMED-CT::347531000202105::Målrettet - Medikamentell</includedValues>
+                        <includedValues>SNOMED-CT::76334006::Immunterapi - Medikamentell behandling</includedValues>
+                        <includedValues>SNOMED-CT::169413002::Hormonterapi - Medikamentell</includedValues>
+                        <includedValues>SNOMED-CT::373818007::Ingen kreftbehandling, aktiv oppfølging</includedValues>
+                        <includedValues>SNOMED-CT::438758006::Ekspektans (avventende behandling)</includedValues>
+                        <includedValues>SNOMED-CT::74964007::Annen behandling</includedValues>
+                    </constraint>
+                </Rule>
+                <Rule path="/activities[at0001]/description[at0009]/items[at0148]">
+                    <constraint xsi:type="tem:textConstraint">
+                        <includedValues>no.dips.mdt.treatment.type::C1::Kreftbehandling</includedValues>
+                    </constraint>
+                </Rule>
+                <Rule name="Overordnet beskrivelse av behandling" path="/activities[at0001]/description[at0009]/items[at0135]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0064]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0152]"/>
+                <Rule max="1" min="1" name="Intensjon behandling" path="/activities[at0001]/description[at0009]/items[at0065]">
+                    <constraint xsi:type="tem:textConstraint">
+                        <includedValues>no.dips.mdt.treatment.intention::K1::Kurativt</includedValues>
+                        <includedValues>no.dips.mdt.treatment.intention::K2::Aktiv overvåkning</includedValues>
+                        <includedValues>no.dips.mdt.treatment.intention::K3::Livsforlengende - ikke kurativ</includedValues>
+                        <includedValues>no.dips.mdt.treatment.intention::K4::Symptomlindrende - ikke kurativ</includedValues>
+                        <includedValues>no.dips.mdt.treatment.intention::K5::Lokal kontroll - ikke kurativ</includedValues>
+                        <includedValues>no.dips.mdt.treatment.intention::K6::Ukjent</includedValues>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0068]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Coded_text</includedTypes>
+                        <includedTypes>Text</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0040]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Date_Time</includedTypes>
+                        <includedTypes>Interval</includedTypes>
+                        <includedTypes>Text</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0145]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0144]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0147]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0076]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0078]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0150]"/>
+                <Rule max="0" path="/protocol[at0008]/items[at0010]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Text</includedTypes>
+                        <includedTypes>Identifier</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/protocol[at0008]/items[at0011]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Text</includedTypes>
+                        <includedTypes>Identifier</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/protocol[at0008]/items[at0127]"/>
+                <Items archetype_id="openEHR-EHR-CLUSTER.organisation.v1" path="/activities[at0001]/description[at0009]/items[at0132]" xsi:type="tem:CLUSTER">
+                    <Rule name="Behandlingssted" path="/items[at0001]">
+                        <constraint xsi:type="tem:textConstraint">
+                            <includedValues>no.dips.mdt.treatment.provider::Egen institusjon::Egen institusjon</includedValues>
+                            <includedValues>no.dips.mdt.treatment.provider::Allmennpraktiker::Allmennpraktiker</includedValues>
+                            <includedValues>no.dips.mdt.treatment.provider::Utlandet (spesifiser)::Utlandet (spesifiser)</includedValues>
+                            <includedValues>no.dips.mdt.treatment.provider::Annen norsk institusjon/spesialist::Annen norsk institusjon/spesialist</includedValues>
+                            <includedValues>no.dips.mdt.treatment.provider::Samarbeid egen institusjon og allmennpraktiker::Samarbeid egen institusjon og allmennpraktiker</includedValues>
+                            <includedValues>no.dips.mdt.treatment.provider::Ukjent::Ukjent</includedValues>
+                        </constraint>
+                    </Rule>
+                    <Rule max="0" path="/items[at0003]">
+                        <constraint xsi:type="tem:multipleConstraint">
+                            <includedTypes>Identifier</includedTypes>
+                            <includedTypes>Text</includedTypes>
+                        </constraint>
+                    </Rule>
+                    <Rule max="0" path="/items[at0004]"/>
+                    <Rule name="Kommentar, spesifiser" path="/items[at0019]"/>
+                </Items>
+            </Item>
+            <Item archetype_id="openEHR-EHR-INSTRUCTION.service_request.v1" concept_name="Helsetjenesteforespørsel" max="1" name="Tilleggsbehandling ift. hovedbehandling" path="/items" xsi:type="tem:INSTRUCTION">
+                <Rule name="Tillegsbehandling" path="/activities[at0001]/description[at0009]/items[at0121]">
+                    <constraint xsi:type="tem:textConstraint">
+                        <includedValues>no.dips.mdt.treatment.secondary::ST1::Neoadjuvant strålebehandling</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST2::Neoadjuvant medikamentell behandling</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST3::Neoauvant konkomitant stråle og medikamentell behandling (CRT)</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST4::Konkomitant medikamentell behandling</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST5::Konkomitant stråleterapi (Intraoperativ strålebehandling)</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST7::Adjuvant strålebehandling</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST8::Adjuvant medikamentell behandling</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST9::Adjuvant konkomitant stråle og medikamentell behandling (CRT)</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST10::Kirurgisk behandling av restsykdom/-tumor (Salvage kirurgi)</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST11::Stråling av restsykdom/-tumor (Salvage stråle)</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST13::Ingen kreftbehandling, aktiv oppfølging</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST14::Ekspektans (avventende behandling)</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST15::Ferdig behandlet</includedValues>
+                        <includedValues>no.dips.mdt.treatment.secondary::ST12::Annet</includedValues>
+                    </constraint>
+                </Rule>
+                <Rule path="/activities[at0001]/description[at0009]/items[at0148]">
+                    <constraint xsi:type="tem:textConstraint">
+                        <includedValues>no.dips.mdt.treatment.type::C1::Kreftbehandling</includedValues>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0135]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0062]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0064]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0152]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0065]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0068]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Coded_text</includedTypes>
+                        <includedTypes>Text</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0040]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Date_Time</includedTypes>
+                        <includedTypes>Interval</includedTypes>
+                        <includedTypes>Text</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0145]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0144]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0147]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0076]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0078]"/>
+                <Rule max="0" path="/activities[at0001]/description[at0009]/items[at0150]"/>
+                <Rule max="0" path="/protocol[at0008]/items[at0010]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Text</includedTypes>
+                        <includedTypes>Identifier</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/protocol[at0008]/items[at0011]">
+                    <constraint xsi:type="tem:multipleConstraint">
+                        <includedTypes>Text</includedTypes>
+                        <includedTypes>Identifier</includedTypes>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/protocol[at0008]/items[at0127]"/>
+                <Items archetype_id="openEHR-EHR-CLUSTER.organisation.v1" max="1" path="/activities[at0001]/description[at0009]/items[at0132]" xsi:type="tem:CLUSTER">
+                    <Rule name="Behandlingssted" path="/items[at0001]">
+                        <constraint xsi:type="tem:textConstraint">
+                            <includedValues>no.dips.OncologyTreatmentLocations::Egen institusjon::Egen institusjon</includedValues>
+                            <includedValues>no.dips.OncologyTreatmentLocations::Allmennpraktiker::Allmennpraktiker</includedValues>
+                            <includedValues>no.dips.OncologyTreatmentLocations::Utlandet (spesifiser)::Utlandet (spesifiser)</includedValues>
+                            <includedValues>no.dips.OncologyTreatmentLocations::Annen norsk institusjon/spesialist::Annen norsk institusjon/spesialist</includedValues>
+                            <includedValues>no.dips.OncologyTreatmentLocations::Samarbeid egen institusjon og allmennpraktiker::Samarbeid egen institusjon og allmennpraktiker</includedValues>
+                            <includedValues>no.dips.OncologyTreatmentLocations::Ukjent::Ukjent</includedValues>
+                        </constraint>
+                    </Rule>
+                    <Rule max="0" path="/items[at0003]">
+                        <constraint xsi:type="tem:multipleConstraint">
+                            <includedTypes>Identifier</includedTypes>
+                            <includedTypes>Text</includedTypes>
+                        </constraint>
+                    </Rule>
+                    <Rule max="0" path="/items[at0004]"/>
+                    <Rule name="Kommentar, spesifiser" path="/items[at0019]"/>
+                </Items>
+            </Item>
+        </Content>
+        <Content archetype_id="openEHR-EHR-OBSERVATION.progress_note.v1" concept_name="Tidsfestet fritekst" max="1" name="Sammendrag av MDT beslutning" path="/content" xsi:type="tem:OBSERVATION">
+            <Rule max="1" path="/data[at0001]/events[at0002]"/>
+            <Items archetype_id="openEHR-EHR-CLUSTER.semistrukturert_metadata_dips.v1" max="1" path="/protocol[at0005]/items[at0006]" xsi:type="tem:CLUSTER">
+                <Rule path="/items[at0001]">
+                    <constraint xsi:type="tem:textConstraint">
+                        <includedValues>no.dips.classification.text::KortSammendragMDTBehandling::Kort sammendrag av MDT behandling</includedValues>
+                    </constraint>
+                </Rule>
+            </Items>
+        </Content>
+        <Context>
+            <Items archetype_id="openEHR-EHR-CLUSTER.template_semver_dips.v1" path="/context/other_context[at0001]/items[at0002]" xsi:type="tem:CLUSTER">
+                <Rule path="/items[at0001]">
+                    <constraint xsi:type="tem:textConstraint">
+                        <includedValues>TemplateVersionNameMDT::Exe03::Oncology-MDT-Execution</includedValues>
+                    </constraint>
+                </Rule>
+                <Rule path="/items[at0003]/items[at0004]">
+                    <constraint xsi:type="tem:countConstraint">
+                        <minMagnitude>0</minMagnitude>
+                        <includesMaximum>false</includesMaximum>
+                        <includesMinimum>true</includesMinimum>
+                    </constraint>
+                </Rule>
+                <Rule path="/items[at0003]/items[at0005]">
+                    <constraint xsi:type="tem:countConstraint">
+                        <minMagnitude>0</minMagnitude>
+                        <includesMaximum>false</includesMaximum>
+                        <includesMinimum>true</includesMinimum>
+                    </constraint>
+                </Rule>
+                <Rule path="/items[at0003]/items[at0006]">
+                    <constraint xsi:type="tem:countConstraint">
+                        <minMagnitude>0</minMagnitude>
+                        <includesMaximum>false</includesMaximum>
+                        <includesMinimum>true</includesMinimum>
+                    </constraint>
+                </Rule>
+                <Rule max="0" path="/items[at0008]"/>
+            </Items>
+        </Context>
+    </definition>
+    <integrity_checks archetype_id="openEHR-EHR-COMPOSITION.encounter.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">6562F732112B8B3F94790E178F4243A5</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-CLUSTER.template_semver_dips.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">DA38D7FDB467BD8746408BF41D8C608D</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-EVALUATION.problem_diagnosis.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">EF178D60EC50DFA0B397073812D70C7C</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-INSTRUCTION.service_request.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">662517860A4CD65197A7E737FD63FA2E</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-ACTION.service.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">609AF4181142CF599F4ADB55BA434727</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-CLUSTER.mdt_tilleggsinformasjon_dips.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">5aebf99610c617ceae9d29b86a140f74</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-SECTION.adhoc.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">9D358EB1048EA1401802C3E1FDFB9A29</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-CLUSTER.organisation.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">308B41E032E39BC7F1A94452A050D8DD</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-OBSERVATION.progress_note.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">2680055602768664777655A2038C43E6</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-CLUSTER.semistrukturert_metadata_dips.v1" xmlns:tem="openEHR/v1/Template" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">5779BD381D047A909CCCF5E3E716A8E6</digest>
+    </integrity_checks>
+</template>
