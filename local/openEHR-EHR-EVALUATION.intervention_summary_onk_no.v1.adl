@@ -86,8 +86,8 @@ Not to be used in cases where there are more specific summary archetypes availab
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"DA9F997D06B41748F48318104A31CC39">
-		["build_uid"] = <"fdd4a99c-2e53-4ea6-a354-6ba99dc0d588">
+		["MD5-CAM-1.0.1"] = <"C7EEE208DF05A2AD7E02331B399B2B10">
+		["build_uid"] = <"b712f0b8-9bbc-45fc-b5f0-ad9d1ac0276e">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -391,7 +391,7 @@ Coding with an external terminology is preferred, where possible.">
 				>
 				["at0007"] = <
 					text = <"Årsak til fullføringsstatus">
-					description = <"*Description of the reason for the completion status. (en)">
+					description = <"Beskrivelse av årsaken til fullføringsstatusen.">
 					comment = <"Koding med en terminologi er foretrukket, dersom det er mulig.">
 				>
 				["at0008"] = <
@@ -466,7 +466,7 @@ Koding med en terminologi er foretrukket, dersom det er mulig.">
 				["at0055"] = <
 					text = <"Terapeutisk rolle">
 					description = <"Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.">
-					comment = <"*For example main treatment, neoadjuvant, concomitant, adjuvant, preoperative or postoperative, acute, continuation, maintenance. (en)">
+					comment = <"For eksempel hovedbehandling, neoadjuvant, samtidig (concomitant), adjuvant, preoperativ eller postoperativ, akutt, videreføring/oppfølging eller vedlikehold.">
 				>
 				["at0056"] = <
 					text = <"Antall intervensjoner">
