@@ -1,4 +1,4 @@
-archetype (adl_version=1.4; uid=6b1a011c-b352-4c2d-a261-36bf9466c0f9)
+archetype (adl_version=1.4; uid=994727ed-a0d5-4a7c-9502-360770c6ad2c)
 	openEHR-EHR-EVALUATION.intervention_summary_onk_no.v1
 
 concept
@@ -29,8 +29,8 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"For å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.">
-			keywords = <"behandling","forløp","protokoll","terapi","terapeutisk","kirurgi","omsorg","prosedyre","forebyggende","diagnostisk">
+			purpose = <"For å registrere et sammendrag av en terapeutisk intervensjon som pågår, eller som har blitt gjennomført.">
+			keywords = <"behandling, forløp, protokoll, terapi, terapeutisk, kirurgi, omsorg, prosedyre, forebyggende, diagnostisk", ...>
 			use = <"Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.
 
 Eksempler på bruk inkluderer, men er ikke begrenset til:
@@ -55,8 +55,8 @@ Skal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper 
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record a summary about a therapeutic intervention that are being, or has been carried out.">
-			keywords = <"treatment","course","protocol","therapy","therapeutic","surgery","mangement","care","procedure","preventive","diagnostic">
+			purpose = <"To record a summary of a therapeutic intervention that is ongoing or has been completed.">
+			keywords = <"treatment","course","protocol","therapy","therapeutic","surgery","management","care","procedure","preventive","diagnostic">
 			use = <"Use to record a summary about a therapeutic intervention that are being, or has been carried out.
 
 Examples of use include, but are not limited to:
@@ -86,8 +86,8 @@ Not to be used in cases where there are more specific summary archetypes availab
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"4785bc4c27005745233b9f11bbf9ee4e">
-		["build_uid"] = <"368d2a7e-c2f5-4577-917d-537435d720d2">
+		["MD5-CAM-1.0.1"] = <"DA9F997D06B41748F48318104A31CC39">
+		["build_uid"] = <"fdd4a99c-2e53-4ea6-a354-6ba99dc0d588">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -259,7 +259,7 @@ ontology
 				>
 				["at0007"] = <
 					text = <"Reason for completion status">
-					description = <"Description of the reason why the course of intervention was not completed (incomplete) or is unknown.">
+					description = <"Description of the reason for the completion status.">
 					comment = <"Coding with an external terminology is preferred, where possible.">
 				>
 				["at0008"] = <
@@ -334,7 +334,7 @@ Coding with an external terminology is preferred, where possible.">
 				["at0055"] = <
 					text = <"Therapeutic role">
 					description = <"The clinical purpose of an intervention within the context of a broader treatment protocol, specifying its intended timing or function in relation to the overall therapeutic strategy.">
-					comment = <"For example main treatment, neoadjuvant, concomitant, adjuvant, preoperative or postoperative.">
+					comment = <"For example main treatment, neoadjuvant, concomitant, adjuvant, preoperative or postoperative, acute, continuation, maintenance.">
 				>
 				["at0056"] = <
 					text = <"Number of interventions">
@@ -391,7 +391,7 @@ Coding with an external terminology is preferred, where possible.">
 				>
 				["at0007"] = <
 					text = <"Årsak til fullføringsstatus">
-					description = <"Beskrivelsen av årsaken til at en intervensjon ikke ble fullført (ufullstendig) eller er ukjent.">
+					description = <"*Description of the reason for the completion status. (en)">
 					comment = <"Koding med en terminologi er foretrukket, dersom det er mulig.">
 				>
 				["at0008"] = <
@@ -420,7 +420,7 @@ Koding med en terminologi er foretrukket, dersom det er mulig.">
 				["at0019"] = <
 					text = <"Ytterligere detaljer">
 					description = <"Ytterligere strukturerte detaljer relatert til intervensjonen.">
-					comment = <"For eksempel om legemiddelrestens eller klinisk grunnlag.">
+					comment = <"For eksempel om legemiddelresistens eller klinisk grunnlag.">
 				>
 				["at0021"] = <
 					text = <"Fullført">
@@ -466,7 +466,7 @@ Koding med en terminologi er foretrukket, dersom det er mulig.">
 				["at0055"] = <
 					text = <"Terapeutisk rolle">
 					description = <"Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.">
-					comment = <"For eksempel hovedbehandling, neoadjuvant, samtidig (concomitant), adjuvant, preoperativ eller postoperativ.">
+					comment = <"*For example main treatment, neoadjuvant, concomitant, adjuvant, preoperative or postoperative, acute, continuation, maintenance. (en)">
 				>
 				["at0056"] = <
 					text = <"Antall intervensjoner">
