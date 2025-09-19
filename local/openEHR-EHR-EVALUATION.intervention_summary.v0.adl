@@ -29,24 +29,24 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"For å registrere et sammendrag av en terapeutisk intervensjon som pågår, eller som har blitt gjennomført.">
+			purpose = <"*To record a summary of a therapeutic intervention. (en)">
 			keywords = <"behandling, forløp, protokoll, terapi, terapeutisk, kirurgi, omsorg, prosedyre, forebyggende, diagnostisk", ...>
-			use = <"Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.
+			use = <"*Use to record a summary of a therapeutic intervention.
 
-Eksempler på bruk inkluderer, men er ikke begrenset til:
-- Et stråleterapiforløp som en del av en kreftbehandling.
-- En medisinsk behandlingsserie som har blitt gitt.
-- Et kirurgisk inngrep som har blitt utført.
-- Kognitiv atferdsterapi brukt i behandling av depresjon.
-- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.
-- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.
-- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.
-- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.
+Examples of use include, but are not limited to:
+- A course of radiotherapy carried out as part of a cancer protocol.
+- A course of medical treatment that has been administered.
+- A surgical procedure that has been performed.
+- Cognitive behavioural therapy sessions used in the treatment of depression.
+- A series of caregiving interventions used to support mental and physical well-being, such as providing emotional support to patients undergoing cancer treatment.
+- Community support programs designed to mitigate social factors like housing instability and social isolation.
+- Lifestyle counseling sessions aimed at promoting healthy behaviors and improving overall well-being.
+- Home care services offered to an elderly individual to support independence and quality of life.
 
-Elementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:
-- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"
-- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"
-- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".">
+The 'Intervention category' element can be used to record an overarching grouping of the 'Intervention name'. Similarly, the 'Intervention type' can be used to further specify the method or process used to deliver the intervention. For example:
+- Category: \"Cancer treatment\", Name: \"Radiotherapy, and Type: \"Brachytherapy\"
+- Category: \"Surgical\", Name: \"Appendectomy\", and Type: \"Laparoscopic\"
+- Category: \"Psychosocial\", Name: \"Smoking cessation brief intervention\", and Type: \"Motivational interviewing technique\". (en)">
 			misuse = <"Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.
 
 Skal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.
@@ -55,9 +55,9 @@ Skal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper 
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
-			purpose = <"To record a summary of a therapeutic intervention that is ongoing or has been completed.">
+			purpose = <"To record a summary of a therapeutic intervention.">
 			keywords = <"treatment","course","protocol","therapy","therapeutic","surgery","management","care","procedure","preventive","diagnostic">
-			use = <"Use to record a summary about a therapeutic intervention that are being, or has been carried out.
+			use = <"Use to record a summary of a therapeutic intervention.
 
 Examples of use include, but are not limited to:
 - A course of radiotherapy carried out as part of a cancer protocol.
@@ -86,7 +86,7 @@ Not to be used in cases where there are more specific summary archetypes availab
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"C7EEE208DF05A2AD7E02331B399B2B10">
+		["MD5-CAM-1.0.1"] = <"28599192087d3dbe23f06cdc7f8fef29">
 		["build_uid"] = <"b712f0b8-9bbc-45fc-b5f0-ad9d1ac0276e">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"0.0.1-alpha">
@@ -158,30 +158,31 @@ definition
 							DV_DATE_TIME matches {*}
 						}
 					}
-					ELEMENT[at0005] occurrences matches {0..1} matches {    -- Completion status
+					ELEMENT[at0005] occurrences matches {0..1} matches {    -- Intervention outcome
 						value matches {
 							DV_CODED_TEXT matches {
 								defining_code matches {
 									[local::
-									at0021,    -- Complete
-									at0022,    -- Not completed
+									at0021,    -- Completed as planned
+									at0022,    -- Completed with deviations
+									at0061,    -- Partially completed
 									at0060]    -- Unknown
 								}
 							}
 							DV_TEXT matches {*}
 						}
 					}
-					ELEMENT[at0007] occurrences matches {0..*} matches {    -- Reason for completion status
+					ELEMENT[at0007] occurrences matches {0..*} matches {    -- Reason for intervention outcome
 						value matches {
 							DV_TEXT matches {*}
 						}
 					}
-					ELEMENT[at0008] occurrences matches {0..1} matches {    -- Outcome category
+					ELEMENT[at0008] occurrences matches {0..1} matches {    -- Therapeutic outcome
 						value matches {
 							DV_TEXT matches {*}
 						}
 					}
-					ELEMENT[at0027] occurrences matches {0..1} matches {    -- Reason for outcome category
+					ELEMENT[at0027] occurrences matches {0..1} matches {    -- Reason for therapeutic outcome
 						value matches {
 							DV_TEXT matches {*}
 						}
@@ -227,7 +228,6 @@ definition
 	}
 
 ontology
-	terminologies_available = <"SNOMED-CT", ...>
 	term_definitions = <
 		["en"] = <
 			items = <
@@ -254,17 +254,17 @@ ontology
 					comment = <"For example the date when the last in a series of chemotherapy infusions was administered.">
 				>
 				["at0005"] = <
-					text = <"Completion status">
+					text = <"Intervention outcome">
 					description = <"Whether or not the intervention was carried out as planned.">
 				>
 				["at0007"] = <
-					text = <"Reason for completion status">
-					description = <"Description of the reason for the completion status.">
+					text = <"Reason for intervention outcome">
+					description = <"Description of the reason for the intervention outcome.">
 					comment = <"Coding with an external terminology is preferred, where possible.">
 				>
 				["at0008"] = <
-					text = <"Outcome category">
-					description = <"Category of outcome for the intervention.">
+					text = <"Therapeutic outcome">
+					description = <"The outcome of the intervention based on its therapeutic effectiveness.">
 					comment = <"For example: successful, failed, indeterminate. 
 Coding with an external terminology is preferred, where possible.">
 				>
@@ -291,16 +291,16 @@ Coding with an external terminology is preferred, where possible.">
 					comment = <"For example: drug resistance profile; clinical evidence.">
 				>
 				["at0021"] = <
-					text = <"Complete">
-					description = <"">
+					text = <"Completed as planned">
+					description = <"The intervention was delivered in full and followed the original clinical intent">
 				>
 				["at0022"] = <
-					text = <"Not completed">
-					description = <"">
+					text = <"Completed with deviations">
+					description = <"The intervention was delivered in full but did not follow the original clinical intent">
 				>
 				["at0027"] = <
-					text = <"Reason for outcome category">
-					description = <"Narrative rationale or justification for assigning the specified outcome category.">
+					text = <"Reason for therapeutic outcome">
+					description = <"Description of the reason for the therapeutic outcome.">
 					comment = <"For example: 'Drug resistance', 'Tumour responded to treatment' and 'Tumour did not respond to treatment'.">
 				>
 				["at0028"] = <
@@ -357,7 +357,11 @@ Coding with an external terminology is preferred, where possible.">
 				>
 				["at0060"] = <
 					text = <"Unknown">
-					description = <"">
+					description = <"The outcome is not known">
+				>
+				["at0061"] = <
+					text = <"Partially completed">
+					description = <"Only part of the intervention was delivered">
 				>
 			>
 		>
@@ -386,17 +390,17 @@ Coding with an external terminology is preferred, where possible.">
 					comment = <"For eksempel datoen da den siste i en serie med cellegiftinfusjoner ble gitt.">
 				>
 				["at0005"] = <
-					text = <"Fullføringsstatus">
+					text = <"Intervensjonens oppnåelse">
 					description = <"Om intervensjonen ble gjennomført som planlagt eller ikke.">
 				>
 				["at0007"] = <
-					text = <"Årsak til fullføringsstatus">
-					description = <"Beskrivelse av årsaken til fullføringsstatusen.">
+					text = <"Begrunnelse for resultatet av intervensjonen">
+					description = <"*Description of the reason for the intervention outcome. (en)">
 					comment = <"Koding med en terminologi er foretrukket, dersom det er mulig.">
 				>
 				["at0008"] = <
-					text = <"Resultatkategori">
-					description = <"Kategori av resultatet av intervensjonen.">
+					text = <"Terapautisk resultat">
+					description = <"*The outcome of the intervention based on its therapeutic effectiveness. (en)">
 					comment = <"For eksempel: vellykket, ikke vellykket, usikkert.
 Koding med en terminologi er foretrukket, dersom det er mulig.">
 				>
@@ -423,16 +427,16 @@ Koding med en terminologi er foretrukket, dersom det er mulig.">
 					comment = <"For eksempel om legemiddelresistens eller klinisk grunnlag.">
 				>
 				["at0021"] = <
-					text = <"Fullført">
-					description = <"">
+					text = <"*Completed as planned (en)">
+					description = <"*The intervention was delivered in full and followed the original clinical intent (en)">
 				>
 				["at0022"] = <
-					text = <"Ikke fullført">
-					description = <"">
+					text = <"*Completed with deviations (en)">
+					description = <"*The intervention was delivered in full but did not follow the original clinical intent (en)">
 				>
 				["at0027"] = <
-					text = <"Årsak til resultatkategori">
-					description = <"Fritekstlig beskrivelse av rasjonale eller begrunnelse for å sette den spesifiserte resultatkategorien.">
+					text = <"Begrunnelse for terapautisk resultat">
+					description = <"*Description of the reason for the therapeutic outcome. (en)">
 					comment = <"For eksempel: «Legemiddelresistens», «Tumor responderte på behandling» og «Tumor responderte ikke på behandling».">
 				>
 				["at0028"] = <
@@ -489,17 +493,12 @@ Koding med en terminologi er foretrukket, dersom det er mulig.">
 				>
 				["at0060"] = <
 					text = <"Ukjent">
-					description = <"">
+					description = <"*The outcome is not known (en)">
 				>
-			>
-		>
-	>
-	term_binding = <
-		["SNOMED-CT"] = <
-			items = <
-				["at0021"] = <[SNOMED-CT::255594003]>
-				["at0022"] = <[SNOMED-CT::410545000]>
-				["at0060"] = <[SNOMED-CT::261665006]>
+				["at0061"] = <
+					text = <"*Partially completed (en)">
+					description = <"*Only part of the intervention was delivered (en)">
+				>
 			>
 		>
 	>
