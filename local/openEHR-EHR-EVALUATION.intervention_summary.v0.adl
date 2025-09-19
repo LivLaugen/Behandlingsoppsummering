@@ -87,7 +87,7 @@ Not to be used in cases where there are more specific summary archetypes availab
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"28599192087d3dbe23f06cdc7f8fef29">
+		["MD5-CAM-1.0.1"] = <"3a6a8b466b0e39529818cb1042eabd23">
 		["build_uid"] = <"b712f0b8-9bbc-45fc-b5f0-ad9d1ac0276e">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"0.0.1-alpha">
@@ -256,7 +256,7 @@ ontology
 				>
 				["at0005"] = <
 					text = <"Intervention outcome">
-					description = <"Whether or not the intervention was carried out as planned.">
+					description = <"The outcome of the intervention based on whether it was delivered in full and in accordance with the original clinical intent.">
 				>
 				["at0007"] = <
 					text = <"Reason for intervention outcome">
@@ -391,11 +391,11 @@ Coding with an external terminology is preferred, where possible.">
 					comment = <"For eksempel datoen da den siste i en serie med cellegiftinfusjoner ble gitt.">
 				>
 				["at0005"] = <
-					text = <"Intervensjonens oppnåelse">
-					description = <"Om intervensjonen ble gjennomført som planlagt eller ikke.">
+					text = <"Intervensjonens fullføringsstatus">
+					description = <"Resultatet av intervensjonen basert på om den ble gjennomført i sin helhet og i samsvar med den opprinnelige kliniske intensjonen.">
 				>
 				["at0007"] = <
-					text = <"Begrunnelse for resultatet av intervensjonen">
+					text = <"Begrunnelse for fullføringsstatus av intervensjonen">
 					description = <"*Description of the reason for the intervention outcome. (en)">
 					comment = <"Koding med en terminologi er foretrukket, dersom det er mulig.">
 				>
@@ -428,12 +428,12 @@ Koding med en terminologi er foretrukket, dersom det er mulig.">
 					comment = <"For eksempel om legemiddelresistens eller klinisk grunnlag.">
 				>
 				["at0021"] = <
-					text = <"*Completed as planned (en)">
-					description = <"*The intervention was delivered in full and followed the original clinical intent (en)">
+					text = <"Fullført som planlagt">
+					description = <"Intervensjonen ble gjennomført i sin helhet og fulgte den opprinnelige kliniske intensjonen">
 				>
 				["at0022"] = <
-					text = <"*Completed with deviations (en)">
-					description = <"*The intervention was delivered in full but did not follow the original clinical intent (en)">
+					text = <"Fullført med avvik">
+					description = <"Intervensjonen ble gjennomført i sin helhet, men fulgte ikke den opprinnelige kliniske intensjonen">
 				>
 				["at0027"] = <
 					text = <"Begrunnelse for terapautisk resultat">
@@ -494,11 +494,11 @@ Koding med en terminologi er foretrukket, dersom det er mulig.">
 				>
 				["at0060"] = <
 					text = <"Ukjent">
-					description = <"*The outcome is not known (en)">
+					description = <"Fullføringsstatusen er ikke kjent">
 				>
 				["at0061"] = <
-					text = <"*Partially completed (en)">
-					description = <"*Only part of the intervention was delivered (en)">
+					text = <"Delvis fullført">
+					description = <"Kun deler av intervensjonen ble gjennomført">
 				>
 			>
 		>
