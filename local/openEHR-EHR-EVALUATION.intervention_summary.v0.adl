@@ -29,24 +29,25 @@ description
 	details = <
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"*To record a summary of a therapeutic intervention. (en)">
+			purpose = <"For å registrere et sammendrag av en terapeutisk intervensjon.
+">
 			keywords = <"behandling, forløp, protokoll, terapi, terapeutisk, kirurgi, omsorg, prosedyre, forebyggende, diagnostisk", ...>
-			use = <"*Use to record a summary of a therapeutic intervention.
+			use = <"For å registrere et sammendrag av en terapeutisk intervensjon.
 
-Examples of use include, but are not limited to:
-- A course of radiotherapy carried out as part of a cancer protocol.
-- A course of medical treatment that has been administered.
-- A surgical procedure that has been performed.
-- Cognitive behavioural therapy sessions used in the treatment of depression.
-- A series of caregiving interventions used to support mental and physical well-being, such as providing emotional support to patients undergoing cancer treatment.
-- Community support programs designed to mitigate social factors like housing instability and social isolation.
-- Lifestyle counseling sessions aimed at promoting healthy behaviors and improving overall well-being.
-- Home care services offered to an elderly individual to support independence and quality of life.
+Eksempler på bruk inkluderer, men er ikke begrenset til:
+- Et stråleterapiforløp som en del av en kreftbehandling.
+- En medisinsk behandlingsserie som har blitt gitt.
+- Et kirurgisk inngrep som har blitt utført.
+- Kognitiv atferdsterapi brukt i behandling av depresjon.
+- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.
+- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.
+- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.
+- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.
 
-The 'Intervention category' element can be used to record an overarching grouping of the 'Intervention name'. Similarly, the 'Intervention type' can be used to further specify the method or process used to deliver the intervention. For example:
-- Category: \"Cancer treatment\", Name: \"Radiotherapy, and Type: \"Brachytherapy\"
-- Category: \"Surgical\", Name: \"Appendectomy\", and Type: \"Laparoscopic\"
-- Category: \"Psychosocial\", Name: \"Smoking cessation brief intervention\", and Type: \"Motivational interviewing technique\". (en)">
+Elementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:
+- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"
+- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"
+- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".">
 			misuse = <"Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.
 
 Skal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.
