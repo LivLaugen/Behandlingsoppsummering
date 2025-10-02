@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "68.0.0",
+      "sem_ver" : "69.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "337c0ce54426276165380282c97c1f93",
+      "MD5-CAM-1.0.1" : "131fa299dc2e3e09b4890e8cc08290e9",
       "PARENT:MD5-CAM-1.0.1" : "8C341BFFA1E20864451EDDD9770E3D0F",
       "original_language" : "ISO_639-1::nb"
     },
@@ -4777,6 +4777,10 @@
                         "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
                       }, {
                         "terminologyId" : "local_terms",
+                        "code" : "64597002",
+                        "value" : "Destruksjon (ablasjon)"
+                      }, {
+                        "terminologyId" : "local_terms",
                         "code" : "74964007",
                         "value" : "Annet"
                       } ]
@@ -6716,6 +6720,10 @@
                         "terminologyId" : "local_terms",
                         "code" : "118635009",
                         "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "64597002",
+                        "value" : "Destruksjon (ablasjon)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
