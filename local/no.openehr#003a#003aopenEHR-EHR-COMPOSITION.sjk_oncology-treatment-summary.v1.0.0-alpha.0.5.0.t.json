@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "67.0.0",
+      "sem_ver" : "68.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "58d2a9d0c93a3719e62165c4c7af6558",
+      "MD5-CAM-1.0.1" : "337c0ce54426276165380282c97c1f93",
       "PARENT:MD5-CAM-1.0.1" : "8C341BFFA1E20864451EDDD9770E3D0F",
       "original_language" : "ISO_639-1::nb"
     },
@@ -4037,68 +4037,76 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "2603003",
-                        "value" : "Secondary (qualifier value)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "20376005",
-                        "value" : "Benign neoplastic disease (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "25173007",
-                        "value" : "Recurrent neoplasm (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
                         "code" : "35688006",
-                        "value" : "Komplikasjon av medisinsk behandling (disorder)"
+                        "value" : "komplikasjon av medisinsk behandling  (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "55342001",
-                        "value" : "Neoplastic disease (disorder)"
+                        "value" : "neoplastisk sykdom  (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "63161005",
-                        "value" : "Principal (qualifier value) (main, primary)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "74964007",
-                        "value" : "Annen (qualifier value)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "108369006",
-                        "value" : "Neoplasm, tumor (morphologic abnormality)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "128462008",
-                        "value" : "Metastase malign tumor (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "255051004",
-                        "value" : "Neoplasm of unknown origin (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "255227004",
-                        "value" : "residiverende, Recurrent (qualifier value)"
+                        "code" : "20376005",
+                        "value" : "benign neoplastisk sykdom (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "363346000",
-                        "value" : "Malignant neoplastic disease, kreftsykdom (disorder)"
+                        "value" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "255051004",
+                        "value" : "neoplasi /tumor av ukjent opprinnelse  (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "372087000",
-                        "value" : "Primær malign tumor (disorder)"
+                        "value" : "primær malign tumor (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "25173007",
+                        "value" : "residiviert neoplastisk sykdom/tumor  (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1259237005",
-                        "value" : "Residiv av malign tumor (disorder)"
+                        "value" : "residiv av malign tumor  (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "87961000202104",
-                        "value" : "lokalt residiv av malign primær neoplasma (disorder)"
+                        "value" : "lokalt residiv av malign primær neoplasma  (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "???",
-                        "value" : "Primærtumor (ikke malign eller beningn)"
+                        "code" : "128462008",
+                        "value" : "metastase malign tumor  (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "74964007",
+                        "value" : "annen (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "63161005",
+                        "value" : "primær (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "255227004",
+                        "value" : "residiverende (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1234914003",
+                        "value" : "primær malign neoplastisk proliferasjon (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1495041000004108",
+                        "value" : "neoplastisk proliferation (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1204295007",
+                        "value" : "malign neoplastisk proliferasjon (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1255587009",
+                        "value" : "regresjon av tumor (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1505291000004103",
+                        "value" : "Ikke direkte sammenhengende metastase (qualifier value)"
                       } ]
                     } ]
                   } ],
