@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "69.0.1",
+      "sem_ver" : "69.0.2",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "02866f0dff691dd9aa196f365487e95e",
+      "MD5-CAM-1.0.1" : "671e2a9e04bc04e49c486725ac3ef5a6",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "original_language" : "ISO_639-1::nb"
     },
@@ -5042,7 +5042,7 @@
           "at0008.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0008.1",
-            "text" : "Resultatkategori",
+            "text" : "Terapeutisk resultat",
             "description" : "Kategori av resultatet av intervensjonen.",
             "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?"
           },
