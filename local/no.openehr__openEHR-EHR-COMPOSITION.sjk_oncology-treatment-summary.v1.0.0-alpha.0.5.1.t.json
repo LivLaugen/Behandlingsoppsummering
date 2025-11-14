@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "b71fa358660ac5edaecec0bc219cbcde",
+      "MD5-CAM-1.0.1" : "f032065db6776c5919be8aee8e5dcf0a",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "72.0.0"
+      "sem_ver" : "73.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -10829,13 +10829,64 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0032.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0004.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0005.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "1..1",
+                      "terminologyId" : {
+                        "value" : "local"
+                      },
+                      "constraint" : [ "ac0.1" ],
+                      "selectedTerminologies" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -10912,13 +10963,19 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
+        "en" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.1",
+            "description" : ""
+          }
+        },
         "nb" : {
           "at0004.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
-            "comment" : "For eksempel datoen da den siste i en serie med cellegiftinfusjoner ble gitt.",
-            "description" : "Dato/tidspunkt for når den identifiserte intervensjonen ble fullført, eller avsluttet før den ble fullført.",
+            "description" : "Dato/tidspunkt for når den siste fraksjonen ble gitt.",
             "text" : "Dato siste fraksjon"
           },
           "at0028.1" : {
@@ -10931,7 +10988,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0032.1",
             "comment" : "For eksempel datoen da den første i en serie med cellegiftinfusjoner startet.",
-            "description" : "Dato/tidspunkt for når den identifiserte intervensjonen først startet.",
+            "description" : "Dato/tidspunkt for når den første fraksjonen ble gitt.",
             "text" : "Dato første fraksjon"
           },
           "at0054.1" : {
@@ -10960,17 +11017,47 @@
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
           },
+          "at0005" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0005",
+            "text" : "Gjennomføringsresultat",
+            "description" : "Resultatet av intervensjonen, basert på om den var gjennomført som opprinnelig tiltenkt."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007",
+            "text" : "Begrunnelse for gjennomføringsresultat",
+            "description" : "Beskrivelse av årsaken til gjennomføringsresultatet."
+          },
           "at0055.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0055",
             "text" : "Terapeutisk rolle",
             "description" : "Den rekkefølgen denne behandlingen kommer i forhold til hovedbehandlingen, som regel kirurgi."
+          },
+          "at0005.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0005.1",
+            "text" : "Gjennomføringsresultat",
+            "description" : "Resultatet av intervensjonen, basert på om den var gjennomført som opprinnelig tiltenkt."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.1" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.1",
+          "members" : [ "at0021", "at0022", "at0061", "at0060" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "ad9a02af-f155-46c0-a9f6-0e7352d21c01",
