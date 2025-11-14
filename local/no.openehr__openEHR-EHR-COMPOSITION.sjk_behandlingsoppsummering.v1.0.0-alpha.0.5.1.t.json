@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "69.0.0",
+      "sem_ver" : "69.0.1",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "d4140078b87e52cd2991a371c7bb2bf0",
+      "MD5-CAM-1.0.1" : "02866f0dff691dd9aa196f365487e95e",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "original_language" : "ISO_639-1::nb"
     },
@@ -5021,7 +5021,7 @@
           "at0051.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0051.1",
-            "text" : "Treatment line",
+            "text" : "Behandlingslinje",
             "description" : "Posisjonen til denne intervensjonen innenfor en sekvens definert av en bredere behandlingsprotokoll.",
             "comment" : "For eksempel: Førstelinje-, andrelinje- eller rednings-/salvage-behandlinger."
           },
