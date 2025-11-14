@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "16445a4ddbd1c6098184680f8969f9a0",
+      "MD5-CAM-1.0.1" : "71a10e4203fc3ccdd50f6334b7f9d536",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "69.0.0"
+      "sem_ver" : "70.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -1143,7 +1143,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "description" : "En generisk seksjonsoverskrift som skal gis nytt navn i en templat for å passe i en gitt klinisk kontekst.",
+            "description" : "Seksjon for å beskrive en innasiv prosedyre, vanligvis kirurgi.",
             "text" : "Invasiv prosedyre"
           }
         },
@@ -1965,7 +1965,16 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ELEMENT",
                   "nodeId" : "at0011.1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_DATE_TIME",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 }, {
                   "@type" : "C_COMPLEX_OBJECT",
@@ -2012,7 +2021,16 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ELEMENT",
                   "nodeId" : "at0012.1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_DATE_TIME",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 }, {
                   "@type" : "C_COMPLEX_OBJECT",
@@ -2242,28 +2260,27 @@
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002.1",
-            "comment" : "Navn på legemiddel kan representeres som en generisk substans, handelsnavn, gruppe eller klasse av legemidler. Det anbefales å kode \"Navn på legemiddel\" med en terminologi om mulig, slik at det kan brukes for eksempel i beslutningsstøtte. Fritekst bør bare benyttes der det ikke finnes en passende terminologi.\r\nFor eksempel: '\"Adriamycin\"; \"doxorubicin\" eller \"anthracycliner\"; \"Fosamax\", \"alendronsyre\" eller \"bifosonater\".",
+            "comment" : "Designkommentar: Her har man mulighet til å legge inn enten navn på legemiddelet eller navnet på kuren man bruker.",
             "description" : "Navn på legemiddel eller gruppe av legemidler.",
             "text" : "Navn på kur/medikament"
           },
           "at0011.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0011.1",
-            "comment" : "Kan være en deldato, for eksempel kun årstall.",
-            "description" : "Datoen da legemiddelet først ble administrert i denne perioden.",
+            "description" : "Datoen da legemiddelet/kuren først ble administrert i denne perioden.",
             "text" : "Startdato for bruk"
           },
           "at0012.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0012.1",
             "comment" : "Kan være en deldato, for eksempel kun årstall.",
-            "description" : "Datoen da legemiddelet sist ble administrert i denne perioden.",
+            "description" : "Datoen da legemiddelet/kuren sist ble administrert i denne perioden.",
             "text" : "Sluttdato for bruk"
           },
           "at0016.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0016.1",
-            "description" : "Kumulativ mengde brukt av legemiddelet i denne perioden.",
+            "description" : "Kumulativ mengde brukt av legemiddelet/kuren i denne perioden.",
             "text" : "Kumulativ mengde"
           }
         },
@@ -4607,76 +4624,88 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "35688006",
-                        "value" : "komplikasjon av medisinsk behandling  (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "55342001",
-                        "value" : "neoplastisk sykdom  (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
                         "code" : "20376005",
                         "value" : "benign neoplastisk sykdom (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "3898006",
+                        "value" : "benign tumor  (morphologic abnormality)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1505291000004100",
+                        "value" : "ikke direkte sammenhengende metastase (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "35688006",
+                        "value" : "komplikasjon av medisinsk behandling (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "363346000",
                         "value" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "255051004",
-                        "value" : "neoplasi /tumor av ukjent opprinnelse  (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "372087000",
-                        "value" : "primær malign tumor (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "25173007",
-                        "value" : "residiviert neoplastisk sykdom/tumor  (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1259237005",
-                        "value" : "residiv av malign tumor  (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
                         "code" : "87961000202104",
                         "value" : "lokalt residiv av malign primær neoplasma  (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "128462008",
-                        "value" : "metastase malign tumor  (disorder)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "74964007",
-                        "value" : "annen (qualifier value)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "63161005",
-                        "value" : "primær (qualifier value)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "255227004",
-                        "value" : "residiverende (qualifier value)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1234914003",
-                        "value" : "primær malign neoplastisk proliferasjon (qualifier value)"
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1495041000004108",
-                        "value" : "neoplastisk proliferation (qualifier value)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1204295007",
                         "value" : "malign neoplastisk proliferasjon (qualifier value)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
+                        "code" : "128462008",
+                        "value" : "metastase malign tumor  (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "128462008",
+                        "value" : "metastase malign tumor (disorder) (på norsk heter den kun metastase)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "255051004",
+                        "value" : "neoplasi /tumor av ukjent opprinnelse  (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1495041000004100",
+                        "value" : "neoplastisk proliferation (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "55342001",
+                        "value" : "neoplastisk sykdom  (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "63161005",
+                        "value" : "primær (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1234914003",
+                        "value" : "primær malign neoplastisk proliferasjon (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "372087000",
+                        "value" : "primær malign tumor (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "1255587009",
                         "value" : "regresjon av tumor (qualifier value)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "1505291000004103",
-                        "value" : "Ikke direkte sammenhengende metastase (qualifier value)"
+                        "code" : "1259237005",
+                        "value" : "residiv av malign tumor (disorder) (Recurrent malignant neoplasm)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "255227004",
+                        "value" : "residiverende (qualifier value)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "25173007",
+                        "value" : "residiviert neoplastisk sykdom/tumor  (disorder)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "108369006",
+                        "value" : "tumor (morphologic abnormality)"
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "74964007",
+                        "value" : "annen (qualifier value)"
                       } ]
                     } ]
                   } ],
@@ -4830,7 +4859,7 @@
                       "terminologyId" : {
                         "value" : "local"
                       },
-                      "constraint" : [ "ac0.2" ],
+                      "constraint" : [ "ac0.3" ],
                       "selectedTerminologies" : [ ]
                     } ]
                   } ],
@@ -4969,20 +4998,14 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
-            "code" : "ac0.2",
-            "description" : "",
-            "text" : "(Synthesized)"
+            "text" : "(Synthesized)",
+            "code" : "ac0.3",
+            "description" : ""
           }
         },
         "nb" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "ac0.2",
-            "description" : "",
-            "text" : "*(Synthesized) (en)"
-          },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
@@ -4999,9 +5022,9 @@
           "at0008.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0008.1",
-            "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?",
+            "comment" : "Designkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?",
             "description" : "Kategori av resultatet av intervensjonen.",
-            "text" : "Resultatkategori"
+            "text" : "Terapeutisk resultat"
           },
           "at0032.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -5029,7 +5052,7 @@
             "code" : "at0051.1",
             "comment" : "For eksempel: Førstelinje-, andrelinje- eller rednings-/salvage-behandlinger.",
             "description" : "Posisjonen til denne intervensjonen innenfor en sekvens definert av en bredere behandlingsprotokoll.",
-            "text" : "Treatment line"
+            "text" : "Behandlingslinje"
           },
           "at0054.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -5050,6 +5073,24 @@
             "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0005.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0005",
+            "text" : "Gjennomføringsresultat",
+            "description" : "Resultatet av intervensjonen, basert på om den var gjennomført som opprinnelig tiltenkt."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007",
+            "text" : "Begrunnelse for gjennomføringsresultat",
+            "description" : "Beskrivelse av årsaken til gjennomføringsresultatet."
+          },
+          "ac0.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.3",
+            "description" : ""
           }
         }
       },
@@ -5064,6 +5105,11 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0021", "at0022", "at0061", "at0060" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
           "members" : [ "at0021", "at0022", "at0061", "at0060" ]
         }
       }
@@ -5188,7 +5234,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "387713003",
-                        "value" : "Kirurgisk inngrep"
+                        "value" : "kirurgisk prosedyre"
                       } ]
                     } ]
                   } ],
@@ -5332,6 +5378,10 @@
                         "value" : "Amputasjon"
                       }, {
                         "terminologyId" : "local_terms",
+                        "code" : "56757003",
+                        "value" : "Avskraping (abrasio)"
+                      }, {
+                        "terminologyId" : "local_terms",
                         "code" : "68688001",
                         "value" : "Curettage"
                       }, {
@@ -5342,6 +5392,10 @@
                         "terminologyId" : "local_terms",
                         "code" : "64597002",
                         "value" : "Destruksjon (ablasjon)"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "73632009",
+                        "value" : "Laparoskopisk inngrep"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
@@ -5433,7 +5487,16 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0032.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -5580,29 +5643,49 @@
           "at0032.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0032.1",
-            "comment" : "For eksempel datoen da den første i en serie med cellegiftinfusjoner startet.",
-            "description" : "Dato/tidspunkt for når den identifiserte intervensjonen først startet.",
+            "comment" : "Designkommentar:\nOprasjonsdatoen. ",
+            "description" : "Dato/tidspunkt for når den invasive prosedyren ble utført.",
             "text" : "Intervensjonsdato"
           },
           "at0033.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0033.1",
-            "comment" : "*",
-            "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
+            "description" : "Grunnen til at man utfører intervensjonen. ",
             "text" : "Indikasjon for behandling/behandlingsgrunnlag"
           },
           "at0054.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0054.1",
             "description" : "Identifikasjon av den kliniske protokollen, retningslinjen eller den autoritative referansen som støtter eller begrunner intervensjonen.",
-            "text" : "Protokollnavn"
+            "text" : "Protokollnavn",
+            "comment" : "Designkommentar: Prosedyrekode NKPK\n"
           },
           "at0059.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0059.1",
-            "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».\n\n**Skal denne være med, eller skal det være et annet verdisett?",
+            "comment" : "Designkommentar: \n**Skal denne være med/arves fra toppnivået, eller skal det være et annet verdisett?",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0003.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "Intervensjonsnavn",
+            "description" : "Navnet på intervensjonen.",
+            "comment" : "Designkommentar: Her ha vi satt koden for en kirurgisk metode eller operasjon 387713003. \nDefinisjon: intentional, structural alteration of the human body by mechanical, thermal, light-based, electromagnetic, or chemical means, and/or by the incision or destruction of tissues using instruments to cut, burn, vaporize, freeze, suture, probe, or manipulate by closed reductions.\n"
+          },
+          "at0058.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0058",
+            "text" : "Intervensjonstype",
+            "description" : "Typen kirurgisk prosedyre/invasiv prosedyre."
+          },
+          "at0055.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0055",
+            "text" : "Terapeutisk rolle",
+            "description" : "Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.",
+            "comment" : "Designkommentar: Dette er hovedbehandlingen som alle andre behandlinger er i forhold til når det gjelder rekkefølge. Vanligvis er hovedbehandling kirurgi, men det er lagt opp til at man kan ha medikamentell eller stråleterapi som hovedbehandling også."
           }
         }
       },
@@ -5843,9 +5926,43 @@
         "children" : [ {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0001.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "occurrences" : "0..1",
           "nodeId" : "at0065.1",
           "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0002.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "ac0.2" ],
+                  "selectedTerminologies" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
@@ -5934,15 +6051,34 @@
             "code" : "at0000",
             "description" : "*A physical site on or within the human body.(en)",
             "text" : "*Anatomical location(en) (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         },
-        "ca" : { },
+        "ca" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
         "de" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000",
             "description" : "Eine physische Stelle am oder innerhalb des menschlichen Körpers.",
             "text" : "Anatomische Lokalisation (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         },
         "en" : {
@@ -5951,24 +6087,88 @@
             "code" : "at0000",
             "description" : "A physical site on or within the human body.",
             "text" : "Anatomical location (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         },
-        "es" : { },
+        "es" : {
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
         "fr" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000",
             "description" : "Site physique sur ou dans le corps humain.",
             "text" : "Localisation anatomique (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         },
-        "nb" : { },
+        "nb" : {
+          "at0001" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Navn på kroppssted",
+            "description" : "Navngi det anatomiske stedet som var målet for den invasive prosedyren.",
+            "comment" : "Designkommentar:\nDenne er obligatorisk og må oppgis. "
+          },
+          "at0002" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002",
+            "text" : "Kroppsside",
+            "description" : "Den identifiserte kroppssiden."
+          },
+          "at0065.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0065",
+            "text" : "Spesifikt sted",
+            "description" : "Ytterligere detaljer gitt ved hjelp av en spesifikk region eller et punkt på eller i det spesifiserte kroppsstedet."
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Navn på kroppssted",
+            "description" : "N",
+            "comment" : "Dette dataelementet er det eneste obligatoriske dataelementet i arketypen og bør brukes som det primære dataelementet for registrering av en anatomisk lokalisering. Det er sterkt anbefalt at \"Navn på kroppssted\" registreres så anatomisk spesifikt som mulig. For eksempel; registrer \"øvre øyelokk\" heller enn \"øyelokk\" med \"øvre\" som kvalifikator; \"femte ribben\" heller enn \"ribben\" med en numerisk kvalifikator. Bruk de andre dataelementene for lateralitet, aspekt, region og anatomisk linje for å gi mer detaljer. Dette dataelementet bør kodes med en terminologi som kan assistere beslutningsstøtte dersom mulig - en passende terminologi for bruk her kunne omfatte individuelle konsepter eller lister av prekoordinerte termer. Fritekst bør kun brukes hvis det ikke finnes en passende terminologi. \r\n\r\nDersom navn på kroppssted er oppgitt i arketypen som denne arketypen er nøstet inn i, kan dette dataelementet være redundant. Imidlertid kan det være fornuftig å dobbeltregistrere navnet på kroppstedet for å støtte semantiske spørringer basert på denne arketypen i stedet for i arketypen den er nøstet inn i."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002.1",
+            "text" : "Kroppsside",
+            "description" : "Den identifiserte kroppssiden."
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
+          }
+        },
         "nl" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000",
             "description" : "Een fysieke regio op of in het menselijk lichaam.",
             "text" : "Anatomische locatie (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         },
         "pt-br" : {
@@ -5977,6 +6177,12 @@
             "code" : "at0000",
             "description" : "Identificação de um local físico dentro ou no corpo humano.",
             "text" : "Localização anatômica (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         },
         "sl" : {
@@ -5985,6 +6191,12 @@
             "code" : "at0000",
             "description" : "*A physical site on or within the human body.(en)",
             "text" : "*Anatomical location(en) (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         },
         "sv" : {
@@ -5993,12 +6205,33 @@
             "code" : "at0000",
             "description" : "Ett fysiskt ställe på eller i människokroppen.",
             "text" : "Anatomisk lokalisation (2)"
+          },
+          "ac0.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.2",
+            "description" : ""
           }
         }
       },
-      "termBindings" : { },
+      "termBindings" : {
+        "SNOMED-CT" : {
+          "at0002.1" : "term:SNOMED-CT::272741003"
+        }
+      },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.1" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.1",
+          "members" : [ "at0003", "at0004", "at0083" ]
+        },
+        "ac0.2" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.2",
+          "members" : [ "at0003", "at0004" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "ea61672c-ecdd-4874-bb87-3320ccab2a43",
@@ -6477,6 +6710,69 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0032.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0004.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0005.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "1..1",
+                      "terminologyId" : {
+                        "value" : "local"
+                      },
+                      "constraint" : [ "ac0.1" ],
+                      "selectedTerminologies" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                }, {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
               "occurrences" : "0..1",
               "nodeId" : "at0007.1",
               "attributes" : [ ],
@@ -6593,7 +6889,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
+        "en" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.1",
+            "description" : ""
+          }
+        },
         "nb" : {
           "at0054.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -6605,7 +6908,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0058.1",
             "comment" : "\n\n",
-            "description" : "En mer spesifikk metode eller prosess for å gjennomføre intervensjonen identifisert i «Intervensjonsnavn».",
+            "description" : "Type medikamentell behandling.",
             "text" : "Intervensjonstype"
           },
           "at0059.1" : {
@@ -6614,12 +6917,81 @@
             "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».\n\n**Skal denne være med?",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0004" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004",
+            "text" : "Sluttdato",
+            "description" : "Dato/tidspunkt da den medikamentelle behandlingen ble fullført, eller avsluttet før den ble fullført."
+          },
+          "at0005" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0005",
+            "text" : "Gjennomføringsresultat",
+            "description" : "Resultatet av intervensjonen, basert på om den var gjennomført som opprinnelig tiltenkt."
+          },
+          "at0032" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0032",
+            "text" : "Startdato",
+            "description" : "Dato/tidspunkt da den medikamentelle behandlingen startet."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007",
+            "text" : "Begrunnelse for gjennomføringsresultat",
+            "description" : "Beskrivelse av årsaken til gjennomføringsresultatet."
+          },
+          "at0008.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0008",
+            "text" : "Terapeutisk resultat",
+            "description" : "Resultatet av intervensjonen basert på terapeutisk effekt."
+          },
+          "at0055.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0055",
+            "text" : "Terapeutisk rolle",
+            "description" : "Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.",
+            "comment" : "Designkommentar: Dette er hovedbehandlingen som alle andre behandlinger er i forhold til når det gjelder rekkefølge. Vanligvis er hovedbehandling kirurgi, men det er lagt opp til at man kan ha medikamentell eller stråleterapi som hovedbehandling også."
+          },
+          "at0032.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0032.1",
+            "text" : "Startdato",
+            "description" : "Dato/tidspunkt da den i",
+            "comment" : "For eksempel datoen da den første i en serie med cellegiftinfusjoner startet."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Sluttdato",
+            "description" : "Dato/tidspunkt da dble fullført, eller avsluttet før den ble fullført.",
+            "comment" : "For eksempel datoen da den siste i en serie med cellegiftinfusjoner ble gitt."
+          },
+          "at0005.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0005.1",
+            "text" : "Gjennomføringsresultat",
+            "description" : "Resultatet av intervensjonen, basert på om den var gjennomført som opprinnelig tiltenkt."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.1" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.1",
+          "members" : [ "at0021", "at0022", "at0061", "at0060" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "ad9a02af-f155-46c0-a9f6-0e7352d21c01",
@@ -8685,6 +9057,13 @@
             "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».\n\n**Skal denne være med?",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0055.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0055",
+            "text" : "Terapeutisk rolle",
+            "description" : "Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.",
+            "comment" : "Designkommentar: Dette er hovedbehandlingen som alle andre behandlinger er i forhold til når det gjelder rekkefølge. Vanligvis er hovedbehandling kirurgi, men det er lagt opp til at man kan ha medikamentell eller stråleterapi som hovedbehandling også."
           }
         }
       },
@@ -12322,6 +12701,36 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0172.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_COUNT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "magnitude",
+                "children" : [ {
+                  "@type" : "C_INTEGER",
+                  "rmTypeName" : "INTEGER",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : 1,
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
           "nodeId" : "at0177.1",
           "attributes" : [ {
@@ -12389,6 +12798,13 @@
             "code" : "ac0.1",
             "description" : "",
             "text" : "*(Synthesized) (en)"
+          },
+          "at0172.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0172.1",
+            "text" : "Antall administreringer",
+            "description" : "Antall administreringer som er gitt.",
+            "comment" : "For eksempel \"kun én dose\" = 1, eller \"3 doser à 400 mg hver 12. time\" = 3.\n\nDesignkommentar: Vi har valgt at de kan legge inn et tall som sier noe om antall kurer/administreringer"
           }
         },
         "pt-br" : {
