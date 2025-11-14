@@ -1,3 +1,4 @@
+:toc:
 = Oncology-treatment-summary
 
 
@@ -12,7 +13,7 @@ Archetype:: openEHR-EHR-COMPOSITION.report.v1
 
 
 
-:toc:
+
 
 
 
@@ -196,7 +197,7 @@ For eksempel: «Legemiddelresistens», «Tumor responderte på behandling» og �
 |at0057| 0..1| DV_TEXT | ID for akkurat denne behanlingssløyfen
 a|
 |====
-== Hovedbehandling
+= Hovedbehandling
 == Invasiv prosedyre
 == Intervensjonssammendrag
 [options="header", cols="3,3,5,5,30"]
@@ -480,7 +481,7 @@ a|
 |at0057| 0..1| DV_TEXT | Stråleterapi course ID
 a|
 |====
-== Tilleggsbehandling
+= Tilleggsbehandling
 == Invasiv prosedyre
 == Intervensjonssammendrag
 [options="header", cols="3,3,5,5,30"]
@@ -754,4 +755,5 @@ a|
 |====
 // Not supported rmType CODE_PHRASE
 // Not supported rmType CODE_PHRASE
+
 // Not supported rmType PARTY_PROXY
