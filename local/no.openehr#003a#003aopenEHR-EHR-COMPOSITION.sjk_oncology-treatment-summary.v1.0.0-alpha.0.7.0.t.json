@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "045a86eab635f5dfb12cbaee30a9feb5",
+      "MD5-CAM-1.0.1" : "73ba3e0a5aac50bca6a795ea7050c7c4",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "70.0.0"
+      "sem_ver" : "70.1.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4464,7 +4464,9 @@
                         "terminologyId" : "no.onk.behandlig.type",
                         "code" : "1",
                         "value" : "Kreftbehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreftbehandling"
+                        }
                       } ]
                     } ]
                   } ],
@@ -4500,87 +4502,121 @@
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
                         "value" : "Sarkom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Sarkom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
                         "value" : "Kreft i hode og hals",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i hode og hals"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
                         "value" : "Hjernesvulst",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hjernesvulst"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
                         "value" : "Brystkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brystkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
                         "value" : "Lungekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lungekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
                         "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i fordøyelsessystemet"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
                         "value" : "Gynekologisk kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Gynekologisk kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
                         "value" : "Kreft i nyre og urinveier",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i nyre og urinveier"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
                         "value" : "Benmargs- og blodkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Benmargs- og blodkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
                         "value" : "Lymfom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lymfom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
                         "value" : "Hudkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hudkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
                         "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i mannlige kjønnsorganer"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
                         "value" : "Kreft i endokrine kjertler",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i endokrine kjertler"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
                         "value" : "Nevroendokrin kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Nevroendokrin kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
                         "value" : "Barnekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Barnekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
                         "value" : "Øyekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Øyekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
                         "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Svulst av ukjent opprinnelse / Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -4628,92 +4664,128 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "35688006",
                         "value" : "komplikasjon av medisinsk behandling  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "komplikasjon av medisinsk behandling  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "55342001",
                         "value" : "neoplastisk sykdom  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "neoplastisk sykdom  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "20376005",
                         "value" : "benign neoplastisk sykdom (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "benign neoplastisk sykdom (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "363346000",
                         "value" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "255051004",
                         "value" : "neoplasi /tumor av ukjent opprinnelse  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "neoplasi /tumor av ukjent opprinnelse  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "372087000",
                         "value" : "primær malign tumor (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "primær malign tumor (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "25173007",
                         "value" : "residiviert neoplastisk sykdom/tumor  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "residiviert neoplastisk sykdom/tumor  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1259237005",
                         "value" : "residiv av malign tumor  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "residiv av malign tumor  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "87961000202104",
                         "value" : "lokalt residiv av malign primær neoplasma  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "lokalt residiv av malign primær neoplasma  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "128462008",
                         "value" : "metastase malign tumor  (disorder)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "metastase malign tumor  (disorder)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "74964007",
                         "value" : "annen (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "annen (qualifier value)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "63161005",
                         "value" : "primær (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "primær (qualifier value)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "255227004",
                         "value" : "residiverende (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "residiverende (qualifier value)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1234914003",
                         "value" : "primær malign neoplastisk proliferasjon (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "primær malign neoplastisk proliferasjon (qualifier value)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1495041000004108",
                         "value" : "neoplastisk proliferation (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "neoplastisk proliferation (qualifier value)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1204295007",
                         "value" : "malign neoplastisk proliferasjon (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "malign neoplastisk proliferasjon (qualifier value)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1255587009",
                         "value" : "regresjon av tumor (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "regresjon av tumor (qualifier value)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1505291000004103",
                         "value" : "Ikke direkte sammenhengende metastase (qualifier value)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Ikke direkte sammenhengende metastase (qualifier value)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -4826,17 +4898,23 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708255002",
                         "value" : "Førstelinjebehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Førstelinjebehandling"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708256001",
                         "value" : "Andrelinjebehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Andrelinjebehandling"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708257005",
                         "value" : "Tredjelinjebehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Tredjelinjebehandling"
+                        }
                       } ]
                     } ]
                   } ],
@@ -4918,17 +4996,23 @@
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
                         "value" : "Vellykket i henhold til intensjon",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Vellykket i henhold til intensjon"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
                         "value" : "Ikke vellykket i henhold til intensjon",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Ikke vellykket i henhold til intensjon"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
                         "value" : "Usikkert",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Usikkert"
+                        }
                       } ]
                     } ]
                   } ],
@@ -5035,7 +5119,7 @@
           "at0033.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0033.1",
-            "comment" : "*** Bør dette harmoniseres med tumorevent?\nKodeverk må oppdateres (hvilken koder bruker vi?)\n\n108369006 -  tumor \n\n63161005 | Principal |\n  en   Principal (qualifier value) (main, primary)\n \n128462008 | metastase |  Metastatic malignant neoplasm (disorder) \n1259237005 | Recurrent malignant neoplasm |\n255227004 | residiverende | Recurrent (qualifier value)\n\n2603003 | Secondary |  Secondary (qualifier value)\n\nkomplikasjon av medisinsk behandling\nSCTID: 35688006 - \nA disorder, which is not a natural consequence or progression of any pre-existing disorder, resulting from a diagnostic procedure or any form of therapy that is not an intended or expected outcome.\n\n\n55342001 | neoplastisk sykdom |Neoplastic disease (disorder)\n\n20376005 | benign neoplastisk sykdom |  Benign neoplastic disease (disorder)\n\n25173007 | Recurrent neoplasm |  Recurrent neoplasm (disorder)\n\nNeoplasm of unknown origin (disorder),\ttumor av ukjent opprinnelse -255051004\n\nBenign neoplastic disease (disorder), benign neoplastisk sykdom, 20376005\n\nMalignant neoplastic disease (disorder),kreftsykdom,\t363346000",
+            "comment" : "*** Bør dette harmoniseres med tumorevent?\nKodeverk må oppdateres (hvilken koder bruker vi?)\nhttps://hsorhf.sharepoint.com/:x:/r/sites/OUSHF-X-Strukturertkreftjournal/Shared%20Documents/General/Generisk%20-%20p%C3%A5%20tvers%20av%20tumorgrupper/Behandlingsoppsummering/Klinisk%20indikasjon%20koder%20-%20behandlingsoppsummering.xlsx?d=w76a4e598ae494bbdbffbc429cde57199&csf=1&web=1&e=xi2M2n\n\n\n108369006 -  tumor \n\n63161005 | Principal |\n  en   Principal (qualifier value) (main, primary)\n \n128462008 | metastase |  Metastatic malignant neoplasm (disorder) \n1259237005 | Recurrent malignant neoplasm |\n255227004 | residiverende | Recurrent (qualifier value)\n\n2603003 | Secondary |  Secondary (qualifier value)\n\nkomplikasjon av medisinsk behandling\nSCTID: 35688006 - \nA disorder, which is not a natural consequence or progression of any pre-existing disorder, resulting from a diagnostic procedure or any form of therapy that is not an intended or expected outcome.\n\n\n55342001 | neoplastisk sykdom |Neoplastic disease (disorder)\n\n20376005 | benign neoplastisk sykdom |  Benign neoplastic disease (disorder)\n\n25173007 | Recurrent neoplasm |  Recurrent neoplasm (disorder)\n\nNeoplasm of unknown origin (disorder),\ttumor av ukjent opprinnelse -255051004\n\nBenign neoplastic disease (disorder), benign neoplastisk sykdom, 20376005\n\nMalignant neoplastic disease (disorder),kreftsykdom,\t363346000",
             "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
             "text" : "Klinisk indikasjon"
           },
@@ -5211,7 +5295,9 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "387713003",
                         "value" : "Kirurgisk inngrep",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kirurgisk inngrep"
+                        }
                       } ]
                     } ]
                   } ],
@@ -5247,87 +5333,121 @@
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
                         "value" : "Sarkom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Sarkom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
                         "value" : "Kreft i hode og hals",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i hode og hals"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
                         "value" : "Hjernesvulst",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hjernesvulst"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
                         "value" : "Brystkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brystkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
                         "value" : "Lungekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lungekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
                         "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i fordøyelsessystemet"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
                         "value" : "Gynekologisk kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Gynekologisk kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
                         "value" : "Kreft i nyre og urinveier",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i nyre og urinveier"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
                         "value" : "Benmargs- og blodkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Benmargs- og blodkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
                         "value" : "Lymfom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lymfom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
                         "value" : "Hudkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hudkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
                         "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i mannlige kjønnsorganer"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
                         "value" : "Kreft i endokrine kjertler",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i endokrine kjertler"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
                         "value" : "Nevroendokrin kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Nevroendokrin kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
                         "value" : "Barnekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Barnekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
                         "value" : "Øyekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Øyekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
                         "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Svulst av ukjent opprinnelse / Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -5362,37 +5482,51 @@
                         "terminologyId" : "local_terms",
                         "code" : "65801008",
                         "value" : "Eksisjon (reseksjon)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Eksisjon (reseksjon)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "65854006",
                         "value" : "Reeksisjon (ny utskjæring)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Reeksisjon (ny utskjæring)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "81723002",
                         "value" : "Amputasjon",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Amputasjon"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "68688001",
                         "value" : "Curettage",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Curettage"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "118635009",
                         "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "64597002",
                         "value" : "Destruksjon (ablasjon)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Destruksjon (ablasjon)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
                         "value" : "Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -5448,7 +5582,9 @@
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
                         "value" : "Hovedbehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hovedbehandling"
+                        }
                       } ]
                     } ]
                   } ],
@@ -6516,7 +6652,9 @@
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
                         "value" : "Hovedbehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hovedbehandling"
+                        }
                       } ]
                     } ]
                   } ],
@@ -7318,7 +7456,9 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "387713003",
                         "value" : "Kirurgisk inngrep",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kirurgisk inngrep"
+                        }
                       } ]
                     } ]
                   } ],
@@ -7354,87 +7494,121 @@
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
                         "value" : "Sarkom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Sarkom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
                         "value" : "Kreft i hode og hals",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i hode og hals"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
                         "value" : "Hjernesvulst",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hjernesvulst"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
                         "value" : "Brystkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brystkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
                         "value" : "Lungekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lungekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
                         "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i fordøyelsessystemet"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
                         "value" : "Gynekologisk kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Gynekologisk kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
                         "value" : "Kreft i nyre og urinveier",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i nyre og urinveier"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
                         "value" : "Benmargs- og blodkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Benmargs- og blodkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
                         "value" : "Lymfom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lymfom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
                         "value" : "Hudkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hudkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
                         "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i mannlige kjønnsorganer"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
                         "value" : "Kreft i endokrine kjertler",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i endokrine kjertler"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
                         "value" : "Nevroendokrin kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Nevroendokrin kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
                         "value" : "Barnekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Barnekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
                         "value" : "Øyekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Øyekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
                         "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Svulst av ukjent opprinnelse / Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -7469,37 +7643,51 @@
                         "terminologyId" : "local_terms",
                         "code" : "65801008",
                         "value" : "Eksisjon (reseksjon)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Eksisjon (reseksjon)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "65854006",
                         "value" : "Reeksisjon (ny utskjæring)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Reeksisjon (ny utskjæring)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "81723002",
                         "value" : "Amputasjon",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Amputasjon"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "68688001",
                         "value" : "Curettage",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Curettage"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "118635009",
                         "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "64597002",
                         "value" : "Destruksjon (ablasjon)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Destruksjon (ablasjon)"
+                        }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
                         "value" : "Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -7555,17 +7743,23 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
                         "value" : "Adjuvant hensikt",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Adjuvant hensikt"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
                         "value" : "Neoadjuvant hensikt",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Neoadjuvant hensikt"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
                         "value" : "Konkomitant (adjunkt) hensikt)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Konkomitant (adjunkt) hensikt)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -8626,7 +8820,9 @@
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
                         "value" : "Hovedbehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hovedbehandling"
+                        }
                       } ]
                     } ]
                   } ],
@@ -8917,7 +9113,9 @@
                         "terminologyId" : "local_terms",
                         "code" : "416608005",
                         "value" : "Medikamentell behandling (procedure)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Medikamentell behandling (procedure)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -8953,87 +9151,121 @@
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
                         "value" : "Sarkom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Sarkom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
                         "value" : "Kreft i hode og hals",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i hode og hals"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
                         "value" : "Hjernesvulst",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hjernesvulst"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
                         "value" : "Brystkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brystkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
                         "value" : "Lungekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lungekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
                         "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i fordøyelsessystemet"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
                         "value" : "Gynekologisk kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Gynekologisk kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
                         "value" : "Kreft i nyre og urinveier",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i nyre og urinveier"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
                         "value" : "Benmargs- og blodkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Benmargs- og blodkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
                         "value" : "Lymfom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lymfom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
                         "value" : "Hudkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hudkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
                         "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i mannlige kjønnsorganer"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
                         "value" : "Kreft i endokrine kjertler",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i endokrine kjertler"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
                         "value" : "Nevroendokrin kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Nevroendokrin kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
                         "value" : "Barnekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Barnekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
                         "value" : "Øyekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Øyekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
                         "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Svulst av ukjent opprinnelse / Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -9068,22 +9300,30 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "367336001",
                         "value" : "Kjemoterapi",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kjemoterapi"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "347531000202105",
                         "value" : "Målrettet medikamentell kreftbehandling",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Målrettet medikamentell kreftbehandling"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "76334006",
                         "value" : "Immunterapi for kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Immunterapi for kreft"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "169413002",
                         "value" : "Hormonterapi",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hormonterapi"
+                        }
                       } ]
                     } ]
                   } ],
@@ -9139,17 +9379,23 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
                         "value" : "Adjuvant hensikt",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Adjuvant hensikt"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
                         "value" : "Neoadjuvant hensikt",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Neoadjuvant hensikt"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
                         "value" : "Konkomitant (adjunkt) hensikt)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Konkomitant (adjunkt) hensikt)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -9939,7 +10185,9 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1287742003",
                         "value" : "Radiotherapy (procedure)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Radiotherapy (procedure)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -10090,37 +10338,51 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156506007",
                         "value" : "Fotonterapi - Stråle (ekstern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Fotonterapi - Stråle (ekstern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10611004",
                         "value" : "Protonterapi -Stråle (ekstern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Protonterapi -Stråle (ekstern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "45643008",
                         "value" : "Elektronterapi - Stråle (ekstern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Elektronterapi - Stråle (ekstern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "152198000",
                         "value" : "Brakyterapi - Stråle (intern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brakyterapi - Stråle (intern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399315003",
                         "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113117004",
                         "value" : "External beam radiation therapy particulate radiation (procedure)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "External beam radiation therapy particulate radiation (procedure)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156505006",
                         "value" : "External beam radiation therapy using carbon ions (procedure)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "External beam radiation therapy using carbon ions (procedure)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -10182,17 +10444,23 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
                         "value" : "Adjuvant hensikt",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Adjuvant hensikt"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
                         "value" : "Neoadjuvant hensikt",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Neoadjuvant hensikt"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
                         "value" : "Konkomitant (adjunkt) hensikt)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Konkomitant (adjunkt) hensikt)"
+                        }
                       } ]
                     } ]
                   } ],
