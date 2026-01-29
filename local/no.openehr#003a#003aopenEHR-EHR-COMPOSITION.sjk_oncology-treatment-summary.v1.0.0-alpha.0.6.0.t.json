@@ -21,11 +21,11 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "c324f93cd36daa5ce8c6c3a0075bd577",
+      "MD5-CAM-1.0.1" : "89611e1b2e11a8a054f345cb5a2e7473",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
-      "PARENT:MD5-CAM-1.0.1" : "8C341BFFA1E20864451EDDD9770E3D0F",
+      "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "sem_ver" : "70.0.0"
     },
     "details" : {
@@ -104,6 +104,146 @@
         "otherDetails" : {
           "notes" : "Generated automatically by Adl Designer"
         }
+      },
+      "de" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "de"
+        },
+        "purpose" : "Ein generischer Container-Archetyp zur Bereitstellung von Informationen, die mit anderen geteilt werden müssen.",
+        "keywords" : [ "Bericht", "Report" ],
+        "use" : "Als generischer Archetyp zur Bereitstellung von Informationen, die mit anderen geteilt werden müssen, wenn kein spezialisierter Archetyp für einen bestimmten Berichtstyp existiert.\r\n\r\nÜbliche Anwendungsfälle sind: Dokumentation einer Antwort auf eine Informationsanfrage; Dokumentation des Ergebnisses einer Untersuchung; Dokumentation von Maßnahmen die durchgeführt wurden; oder Dokumentation von eingetretenen Ereignissen.\r\n\r\nDer Hauptabschnitt \"Content\" wurden absichtlich ausgelassen. Dadurch kann dieser Abschnitt mit beliebigen SECTION- oder ENTRY-Archetypen gefüllt werden.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "fi" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fi"
+        },
+        "purpose" : "*Generic container archetype to carry information that needs to be shared with others.(en)",
+        "keywords" : [ "*report(en)" ],
+        "use" : "*Use as a generic archetype to carry information that needs to be shared with others, where no specialised archetype for a specific report type exists.\r\n\r\nCommon use cases are: documenting a response to a request for information; the outcome of testing; activities that have been performed; or events that have occurred.\r\n\r\nThe main Sections/Content component has been deliberately left unconstrained. This will allow it to be populated with any SECTION or ENTRY archetypes appropriate for the clinical purpose within a template. (en)",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "sv" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "sv"
+        },
+        "purpose" : "En generell behållare för information som behöver delas med andra.",
+        "keywords" : [ "rapport" ],
+        "use" : "Används som en generell arketyp för information som behöver delas med andra när specifik arketyp för ändamålet saknas.\r\n\r\nVanliga användningsområden är att dokumentera ett svar på en förfrågan om information, resultatet av ett test, aktiviteter som har utförts, eller händelser som har inträffat.\r\n\r\nDe huvudsakliga avsnitts- och innehållskomponenterna har avsiktligt lämnats obegränsade. Det tillåter utvidgning med alla SECTION- eller ENTRY-arketyper som är lämpliga för det kliniska syftet i en mall.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ko" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ko"
+        },
+        "purpose" : "다른 사람들과 공유될 필요가 있는 정보를 운반하기 위한 일반적인 컨테이너 아키타입",
+        "keywords" : [ "리포트" ],
+        "use" : "*Use as a generic archetype to carry information that needs to be shared with others, where no specialised archetype for a specific report type exists.\r\n\r\nCommon use cases are: documenting a response to a request for information; the outcome of testing; activities that have been performed; or events that have occurred.\r\n\r\nThe main Sections/Content component has been deliberately left unconstrained. This will allow it to be populated with any SECTION or ENTRY archetypes appropriate for the clinical purpose within a template. (en)",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "it" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "it"
+        },
+        "purpose" : "Archetipo contenitore generico per veicolare informazioni che devono essere condivise con gli altri.",
+        "keywords" : [ "rapporto" ],
+        "use" : "*Use as a generic archetype to carry information that needs to be shared with others, where no specialised archetype for a specific report type exists.\r\n\r\nCommon use cases are: documenting a response to a request for information; the outcome of testing; activities that have been performed; or events that have occurred.\r\n\r\nThe main Sections/Content component has been deliberately left unconstrained. This will allow it to be populated with any SECTION or ENTRY archetypes appropriate for the clinical purpose within a template. (en)",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "zh-cn" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "zh-cn"
+        },
+        "purpose" : "通用的容器类原始型，用于携带需要与他方共享的信息。",
+        "keywords" : [ "报告", "报告单" ],
+        "use" : "当不存在适用于具体报表类型的专用原始型时，作为通用的原始型，用于携带需要与他方共享的信息。\r\n\r\n常见的用例包括：记录对信息请求的响应、检测（检验/检查）结果、已经执行的活动或者已经发生的事件。\r\n\r\n在此故意对其总的章节/内容（Sections/Content）构成要素不加约束。这样，在模板当中，就可以利用任何适合相应临床目的的章节型（SECTION）或条目型（ENTRY）原始型来对其加以填充。",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "zh" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "zh"
+        },
+        "purpose" : "用作携带共享所需信息的通用容器原型。",
+        "keywords" : [ "报告" ],
+        "use" : "用作携带共享所需信息的通用原型。\r\n常见用例是：请求信息的响应记录；测试结果；已进行的活动；或已经发生的事件。\r\n主要的Section/Content有意设计为不受约束，从而允许在模板中填充符合临床目的的任何 SECTION 或 ENTRY 原型。",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "purpose" : "Arquetipo de contenido genérico para transmitir información que necesita ser compartida con otros.",
+        "keywords" : [ "informe" ],
+        "use" : "Utilizar como un arquetipo genérico para transmitir información que necesita compartirse con otros, cuando no existe un arquetipo especializado para un tipo de informe específico.\r\n\r\nLos casos de uso comunes son: documentar la respuesta a una solicitud de información; el resultado de las pruebas; las actividades realizadas; o los eventos ocurridos.\r\n\r\nEl componente principal Secciones/Contenido se ha dejado deliberadamente sin restricciones. Esto permitirá que se complete con cualquier arquetipo de SECTION o ENTRY adecuado para el propósito clínico dentro de una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "purpose" : "Generiek containerarchetype om informatie over te dragen die met anderen moet worden gedeeld.",
+        "keywords" : [ "rapportage" ],
+        "use" : "*Use as a generic archetype to carry information that needs to be shared with others, where no specialised archetype for a specific report type exists.\r\n\r\nCommon use cases are: documenting a response to a request for information; the outcome of testing; activities that have been performed; or events that have occurred.\r\n\r\nThe main Sections/Content component has been deliberately left unconstrained. This will allow it to be populated with any SECTION or ENTRY archetypes appropriate for the clinical purpose within a template. (en)",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ca" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ca"
+        },
+        "purpose" : "Arquetip contenidor genèric usat per transmetre informació que s'ha de compartir amb altres.",
+        "keywords" : [ "informe" ],
+        "use" : "S'utilitza com a arquetip genèric per transmetre informació que s'ha de compartir amb altres quan no existeix un arquetip especialitzat per a un tipus d'informe concret.\r\n\r\nEls casos més comuns són: documentar una resposta a una sol·licitud d'informació; el resultat d'una prova; les activitats que s'han dut a terme; o els esdeveniments que han tingut lloc.\r\n\r\nEl component principal Seccions/Contingut s'ha deixat deliberadament sense restriccions. Això permet emplenar-lo amb qualsevol arquetip de tipus SECTION o ENTRY apropiat per al propòsit clínic dins d'una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
       }
     }
   },
@@ -217,7 +357,17 @@
           "description" : "*Document to communicate information to others, commonly in response to a request from another party.(en)",
           "text" : "no.onk.behandlings_oppsummering"
         }
-      }
+      },
+      "de" : { },
+      "ko" : { },
+      "fi" : { },
+      "it" : { },
+      "nl" : { },
+      "sv" : { },
+      "zh" : { },
+      "zh-cn" : { },
+      "ca" : { },
+      "es" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -241,7 +391,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -395,6 +545,36 @@
           "keywords" : [ ],
           "use" : "Används för att skapa en avsnittsrubrik i en openEHR-mall som sedan döps om för att passa in i den specifika kliniska kontexten. Exempelvis \"Rubrik\" döps om till \"Undersökningsfynd\".",
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -521,7 +701,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Hovedbehandling"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -662,6 +844,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -674,7 +884,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -828,6 +1038,36 @@
           "keywords" : [ ],
           "use" : "Används för att skapa en avsnittsrubrik i en openEHR-mall som sedan döps om för att passa in i den specifika kliniska kontexten. Exempelvis \"Rubrik\" döps om till \"Undersökningsfynd\".",
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -936,7 +1176,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Kirurgi"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1077,6 +1319,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -1089,7 +1359,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -1243,6 +1513,36 @@
           "keywords" : [ ],
           "use" : "Används för att skapa en avsnittsrubrik i en openEHR-mall som sedan döps om för att passa in i den specifika kliniska kontexten. Exempelvis \"Rubrik\" döps om till \"Undersökningsfynd\".",
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -1358,7 +1658,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Medikament (gjentagende)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1499,6 +1801,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -1511,7 +1841,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "B99AC3EABD7E6A18DCCBCD26E1FB0EBB"
+        "PARENT:MD5-CAM-1.0.1" : "50B8849AB9B274AB2D8E0456FA33FF85"
       },
       "details" : {
         "de" : {
@@ -2018,7 +2348,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -2172,6 +2502,36 @@
           "keywords" : [ ],
           "use" : "Används för att skapa en avsnittsrubrik i en openEHR-mall som sedan döps om för att passa in i den specifika kliniska kontexten. Exempelvis \"Rubrik\" döps om till \"Undersökningsfynd\".",
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -2287,7 +2647,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Stråle"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -2428,6 +2790,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -2440,7 +2830,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -2594,6 +2984,36 @@
           "keywords" : [ ],
           "use" : "Används för att skapa en avsnittsrubrik i en openEHR-mall som sedan döps om för att passa in i den specifika kliniska kontexten. Exempelvis \"Rubrik\" döps om till \"Undersökningsfynd\".",
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -2709,7 +3129,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Medikament (gjentagende)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -2850,6 +3272,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -2862,7 +3312,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -3016,6 +3466,36 @@
           "keywords" : [ ],
           "use" : "Används för att skapa en avsnittsrubrik i en openEHR-mall som sedan döps om för att passa in i den specifika kliniska kontexten. Exempelvis \"Rubrik\" döps om till \"Undersökningsfynd\".",
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -3149,7 +3629,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Hovedbehandling (3)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3290,6 +3772,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -3302,7 +3812,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -3458,6 +3968,36 @@
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -3516,7 +4056,9 @@
         "pt-br" : { },
         "ru" : { },
         "sl" : { },
-        "sv" : { }
+        "sv" : { },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3657,6 +4199,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -3745,7 +4315,8 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.dips.oncology",
                     "code" : "TM11",
-                    "value" : "Onkologi behandlingsoppsummering"
+                    "value" : "Onkologi behandlingsoppsummering",
+                    "translations" : { }
                   } ]
                 } ]
               } ],
@@ -3811,7 +4382,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "84e3537ff01459cd67d6508518762ce9"
+        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
       },
       "details" : {
         "en" : {
@@ -3892,7 +4463,8 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandlig.type",
                         "code" : "1",
-                        "value" : "Kreftbehandling"
+                        "value" : "Kreftbehandling",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -3927,71 +4499,88 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom"
+                        "value" : "Sarkom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals"
+                        "value" : "Kreft i hode og hals",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst"
+                        "value" : "Hjernesvulst",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft"
+                        "value" : "Brystkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft"
+                        "value" : "Lungekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet"
+                        "value" : "Kreft i fordøyelsessystemet",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft"
+                        "value" : "Gynekologisk kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier"
+                        "value" : "Kreft i nyre og urinveier",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft"
+                        "value" : "Benmargs- og blodkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom"
+                        "value" : "Lymfom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft"
+                        "value" : "Hudkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer"
+                        "value" : "Kreft i mannlige kjønnsorganer",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler"
+                        "value" : "Kreft i endokrine kjertler",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft"
+                        "value" : "Nevroendokrin kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft"
+                        "value" : "Barnekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft"
+                        "value" : "Øyekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet"
+                        "value" : "Svulst av ukjent opprinnelse / Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4038,75 +4627,93 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "35688006",
-                        "value" : "komplikasjon av medisinsk behandling  (disorder)"
+                        "value" : "komplikasjon av medisinsk behandling  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "55342001",
-                        "value" : "neoplastisk sykdom  (disorder)"
+                        "value" : "neoplastisk sykdom  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "20376005",
-                        "value" : "benign neoplastisk sykdom (disorder)"
+                        "value" : "benign neoplastisk sykdom (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "363346000",
-                        "value" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)"
+                        "value" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "255051004",
-                        "value" : "neoplasi /tumor av ukjent opprinnelse  (disorder)"
+                        "value" : "neoplasi /tumor av ukjent opprinnelse  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "372087000",
-                        "value" : "primær malign tumor (disorder)"
+                        "value" : "primær malign tumor (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "25173007",
-                        "value" : "residiviert neoplastisk sykdom/tumor  (disorder)"
+                        "value" : "residiviert neoplastisk sykdom/tumor  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1259237005",
-                        "value" : "residiv av malign tumor  (disorder)"
+                        "value" : "residiv av malign tumor  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "87961000202104",
-                        "value" : "lokalt residiv av malign primær neoplasma  (disorder)"
+                        "value" : "lokalt residiv av malign primær neoplasma  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "128462008",
-                        "value" : "metastase malign tumor  (disorder)"
+                        "value" : "metastase malign tumor  (disorder)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "74964007",
-                        "value" : "annen (qualifier value)"
+                        "value" : "annen (qualifier value)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "63161005",
-                        "value" : "primær (qualifier value)"
+                        "value" : "primær (qualifier value)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "255227004",
-                        "value" : "residiverende (qualifier value)"
+                        "value" : "residiverende (qualifier value)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1234914003",
-                        "value" : "primær malign neoplastisk proliferasjon (qualifier value)"
+                        "value" : "primær malign neoplastisk proliferasjon (qualifier value)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1495041000004108",
-                        "value" : "neoplastisk proliferation (qualifier value)"
+                        "value" : "neoplastisk proliferation (qualifier value)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1204295007",
-                        "value" : "malign neoplastisk proliferasjon (qualifier value)"
+                        "value" : "malign neoplastisk proliferasjon (qualifier value)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1255587009",
-                        "value" : "regresjon av tumor (qualifier value)"
+                        "value" : "regresjon av tumor (qualifier value)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1505291000004103",
-                        "value" : "Ikke direkte sammenhengende metastase (qualifier value)"
+                        "value" : "Ikke direkte sammenhengende metastase (qualifier value)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4141,27 +4748,33 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K1",
-                        "value" : "Kurativt"
+                        "value" : "Kurativt",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K2",
-                        "value" : "Aktiv overvåkning"
+                        "value" : "Aktiv overvåkning",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K3",
-                        "value" : "Livsforlengende - ikke kurativ"
+                        "value" : "Livsforlengende - ikke kurativ",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K4",
-                        "value" : "Symptomlindrende - ikke kurativ"
+                        "value" : "Symptomlindrende - ikke kurativ",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K5",
-                        "value" : "Lokal kontroll - ikke kurativ"
+                        "value" : "Lokal kontroll - ikke kurativ",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K6",
-                        "value" : "Ukjent"
+                        "value" : "Ukjent",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4189,13 +4802,6 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0056.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
               "nodeId" : "at0051.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
@@ -4219,15 +4825,18 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708255002",
-                        "value" : "Førstelinjebehandling"
+                        "value" : "Førstelinjebehandling",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708256001",
-                        "value" : "Andrelinjebehandling"
+                        "value" : "Andrelinjebehandling",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708257005",
-                        "value" : "Tredjelinjebehandling"
+                        "value" : "Tredjelinjebehandling",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4308,15 +4917,18 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
-                        "value" : "Vellykket i henhold til intensjon"
+                        "value" : "Vellykket i henhold til intensjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
-                        "value" : "Ikke vellykket i henhold til intensjon"
+                        "value" : "Ikke vellykket i henhold til intensjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
-                        "value" : "Usikkert"
+                        "value" : "Usikkert",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4517,7 +5129,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "84e3537ff01459cd67d6508518762ce9"
+        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
       },
       "details" : {
         "en" : {
@@ -4598,7 +5210,8 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "387713003",
-                        "value" : "Kirurgisk inngrep"
+                        "value" : "Kirurgisk inngrep",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4633,71 +5246,88 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom"
+                        "value" : "Sarkom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals"
+                        "value" : "Kreft i hode og hals",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst"
+                        "value" : "Hjernesvulst",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft"
+                        "value" : "Brystkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft"
+                        "value" : "Lungekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet"
+                        "value" : "Kreft i fordøyelsessystemet",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft"
+                        "value" : "Gynekologisk kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier"
+                        "value" : "Kreft i nyre og urinveier",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft"
+                        "value" : "Benmargs- og blodkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom"
+                        "value" : "Lymfom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft"
+                        "value" : "Hudkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer"
+                        "value" : "Kreft i mannlige kjønnsorganer",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler"
+                        "value" : "Kreft i endokrine kjertler",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft"
+                        "value" : "Nevroendokrin kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft"
+                        "value" : "Barnekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft"
+                        "value" : "Øyekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet"
+                        "value" : "Svulst av ukjent opprinnelse / Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4731,31 +5361,38 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "65801008",
-                        "value" : "Eksisjon (reseksjon)"
+                        "value" : "Eksisjon (reseksjon)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "65854006",
-                        "value" : "Reeksisjon (ny utskjæring)"
+                        "value" : "Reeksisjon (ny utskjæring)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "81723002",
-                        "value" : "Amputasjon"
+                        "value" : "Amputasjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "68688001",
-                        "value" : "Curettage"
+                        "value" : "Curettage",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "118635009",
-                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
+                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "64597002",
-                        "value" : "Destruksjon (ablasjon)"
+                        "value" : "Destruksjon (ablasjon)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
-                        "value" : "Annet"
+                        "value" : "Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -4810,20 +5447,14 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
-                        "value" : "Hovedbehandling"
+                        "value" : "Hovedbehandling",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0056.1",
-              "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -5072,7 +5703,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "430B520EC4563F96465173ED840F7A4A"
+        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8"
       },
       "details" : {
         "ar-sy" : {
@@ -5209,6 +5840,36 @@
           "keywords" : [ "lokalisation", "ställe", "anatomisk", "anatomiskt område", "topografisk anatomi", "makroskopisk", "anatomi" ],
           "use" : "Används för att strukturerat och konsekvent registrera detaljer om ett enskilt fysiskt ställe på eller i människokroppen.\r\n\r\nArketypen är specifikt utformad för att användas i lämpliga ENTRY- och CLUSTER-arketyper som sätter den anatomiska lokalisationen i ett sammanhang.\r\n\r\nSom en grundläggande del av klinisk praxis kan kliniker beskriva anatomiska platser på en mängd olika sätt. Vissa arketyper innehåller ett enskilt dataelement för beskrivning av en anatomisk plats - till exempel OBSERVATION.blood_pressure och CLUSTER.symptoms när man beskriver smärta i örat. I situationer, där urvalet är förutsägbart och lätt att definiera, är detta enkla dataelement ett mycket exakt och praktiskt sätt att registrera en anatomisk plats och söka efter den vid ett senare tillfälle. När den anatomiska platsen inte är väldefinierad eller behöver genereras automatiskt av IT- system, kan det vara mer flexibelt att använda denna strukturerade arketyp. Till exempel, i en situation där symptom ska registreras utan fördefinierad omfattning om vilka typer av symptom det kan vara, kan denna arketyp vara användbar för att definiera en anatomisk plats i kroppen. I det här fallet har CLUSTER.symptom-arketypen en SLOT för detaljerad anatomisk lokalisation som kan innehålla denna arketyp för att stödja maximal flexibilitet vid registrering av anatomisk lokalisation.\r\n\r\nArketypen stöder registrering av komplexa strukturerade anatomiska platser. Till exempel finns hjärtspetsstöten typiskt i mitralområdet, ömhet vid McBurneys punkt på bukväggen eller sårskada på handflatan av den proximala högra tummen.\r\n\r\nEn kombination av dataelement i den här arketypen kan användas för att registrera varje komponent i ett postkoordinerat terminologiskt uttryck som representerar den anatomiska platsen. \r\n\r\nSLOT ‘Alternativt struktur’ möjliggör inkludering av ytterligare arketyper som ger en alternativ struktur för att beskriva samma anatomisk plats, så som CLUSTER.anatomical_location_relative eller CLUSTER.anatomical_location_clock, om detta skulle krävas. I situationen där denna arketyp kan användas endast för att namnge en stor och/eller ej specifik kroppsdel, kan användning av CLUSTER.anatomical_location_relative arketyp stödja registrering av mer exakt anatomisk plats – till exempel , 2cm anteriort från fossa cubitalis på vänster arm eller 4 cm under revbensbågen i medioklavikularlinjen på bröstväggen.\r\n\r\nOm denna arketyp används inom andra arketyper där patienten inte är den individen för vilken dokumentation skapas, till exempel ett foster i livmodern, används denna arketyp för att identifiera en anatomisk plats på eller i fostret.",
           "misuse" : "Används inte för att specificera unilaterala/bilaterala förekomster av ett anatomiskt särdrag",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Identificar i registrar detalls estructurats sobre una sola part del cos humà utilitzant termes anatòmics macroscòpics.",
+          "keywords" : [ "ubicació", "lloc", "anatòmica", "regió anatòmica", "anatomia topogràfica", "macroscòpica", "anatòmica" ],
+          "use" : "*Use to record structured details about a single identified physical site on or within the human body.\r\n\r\nIn many situations, a simple data element such as ‘Location of measurement’ or ‘Body site’ will be sufficient and practical when the value set is straightforward. This archetype is intended for cases where a more detailed or structured representation of an anatomical site is required, including precise or compound descriptions. It can be nested within relevant ENTRY or CLUSTER archetypes such as those for symptoms, findings, or interventions to support multiaxial or postcoordinated anatomical expressions. Examples include documenting pain in the lower limb, tenderness at McBurney’s point, or a laceration on the palmar aspect of the proximal right thumb.\r\n\r\nThe ‘Laterality' data element may be used to qualify whether a paired structure or region is affected on the left, right, or both sides. When involvement is symmetrical and equivalent on both sides, for example the same cancer in both lungs or similar pain in both legs, record 'Left and right’. However, when the clinical characteristics differ between sides, two separate instances should be used:\r\n\r\n- Two parallel instances of this archetype within the same SLOT, each with its own laterality and specific details. For example, documenting equal tumours in the lower left lung lobe and the upper right lung lobe.\r\n- Two parallel instances of the parent archetype, each containing an instance of this archetype, when there are clinically significant differences such as tumour type, size, or severity in each lung.\r\n\r\nThe 'Alternative structure' SLOT allows inclusion of additional archetypes that provide an alternative structure for describing the same body site, such as CLUSTER.anatomical_location_relative or CLUSTER.anatomical_location_clock, should this be required. In situations where this archetype is used to name a large or non-specific body part, the additional use of the CLUSTER.anatomical_location_relative archetype will support recording of a more precise location, for example, 2 cm anterior to the cubital fossa of the left forearm or 4 cm below the right costal margin on the chest wall in the mid-clavicular line.\r\n\r\nIf this archetype is used within other archetypes where the specified subject of care is not the individual for whom the record is being created, for example a fetus in utero, then the anatomical location will be identifying a body site on or within the fetus. (en)",
+          "misuse" : "*Not to be used to describe involvement of both sides of a paired structure when the clinical findings differ significantly between sides. In such cases, each side should be documented using a separate instance of this archetype with side-specific detail. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Identificar y registrar detalles estructurados sobre una única zona corporal del cuerpo humano, o dentro de él, utilizando términos anatómicos macroscópicos.",
+          "keywords" : [ "localización", "lugar", "anatómico", "región", "anatómica", "anatomía", "topográfica", "macroscópica", "anatómica", "anatomía" ],
+          "use" : "*Use to record structured details about a single identified physical site on or within the human body.\r\n\r\nIn many situations, a simple data element such as ‘Location of measurement’ or ‘Body site’ will be sufficient and practical when the value set is straightforward. This archetype is intended for cases where a more detailed or structured representation of an anatomical site is required, including precise or compound descriptions. It can be nested within relevant ENTRY or CLUSTER archetypes such as those for symptoms, findings, or interventions to support multiaxial or postcoordinated anatomical expressions. Examples include documenting pain in the lower limb, tenderness at McBurney’s point, or a laceration on the palmar aspect of the proximal right thumb.\r\n\r\nThe ‘Laterality' data element may be used to qualify whether a paired structure or region is affected on the left, right, or both sides. When involvement is symmetrical and equivalent on both sides, for example the same cancer in both lungs or similar pain in both legs, record 'Left and right’. However, when the clinical characteristics differ between sides, two separate instances should be used:\r\n\r\n- Two parallel instances of this archetype within the same SLOT, each with its own laterality and specific details. For example, documenting equal tumours in the lower left lung lobe and the upper right lung lobe.\r\n- Two parallel instances of the parent archetype, each containing an instance of this archetype, when there are clinically significant differences such as tumour type, size, or severity in each lung.\r\n\r\nThe 'Alternative structure' SLOT allows inclusion of additional archetypes that provide an alternative structure for describing the same body site, such as CLUSTER.anatomical_location_relative or CLUSTER.anatomical_location_clock, should this be required. In situations where this archetype is used to name a large or non-specific body part, the additional use of the CLUSTER.anatomical_location_relative archetype will support recording of a more precise location, for example, 2 cm anterior to the cubital fossa of the left forearm or 4 cm below the right costal margin on the chest wall in the mid-clavicular line.\r\n\r\nIf this archetype is used within other archetypes where the specified subject of care is not the individual for whom the record is being created, for example a fetus in utero, then the anatomical location will be identifying a body site on or within the fetus. (en)",
+          "misuse" : "*Not to be used to describe involvement of both sides of a paired structure when the clinical findings differ significantly between sides. In such cases, each side should be documented using a separate instance of this archetype with side-specific detail. (en)",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -5379,7 +6040,9 @@
             "description" : "Ett fysiskt ställe på eller i människokroppen.",
             "text" : "Anatomisk lokalisation (2)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -5506,6 +6169,36 @@
         "organisation" : "Nedap Healthcare"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "TRADCREA"
+      }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -5519,7 +6212,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "84e3537ff01459cd67d6508518762ce9"
+        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
       },
       "details" : {
         "en" : {
@@ -5600,7 +6293,8 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "416608005",
-                        "value" : "Medikamentell behandling (procedure)"
+                        "value" : "Medikamentell behandling (procedure)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -5635,71 +6329,88 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom"
+                        "value" : "Sarkom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals"
+                        "value" : "Kreft i hode og hals",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst"
+                        "value" : "Hjernesvulst",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft"
+                        "value" : "Brystkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft"
+                        "value" : "Lungekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet"
+                        "value" : "Kreft i fordøyelsessystemet",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft"
+                        "value" : "Gynekologisk kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier"
+                        "value" : "Kreft i nyre og urinveier",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft"
+                        "value" : "Benmargs- og blodkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom"
+                        "value" : "Lymfom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft"
+                        "value" : "Hudkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer"
+                        "value" : "Kreft i mannlige kjønnsorganer",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler"
+                        "value" : "Kreft i endokrine kjertler",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft"
+                        "value" : "Nevroendokrin kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft"
+                        "value" : "Barnekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft"
+                        "value" : "Øyekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet"
+                        "value" : "Svulst av ukjent opprinnelse / Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -5733,19 +6444,23 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "367336001",
-                        "value" : "Kjemoterapi"
+                        "value" : "Kjemoterapi",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "347531000202105",
-                        "value" : "Målrettet medikamentell kreftbehandling"
+                        "value" : "Målrettet medikamentell kreftbehandling",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "76334006",
-                        "value" : "Immunterapi for kreft"
+                        "value" : "Immunterapi for kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "169413002",
-                        "value" : "Hormonterapi"
+                        "value" : "Hormonterapi",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -5800,20 +6515,14 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
-                        "value" : "Hovedbehandling"
+                        "value" : "Hovedbehandling",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0056.1",
-              "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -5869,15 +6578,18 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
-                        "value" : "Vellykket i henhold til intensjon"
+                        "value" : "Vellykket i henhold til intensjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
-                        "value" : "Ikke vellykket i henhold til intensjon"
+                        "value" : "Ikke vellykket i henhold til intensjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
-                        "value" : "Usikkert"
+                        "value" : "Usikkert",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -6022,7 +6734,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "430B520EC4563F96465173ED840F7A4A"
+        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8"
       },
       "details" : {
         "ar-sy" : {
@@ -6159,6 +6871,36 @@
           "keywords" : [ "lokalisation", "ställe", "anatomisk", "anatomiskt område", "topografisk anatomi", "makroskopisk", "anatomi" ],
           "use" : "Används för att strukturerat och konsekvent registrera detaljer om ett enskilt fysiskt ställe på eller i människokroppen.\r\n\r\nArketypen är specifikt utformad för att användas i lämpliga ENTRY- och CLUSTER-arketyper som sätter den anatomiska lokalisationen i ett sammanhang.\r\n\r\nSom en grundläggande del av klinisk praxis kan kliniker beskriva anatomiska platser på en mängd olika sätt. Vissa arketyper innehåller ett enskilt dataelement för beskrivning av en anatomisk plats - till exempel OBSERVATION.blood_pressure och CLUSTER.symptoms när man beskriver smärta i örat. I situationer, där urvalet är förutsägbart och lätt att definiera, är detta enkla dataelement ett mycket exakt och praktiskt sätt att registrera en anatomisk plats och söka efter den vid ett senare tillfälle. När den anatomiska platsen inte är väldefinierad eller behöver genereras automatiskt av IT- system, kan det vara mer flexibelt att använda denna strukturerade arketyp. Till exempel, i en situation där symptom ska registreras utan fördefinierad omfattning om vilka typer av symptom det kan vara, kan denna arketyp vara användbar för att definiera en anatomisk plats i kroppen. I det här fallet har CLUSTER.symptom-arketypen en SLOT för detaljerad anatomisk lokalisation som kan innehålla denna arketyp för att stödja maximal flexibilitet vid registrering av anatomisk lokalisation.\r\n\r\nArketypen stöder registrering av komplexa strukturerade anatomiska platser. Till exempel finns hjärtspetsstöten typiskt i mitralområdet, ömhet vid McBurneys punkt på bukväggen eller sårskada på handflatan av den proximala högra tummen.\r\n\r\nEn kombination av dataelement i den här arketypen kan användas för att registrera varje komponent i ett postkoordinerat terminologiskt uttryck som representerar den anatomiska platsen. \r\n\r\nSLOT ‘Alternativt struktur’ möjliggör inkludering av ytterligare arketyper som ger en alternativ struktur för att beskriva samma anatomisk plats, så som CLUSTER.anatomical_location_relative eller CLUSTER.anatomical_location_clock, om detta skulle krävas. I situationen där denna arketyp kan användas endast för att namnge en stor och/eller ej specifik kroppsdel, kan användning av CLUSTER.anatomical_location_relative arketyp stödja registrering av mer exakt anatomisk plats – till exempel , 2cm anteriort från fossa cubitalis på vänster arm eller 4 cm under revbensbågen i medioklavikularlinjen på bröstväggen.\r\n\r\nOm denna arketyp används inom andra arketyper där patienten inte är den individen för vilken dokumentation skapas, till exempel ett foster i livmodern, används denna arketyp för att identifiera en anatomisk plats på eller i fostret.",
           "misuse" : "Används inte för att specificera unilaterala/bilaterala förekomster av ett anatomiskt särdrag",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Identificar i registrar detalls estructurats sobre una sola part del cos humà utilitzant termes anatòmics macroscòpics.",
+          "keywords" : [ "ubicació", "lloc", "anatòmica", "regió anatòmica", "anatomia topogràfica", "macroscòpica", "anatòmica" ],
+          "use" : "*Use to record structured details about a single identified physical site on or within the human body.\r\n\r\nIn many situations, a simple data element such as ‘Location of measurement’ or ‘Body site’ will be sufficient and practical when the value set is straightforward. This archetype is intended for cases where a more detailed or structured representation of an anatomical site is required, including precise or compound descriptions. It can be nested within relevant ENTRY or CLUSTER archetypes such as those for symptoms, findings, or interventions to support multiaxial or postcoordinated anatomical expressions. Examples include documenting pain in the lower limb, tenderness at McBurney’s point, or a laceration on the palmar aspect of the proximal right thumb.\r\n\r\nThe ‘Laterality' data element may be used to qualify whether a paired structure or region is affected on the left, right, or both sides. When involvement is symmetrical and equivalent on both sides, for example the same cancer in both lungs or similar pain in both legs, record 'Left and right’. However, when the clinical characteristics differ between sides, two separate instances should be used:\r\n\r\n- Two parallel instances of this archetype within the same SLOT, each with its own laterality and specific details. For example, documenting equal tumours in the lower left lung lobe and the upper right lung lobe.\r\n- Two parallel instances of the parent archetype, each containing an instance of this archetype, when there are clinically significant differences such as tumour type, size, or severity in each lung.\r\n\r\nThe 'Alternative structure' SLOT allows inclusion of additional archetypes that provide an alternative structure for describing the same body site, such as CLUSTER.anatomical_location_relative or CLUSTER.anatomical_location_clock, should this be required. In situations where this archetype is used to name a large or non-specific body part, the additional use of the CLUSTER.anatomical_location_relative archetype will support recording of a more precise location, for example, 2 cm anterior to the cubital fossa of the left forearm or 4 cm below the right costal margin on the chest wall in the mid-clavicular line.\r\n\r\nIf this archetype is used within other archetypes where the specified subject of care is not the individual for whom the record is being created, for example a fetus in utero, then the anatomical location will be identifying a body site on or within the fetus. (en)",
+          "misuse" : "*Not to be used to describe involvement of both sides of a paired structure when the clinical findings differ significantly between sides. In such cases, each side should be documented using a separate instance of this archetype with side-specific detail. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Identificar y registrar detalles estructurados sobre una única zona corporal del cuerpo humano, o dentro de él, utilizando términos anatómicos macroscópicos.",
+          "keywords" : [ "localización", "lugar", "anatómico", "región", "anatómica", "anatomía", "topográfica", "macroscópica", "anatómica", "anatomía" ],
+          "use" : "*Use to record structured details about a single identified physical site on or within the human body.\r\n\r\nIn many situations, a simple data element such as ‘Location of measurement’ or ‘Body site’ will be sufficient and practical when the value set is straightforward. This archetype is intended for cases where a more detailed or structured representation of an anatomical site is required, including precise or compound descriptions. It can be nested within relevant ENTRY or CLUSTER archetypes such as those for symptoms, findings, or interventions to support multiaxial or postcoordinated anatomical expressions. Examples include documenting pain in the lower limb, tenderness at McBurney’s point, or a laceration on the palmar aspect of the proximal right thumb.\r\n\r\nThe ‘Laterality' data element may be used to qualify whether a paired structure or region is affected on the left, right, or both sides. When involvement is symmetrical and equivalent on both sides, for example the same cancer in both lungs or similar pain in both legs, record 'Left and right’. However, when the clinical characteristics differ between sides, two separate instances should be used:\r\n\r\n- Two parallel instances of this archetype within the same SLOT, each with its own laterality and specific details. For example, documenting equal tumours in the lower left lung lobe and the upper right lung lobe.\r\n- Two parallel instances of the parent archetype, each containing an instance of this archetype, when there are clinically significant differences such as tumour type, size, or severity in each lung.\r\n\r\nThe 'Alternative structure' SLOT allows inclusion of additional archetypes that provide an alternative structure for describing the same body site, such as CLUSTER.anatomical_location_relative or CLUSTER.anatomical_location_clock, should this be required. In situations where this archetype is used to name a large or non-specific body part, the additional use of the CLUSTER.anatomical_location_relative archetype will support recording of a more precise location, for example, 2 cm anterior to the cubital fossa of the left forearm or 4 cm below the right costal margin on the chest wall in the mid-clavicular line.\r\n\r\nIf this archetype is used within other archetypes where the specified subject of care is not the individual for whom the record is being created, for example a fetus in utero, then the anatomical location will be identifying a body site on or within the fetus. (en)",
+          "misuse" : "*Not to be used to describe involvement of both sides of a paired structure when the clinical findings differ significantly between sides. In such cases, each side should be documented using a separate instance of this archetype with side-specific detail. (en)",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -6322,7 +7064,9 @@
             "description" : "Ett fysiskt ställe på eller i människokroppen.",
             "text" : "Anatomisk lokalisation (2)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -6449,6 +7193,36 @@
         "organisation" : "Nedap Healthcare"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "TRADCREA"
+      }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -6462,7 +7236,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "84e3537ff01459cd67d6508518762ce9"
+        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
       },
       "details" : {
         "en" : {
@@ -6543,7 +7317,8 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "387713003",
-                        "value" : "Kirurgisk inngrep"
+                        "value" : "Kirurgisk inngrep",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -6578,71 +7353,88 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom"
+                        "value" : "Sarkom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals"
+                        "value" : "Kreft i hode og hals",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst"
+                        "value" : "Hjernesvulst",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft"
+                        "value" : "Brystkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft"
+                        "value" : "Lungekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet"
+                        "value" : "Kreft i fordøyelsessystemet",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft"
+                        "value" : "Gynekologisk kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier"
+                        "value" : "Kreft i nyre og urinveier",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft"
+                        "value" : "Benmargs- og blodkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom"
+                        "value" : "Lymfom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft"
+                        "value" : "Hudkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer"
+                        "value" : "Kreft i mannlige kjønnsorganer",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler"
+                        "value" : "Kreft i endokrine kjertler",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft"
+                        "value" : "Nevroendokrin kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft"
+                        "value" : "Barnekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft"
+                        "value" : "Øyekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet"
+                        "value" : "Svulst av ukjent opprinnelse / Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -6676,31 +7468,38 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "65801008",
-                        "value" : "Eksisjon (reseksjon)"
+                        "value" : "Eksisjon (reseksjon)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "65854006",
-                        "value" : "Reeksisjon (ny utskjæring)"
+                        "value" : "Reeksisjon (ny utskjæring)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "81723002",
-                        "value" : "Amputasjon"
+                        "value" : "Amputasjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "68688001",
-                        "value" : "Curettage"
+                        "value" : "Curettage",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "118635009",
-                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
+                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "64597002",
-                        "value" : "Destruksjon (ablasjon)"
+                        "value" : "Destruksjon (ablasjon)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
-                        "value" : "Annet"
+                        "value" : "Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -6755,28 +7554,24 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
-                        "value" : "Adjuvant hensikt"
+                        "value" : "Adjuvant hensikt",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
-                        "value" : "Neoadjuvant hensikt"
+                        "value" : "Neoadjuvant hensikt",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
-                        "value" : "Konkomitant (adjunkt) hensikt)"
+                        "value" : "Konkomitant (adjunkt) hensikt)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0056.1",
-              "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -7024,7 +7819,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -7180,6 +7975,36 @@
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -7293,7 +8118,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Kirurgi (2)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -7434,6 +8261,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -7446,7 +8301,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "84e3537ff01459cd67d6508518762ce9"
+        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
       },
       "details" : {
         "en" : {
@@ -7527,7 +8382,8 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1287742003",
-                        "value" : "Radiotherapy (procedure)"
+                        "value" : "Radiotherapy (procedure)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -7562,71 +8418,88 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom"
+                        "value" : "Sarkom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals"
+                        "value" : "Kreft i hode og hals",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst"
+                        "value" : "Hjernesvulst",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft"
+                        "value" : "Brystkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft"
+                        "value" : "Lungekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet"
+                        "value" : "Kreft i fordøyelsessystemet",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft"
+                        "value" : "Gynekologisk kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier"
+                        "value" : "Kreft i nyre og urinveier",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft"
+                        "value" : "Benmargs- og blodkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom"
+                        "value" : "Lymfom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft"
+                        "value" : "Hudkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer"
+                        "value" : "Kreft i mannlige kjønnsorganer",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler"
+                        "value" : "Kreft i endokrine kjertler",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft"
+                        "value" : "Nevroendokrin kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft"
+                        "value" : "Barnekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft"
+                        "value" : "Øyekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet"
+                        "value" : "Svulst av ukjent opprinnelse / Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -7660,31 +8533,38 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156506007",
-                        "value" : "Fotonterapi - Stråle (ekstern)"
+                        "value" : "Fotonterapi - Stråle (ekstern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10611004",
-                        "value" : "Protonterapi -Stråle (ekstern)"
+                        "value" : "Protonterapi -Stråle (ekstern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "45643008",
-                        "value" : "Elektronterapi - Stråle (ekstern)"
+                        "value" : "Elektronterapi - Stråle (ekstern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "152198000",
-                        "value" : "Brakyterapi - Stråle (intern)"
+                        "value" : "Brakyterapi - Stråle (intern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399315003",
-                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
+                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113117004",
-                        "value" : "External beam radiation therapy particulate radiation (procedure)"
+                        "value" : "External beam radiation therapy particulate radiation (procedure)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156505006",
-                        "value" : "External beam radiation therapy using carbon ions (procedure)"
+                        "value" : "External beam radiation therapy using carbon ions (procedure)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -7745,20 +8625,14 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
-                        "value" : "Hovedbehandling"
+                        "value" : "Hovedbehandling",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0056.1",
-              "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -7961,7 +8835,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "84e3537ff01459cd67d6508518762ce9"
+        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
       },
       "details" : {
         "en" : {
@@ -8042,7 +8916,8 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "416608005",
-                        "value" : "Medikamentell behandling (procedure)"
+                        "value" : "Medikamentell behandling (procedure)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -8077,71 +8952,88 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom"
+                        "value" : "Sarkom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals"
+                        "value" : "Kreft i hode og hals",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst"
+                        "value" : "Hjernesvulst",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft"
+                        "value" : "Brystkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft"
+                        "value" : "Lungekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet"
+                        "value" : "Kreft i fordøyelsessystemet",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft"
+                        "value" : "Gynekologisk kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier"
+                        "value" : "Kreft i nyre og urinveier",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft"
+                        "value" : "Benmargs- og blodkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom"
+                        "value" : "Lymfom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft"
+                        "value" : "Hudkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer"
+                        "value" : "Kreft i mannlige kjønnsorganer",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler"
+                        "value" : "Kreft i endokrine kjertler",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft"
+                        "value" : "Nevroendokrin kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft"
+                        "value" : "Barnekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft"
+                        "value" : "Øyekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet"
+                        "value" : "Svulst av ukjent opprinnelse / Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -8175,19 +9067,23 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "367336001",
-                        "value" : "Kjemoterapi"
+                        "value" : "Kjemoterapi",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "347531000202105",
-                        "value" : "Målrettet medikamentell kreftbehandling"
+                        "value" : "Målrettet medikamentell kreftbehandling",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "76334006",
-                        "value" : "Immunterapi for kreft"
+                        "value" : "Immunterapi for kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "169413002",
-                        "value" : "Hormonterapi"
+                        "value" : "Hormonterapi",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -8242,28 +9138,24 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
-                        "value" : "Adjuvant hensikt"
+                        "value" : "Adjuvant hensikt",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
-                        "value" : "Neoadjuvant hensikt"
+                        "value" : "Neoadjuvant hensikt",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
-                        "value" : "Konkomitant (adjunkt) hensikt)"
+                        "value" : "Konkomitant (adjunkt) hensikt)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0056.1",
-              "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -8320,15 +9212,18 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
-                        "value" : "Vellykket i henhold til intensjon"
+                        "value" : "Vellykket i henhold til intensjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
-                        "value" : "Ikke vellykket i henhold til intensjon"
+                        "value" : "Ikke vellykket i henhold til intensjon",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
-                        "value" : "Usikkert"
+                        "value" : "Usikkert",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -8472,7 +9367,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -8628,6 +9523,36 @@
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -8749,7 +9674,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Rubrik (2)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -8890,6 +9817,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -8902,7 +9857,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "84e3537ff01459cd67d6508518762ce9"
+        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
       },
       "details" : {
         "en" : {
@@ -8983,7 +9938,8 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1287742003",
-                        "value" : "Radiotherapy (procedure)"
+                        "value" : "Radiotherapy (procedure)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -9018,71 +9974,88 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom"
+                        "value" : "Sarkom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals"
+                        "value" : "Kreft i hode og hals",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst"
+                        "value" : "Hjernesvulst",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft"
+                        "value" : "Brystkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft"
+                        "value" : "Lungekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet"
+                        "value" : "Kreft i fordøyelsessystemet",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft"
+                        "value" : "Gynekologisk kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier"
+                        "value" : "Kreft i nyre og urinveier",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft"
+                        "value" : "Benmargs- og blodkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom"
+                        "value" : "Lymfom",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft"
+                        "value" : "Hudkreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer"
+                        "value" : "Kreft i mannlige kjønnsorganer",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler"
+                        "value" : "Kreft i endokrine kjertler",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft"
+                        "value" : "Nevroendokrin kreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft"
+                        "value" : "Barnekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft"
+                        "value" : "Øyekreft",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet"
+                        "value" : "Svulst av ukjent opprinnelse / Annet",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -9116,31 +10089,38 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156506007",
-                        "value" : "Fotonterapi - Stråle (ekstern)"
+                        "value" : "Fotonterapi - Stråle (ekstern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10611004",
-                        "value" : "Protonterapi -Stråle (ekstern)"
+                        "value" : "Protonterapi -Stråle (ekstern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "45643008",
-                        "value" : "Elektronterapi - Stråle (ekstern)"
+                        "value" : "Elektronterapi - Stråle (ekstern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "152198000",
-                        "value" : "Brakyterapi - Stråle (intern)"
+                        "value" : "Brakyterapi - Stråle (intern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399315003",
-                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
+                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113117004",
-                        "value" : "External beam radiation therapy particulate radiation (procedure)"
+                        "value" : "External beam radiation therapy particulate radiation (procedure)",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156505006",
-                        "value" : "External beam radiation therapy using carbon ions (procedure)"
+                        "value" : "External beam radiation therapy using carbon ions (procedure)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
@@ -9201,28 +10181,24 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
-                        "value" : "Adjuvant hensikt"
+                        "value" : "Adjuvant hensikt",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
-                        "value" : "Neoadjuvant hensikt"
+                        "value" : "Neoadjuvant hensikt",
+                        "translations" : { }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
-                        "value" : "Konkomitant (adjunkt) hensikt)"
+                        "value" : "Konkomitant (adjunkt) hensikt)",
+                        "translations" : { }
                       } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
-              "nodeId" : "at0056.1",
-              "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -9424,7 +10400,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -9578,6 +10554,36 @@
           "keywords" : [ ],
           "use" : "Används för att skapa en avsnittsrubrik i en openEHR-mall som sedan döps om för att passa in i den specifika kliniska kontexten. Exempelvis \"Rubrik\" döps om till \"Undersökningsfynd\".",
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -9693,7 +10699,9 @@
             "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext.",
             "text" : "Stråle (2)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -9834,6 +10842,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -9846,7 +10882,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -10002,6 +11038,36 @@
           "misuse" : "Ska inte lämnas oförändrad i en openEHR-mall.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -10083,7 +11149,9 @@
         "pt-br" : { },
         "ru" : { },
         "sl" : { },
-        "sv" : { }
+        "sv" : { },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -10224,6 +11292,34 @@
         "organisation" : "Better - Pathfinder"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -10236,7 +11332,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "F599CFD8A1049A510A4D4DAA1B1C9EB9"
+        "PARENT:MD5-CAM-1.0.1" : "8E48FD73FBF88E927DD20879DB2D9775"
       },
       "details" : {
         "de" : {
@@ -10607,7 +11703,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "F599CFD8A1049A510A4D4DAA1B1C9EB9"
+        "PARENT:MD5-CAM-1.0.1" : "8E48FD73FBF88E927DD20879DB2D9775"
       },
       "details" : {
         "de" : {
@@ -10978,7 +12074,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "B99AC3EABD7E6A18DCCBCD26E1FB0EBB"
+        "PARENT:MD5-CAM-1.0.1" : "50B8849AB9B274AB2D8E0456FA33FF85"
       },
       "details" : {
         "de" : {
@@ -11565,6 +12661,142 @@
     },
     "author" : {
       "name" : "Mona Saleh"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "de"
+    },
+    "author" : {
+      "name" : "Ramona Wellmann, Natalia Strauch",
+      "organisation" : "Medizinische Hochschule Hannover",
+      "email" : "Strauch.Natalia@mh-hannover.de"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fi"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "sv"
+    },
+    "author" : {
+      "name" : "Sofia Janstad, Åsa Skagerhult, Per Nemirovski",
+      "organisation" : "SLL, Region Östergötland, B3 HealthTech",
+      "email" : "sofia.lang-janstad@sll.se, asa.skagerhult@regionostergotland.se, per.nemirovski@b3.se"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ko"
+    },
+    "author" : {
+      "name" : "Seung-Jong Yu",
+      "organisation" : "InfoClinic Co.,Ltd.",
+      "email" : "seungjong.yu@gmail.com"
+    },
+    "accreditation" : "Certified Board of Family Medicine in South Korea",
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "it"
+    },
+    "author" : {
+      "name" : "Francesca Frexia",
+      "organisation" : "CRS4 - Center for advanced studies, research and development in Sardinia, Pula (Cagliari), Italy",
+      "email" : "francesca.frexia@crs4.it"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "zh-cn"
+    },
+    "author" : {
+      "name" : "Lin Zhang",
+      "organisation" : "Freelancer",
+      "email" : "linforest@163.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "zh"
+    },
+    "author" : {
+      "name" : "Yexuan Cheng",
+      "organisation" : "浙江大学",
+      "email" : "3160100913@zju.edu.cn"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lauramoral@catsalut.cat"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : {
+      "name" : "Pieter Bos, Jelte Zeilstra",
+      "organisation" : "Nedap Healthcare"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ca"
+    },
+    "author" : {
+      "name" : "Julio de Sosa",
+      "organisation" : "Servei Català de la Salut",
+      "email" : "juliodesosa@catsalut.cat"
     },
     "otherDetails" : { }
   } ]
