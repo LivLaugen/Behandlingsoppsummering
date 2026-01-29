@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "bf8ac5ab7d7984a8d484c960e09c1891",
+      "MD5-CAM-1.0.1" : "54a81037af11c8764dc311cb4c197e1e",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "72.0.0"
+      "sem_ver" : "73.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -1965,7 +1965,16 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ELEMENT",
                   "nodeId" : "at0011.1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_DATE_TIME",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 }, {
                   "@type" : "C_COMPLEX_OBJECT",
@@ -2012,7 +2021,16 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ELEMENT",
                   "nodeId" : "at0012.1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "DV_DATE_TIME",
+                      "attributes" : [ ],
+                      "attributeTuples" : [ ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 }, {
                   "@type" : "C_COMPLEX_OBJECT",
@@ -2249,14 +2267,12 @@
           "at0011.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0011.1",
-            "comment" : "Kan være en deldato, for eksempel kun årstall.",
             "description" : "Datoen da legemiddelet først ble administrert i denne perioden.",
             "text" : "Startdato for bruk"
           },
           "at0012.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0012.1",
-            "comment" : "Kan være en deldato, for eksempel kun årstall.",
             "description" : "Datoen da legemiddelet sist ble administrert i denne perioden.",
             "text" : "Sluttdato for bruk"
           },
@@ -3036,7 +3052,7 @@
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "SECTION",
-          "occurrences" : "0..1",
+          "occurrences" : "0..*",
           "nodeId" : "at0.5",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -5527,7 +5543,7 @@
                         "code" : "65854006",
                         "value" : "Reeksisjon (ny utskjæring)",
                         "translations" : {
-                          "nb" : "Reeksisjon (ny utskjæring)"
+                          "nb" : "Reeksisjon (ny reseksjon)"
                         }
                       }, {
                         "terminologyId" : "local_terms",
@@ -5738,7 +5754,6 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
               "nodeId" : "at0008.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -5839,9 +5854,9 @@
           "at0033.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0033.1",
-            "comment" : "Designkommentar:\nKlinisk indikasjon på overordnet nivå er:\n35688006\tkomplikasjon av medisinsk behandling  (disorder)\n55342001\tneoplastisk sykdom  (disorder)\n20376005\tbenign neoplastisk sykdom (disorder)\n363346000\tkreftsykdom/ malign neoplastisk sykdom  (disorder)\n255051004\tneoplasi /tumor av ukjent opprinnelse  (disorder)\n372087000\tprimær malign tumor (disorder)\n25173007\tresidiviert neoplastisk sykdom/tumor  (disorder)\n1259237005\tresidiv av malign tumor  (disorder)\n87961000202104\tlokalt residiv av malign primær neoplasma  (disorder)\n128462008\tmetastase malign tumor  (disorder)\n74964007\tannen (qualifier value)\n63161005\tprimær (qualifier value)\n255227004\tresidiverende (qualifier value)\n1234914003\tprimær malign neoplastisk proliferasjon (qualifier value)\n1495041000004108\tneoplastisk proliferation (qualifier value)\n1204295007\tmalign neoplastisk proliferasjon (qualifier value)\n1255587009\tregresjon av tumor (qualifier value)\n1505291000004103\tIkke direkte sammenhengende metastase (qualifier value)\n",
+            "comment" : "Designkommentar:\nDesignkommentar:\nSkal man ha med dette på dette nivået, er det nødvendig. Hvor mye kan gå inn i beskrivelsen? \n\nKlinisk indikasjon på overordnet nivå er:\n35688006\tkomplikasjon av medisinsk behandling  (disorder)\n55342001\tneoplastisk sykdom  (disorder)\n20376005\tbenign neoplastisk sykdom (disorder)\n363346000\tkreftsykdom/ malign neoplastisk sykdom  (disorder)\n255051004\tneoplasi /tumor av ukjent opprinnelse  (disorder)\n372087000\tprimær malign tumor (disorder)\n25173007\tresidiviert neoplastisk sykdom/tumor  (disorder)\n1259237005\tresidiv av malign tumor  (disorder)\n87961000202104\tlokalt residiv av malign primær neoplasma  (disorder)\n128462008\tmetastase malign tumor  (disorder)\n74964007\tannen (qualifier value)\n63161005\tprimær (qualifier value)\n255227004\tresidiverende (qualifier value)\n1234914003\tprimær malign neoplastisk proliferasjon (qualifier value)\n1495041000004108\tneoplastisk proliferation (qualifier value)\n1204295007\tmalign neoplastisk proliferasjon (qualifier value)\n1255587009\tregresjon av tumor (qualifier value)\n1505291000004103\tIkke direkte sammenhengende metastase (qualifier value)\n",
             "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
-            "text" : "Indikasjon for behandling/behandlingsgrunnlag"
+            "text" : "??Indikasjon for behandling/behandlingsgrunnlag"
           },
           "at0054.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -5867,6 +5882,13 @@
             "code" : "at0058",
             "text" : "Intervensjonstype",
             "description" : "En mer spesifikk metode eller prosess for å gjennomføre intervensjonen identifisert i «Intervensjonsnavn»."
+          },
+          "at0008.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0008.1",
+            "text" : "??*Terapeutisk resultat",
+            "description" : "Resultatet av intervensjonen basert på terapeutisk effekt.",
+            "comment" : "For eksempel: vellykket, ikke vellykket, usikker.\r\nKoding med en terminologi er foretrukket, dersom det er mulig."
           },
           "at0055.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -6888,7 +6910,6 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
               "nodeId" : "at0033.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -7112,6 +7133,13 @@
             "code" : "at0003",
             "text" : "Intervensjonsnavn",
             "description" : "Navnet på intervensjonen."
+          },
+          "at0033.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0033.1",
+            "text" : "???Klinisk indikasjon",
+            "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
+            "comment" : "Koding av \"Klinisk indikasjon\" med en terminologi er foretrukket, dersom det er mulig. Dette dataelementet tillater flere forekomster, slik at det kan registrere flere kliniske indikasjoner per intervensjon."
           }
         }
       },
@@ -8248,6 +8276,12 @@
             "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».\n\n**Skal denne være med, eller skal det være et annet verdisett?",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0003.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "Intervensjonsnavn",
+            "description" : "Navnet på intervensjonen."
           }
         }
       },
@@ -8863,7 +8897,9 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1287742003",
                         "value" : "Radiotherapy (procedure)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Radiotherapy (procedure)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -8899,87 +8935,121 @@
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
                         "value" : "Sarkom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Sarkom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
                         "value" : "Kreft i hode og hals",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i hode og hals"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
                         "value" : "Hjernesvulst",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hjernesvulst"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
                         "value" : "Brystkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brystkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
                         "value" : "Lungekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lungekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
                         "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i fordøyelsessystemet"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
                         "value" : "Gynekologisk kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Gynekologisk kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
                         "value" : "Kreft i nyre og urinveier",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i nyre og urinveier"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
                         "value" : "Benmargs- og blodkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Benmargs- og blodkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
                         "value" : "Lymfom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lymfom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
                         "value" : "Hudkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hudkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
                         "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i mannlige kjønnsorganer"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
                         "value" : "Kreft i endokrine kjertler",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i endokrine kjertler"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
                         "value" : "Nevroendokrin kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Nevroendokrin kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
                         "value" : "Barnekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Barnekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
                         "value" : "Øyekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Øyekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
                         "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Svulst av ukjent opprinnelse / Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -9014,37 +9084,51 @@
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156506007",
                         "value" : "Fotonterapi - Stråle (ekstern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Fotonterapi - Stråle (ekstern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10611004",
                         "value" : "Protonterapi -Stråle (ekstern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Protonterapi -Stråle (ekstern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "45643008",
                         "value" : "Elektronterapi - Stråle (ekstern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Elektronterapi - Stråle (ekstern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "152198000",
                         "value" : "Brakyterapi - Stråle (intern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brakyterapi - Stråle (intern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399315003",
                         "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113117004",
                         "value" : "External beam radiation therapy particulate radiation (procedure)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "External beam radiation therapy particulate radiation (procedure)"
+                        }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156505006",
                         "value" : "External beam radiation therapy using carbon ions (procedure)",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "External beam radiation therapy using carbon ions (procedure)"
+                        }
                       } ]
                     } ]
                   } ],
@@ -9067,7 +9151,6 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
               "nodeId" : "at0033.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -9261,16 +9344,29 @@
           "at0058.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0058.1",
-            "comment" : "** Se på kodesettet",
+            "comment" : "Designkommentar\n** Se på kodesettet",
             "description" : "En mer spesifikk metode eller prosess for å gjennomføre intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Intervensjonstype"
           },
           "at0059.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0059.1",
-            "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».\n\n**Skal denne være med?",
+            "comment" : "\n\n**Skal denne være med?",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0055.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0055",
+            "text" : "Terapeutisk rolle",
+            "description" : "Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien."
+          },
+          "at0033.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0033.1",
+            "text" : "??Klinisk indikasjon",
+            "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
+            "comment" : "Koding av \"Klinisk indikasjon\" med en terminologi er foretrukket, dersom det er mulig. Dette dataelementet tillater flere forekomster, slik at det kan registrere flere kliniske indikasjoner per intervensjon."
           }
         }
       },
@@ -9745,17 +9841,23 @@
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
                         "value" : "Vellykket i henhold til intensjon",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Vellykket i henhold til intensjon"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
                         "value" : "Ikke vellykket i henhold til intensjon",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Ikke vellykket i henhold til intensjon"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
                         "value" : "Usikkert",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Usikkert"
+                        }
                       } ]
                     } ]
                   } ],
@@ -9854,6 +9956,12 @@
             "comment" : "**Skal denne være med?",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0003.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "Intervensjonsnavn",
+            "description" : "Navnet på intervensjonen."
           }
         }
       },
@@ -10174,7 +10282,14 @@
             "text" : "Intestazione di sezione ad hoc (2)"
           }
         },
-        "nb" : { },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Medikamentell behandling",
+            "description" : "En generisk seksjonsoverskrift som skal gis nytt navn i en templat for å passe i en gitt klinisk kontekst."
+          }
+        },
         "pt-br" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -10509,87 +10624,121 @@
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
                         "value" : "Sarkom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Sarkom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
                         "value" : "Kreft i hode og hals",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i hode og hals"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
                         "value" : "Hjernesvulst",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hjernesvulst"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
                         "value" : "Brystkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Brystkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
                         "value" : "Lungekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lungekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
                         "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i fordøyelsessystemet"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
                         "value" : "Gynekologisk kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Gynekologisk kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
                         "value" : "Kreft i nyre og urinveier",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i nyre og urinveier"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
                         "value" : "Benmargs- og blodkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Benmargs- og blodkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
                         "value" : "Lymfom",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lymfom"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
                         "value" : "Hudkreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Hudkreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
                         "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i mannlige kjønnsorganer"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
                         "value" : "Kreft i endokrine kjertler",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kreft i endokrine kjertler"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
                         "value" : "Nevroendokrin kreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Nevroendokrin kreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
                         "value" : "Barnekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Barnekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
                         "value" : "Øyekreft",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Øyekreft"
+                        }
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
                         "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Svulst av ukjent opprinnelse / Annet"
+                        }
                       } ]
                     } ]
                   } ],
@@ -12102,6 +12251,89 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0172.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_COUNT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "magnitude",
+                "children" : [ {
+                  "@type" : "C_INTEGER",
+                  "rmTypeName" : "INTEGER",
+                  "occurrences" : "1..1",
+                  "constraint" : [ {
+                    "lower" : 1,
+                    "lowerIncluded" : true,
+                    "upperIncluded" : false,
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_INTERVAL<DV_COUNT>",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "lower",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_COUNT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "magnitude",
+                    "children" : [ {
+                      "@type" : "C_INTEGER",
+                      "rmTypeName" : "INTEGER",
+                      "occurrences" : "1..1",
+                      "constraint" : [ {
+                        "lower" : 0,
+                        "lowerIncluded" : true,
+                        "upperIncluded" : false,
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              }, {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "upper",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_COUNT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "magnitude",
+                    "children" : [ {
+                      "@type" : "C_INTEGER",
+                      "rmTypeName" : "INTEGER",
+                      "occurrences" : "1..1",
+                      "constraint" : [ {
+                        "lower" : 1,
+                        "lowerIncluded" : true,
+                        "upperIncluded" : false,
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
           "nodeId" : "at0177.1",
           "attributes" : [ {
@@ -12169,6 +12401,18 @@
             "code" : "ac0.1",
             "description" : "",
             "text" : "*(Synthesized) (en)"
+          },
+          "at0172" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0172",
+            "text" : "Antall administreringer",
+            "description" : "Antall administreringer som skal gis innenfor denne anvisningen."
+          },
+          "at0172.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0172.1",
+            "text" : "Antall administreringer",
+            "description" : "Antall administreringer som skal gis innenfor denne anvisningen."
           }
         },
         "pt-br" : {
