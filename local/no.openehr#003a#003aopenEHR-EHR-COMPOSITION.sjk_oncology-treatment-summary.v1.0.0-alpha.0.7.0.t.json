@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "c2b5be5f5aae5fdbf7d256ab2a7ecf93",
+      "MD5-CAM-1.0.1" : "3cebbde2585079a06f8557cca4137b37",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "70.2.0"
+      "sem_ver" : "71.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4821,32 +4821,44 @@
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K1",
                         "value" : "Kurativt",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Kurativt"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K2",
                         "value" : "Aktiv overvåkning",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Aktiv overvåkning"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K3",
                         "value" : "Livsforlengende - ikke kurativ",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Livsforlengende - ikke kurativ"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K4",
                         "value" : "Symptomlindrende - ikke kurativ",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Symptomlindrende - ikke kurativ"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K5",
                         "value" : "Lokal kontroll - ikke kurativ",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Lokal kontroll - ikke kurativ"
+                        }
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K6",
                         "value" : "Ukjent",
-                        "translations" : { }
+                        "translations" : {
+                          "nb" : "Ukjent"
+                        }
                       } ]
                     } ]
                   } ],
@@ -5023,6 +5035,12 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0027.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
               "nodeId" : "at0010.1",
               "attributes" : [ ],
@@ -5148,7 +5166,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0057.1",
             "description" : "Identifiksjons-ID til intervensjonen.",
-            "text" : "ID for akkurat denne behanlingssløyfen"
+            "text" : "ID for akkurat denne behandlingssløyfen"
           },
           "at0059.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -5156,6 +5174,18 @@
             "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0027" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0027",
+            "text" : "Begrunnelse for terapeutisk resultat",
+            "description" : "Beskrivelse av årsaken til terapeutisk resultat."
+          },
+          "at0027.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0027.1",
+            "text" : "Begrunnelse for terapeutisk resultat",
+            "description" : "Beskrivelse av årsaken til terapeutisk resultat."
           }
         }
       },
@@ -5545,7 +5575,38 @@
               "rmTypeName" : "ELEMENT",
               "occurrences" : "0..1",
               "nodeId" : "at0033.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "SNOMED-CT"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "SNOMED-CT" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "??",
+                        "value" : "Samkøres med det som ligger i hovedbolken",
+                        "translations" : {
+                          "nb" : "Samkøres med det som ligger i hovedbolken"
+                        }
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -5771,7 +5832,7 @@
           "at0033.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0033.1",
-            "comment" : "*",
+            "comment" : "Designkommentar:\nKlinisk indikasjon på overordnet nivå er:\n35688006\tkomplikasjon av medisinsk behandling  (disorder)\n55342001\tneoplastisk sykdom  (disorder)\n20376005\tbenign neoplastisk sykdom (disorder)\n363346000\tkreftsykdom/ malign neoplastisk sykdom  (disorder)\n255051004\tneoplasi /tumor av ukjent opprinnelse  (disorder)\n372087000\tprimær malign tumor (disorder)\n25173007\tresidiviert neoplastisk sykdom/tumor  (disorder)\n1259237005\tresidiv av malign tumor  (disorder)\n87961000202104\tlokalt residiv av malign primær neoplasma  (disorder)\n128462008\tmetastase malign tumor  (disorder)\n74964007\tannen (qualifier value)\n63161005\tprimær (qualifier value)\n255227004\tresidiverende (qualifier value)\n1234914003\tprimær malign neoplastisk proliferasjon (qualifier value)\n1495041000004108\tneoplastisk proliferation (qualifier value)\n1204295007\tmalign neoplastisk proliferasjon (qualifier value)\n1255587009\tregresjon av tumor (qualifier value)\n1505291000004103\tIkke direkte sammenhengende metastase (qualifier value)\n",
             "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
             "text" : "Indikasjon for behandling/behandlingsgrunnlag"
           },
@@ -5784,9 +5845,21 @@
           "at0059.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0059.1",
-            "comment" : "For eksempel «Kreftbehandling», «Psykososial» eller «Kirurgi».\n\n**Skal denne være med, eller skal det være et annet verdisett?",
+            "comment" : "**Skal denne være med, eller skal det være et annet verdisett?",
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
+          },
+          "at0003.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "Intervensjonsnavn",
+            "description" : "Navnet på intervensjonen."
+          },
+          "at0058.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0058",
+            "text" : "Intervensjonstype",
+            "description" : "En mer spesifikk metode eller prosess for å gjennomføre intervensjonen identifisert i «Intervensjonsnavn»."
           }
         }
       },
