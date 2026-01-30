@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "2863fde4c63e157db4a68ed562510c80",
+      "MD5-CAM-1.0.1" : "366581ad6592356598571da0094f8291",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "76.1.1"
+      "sem_ver" : "76.1.2"
     },
     "details" : {
       "ar-sy" : {
@@ -5137,7 +5137,7 @@
             "code" : "at0008.1",
             "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?",
             "description" : "Kategori av resultatet av intervensjonen.",
-            "text" : "Resultatkategori"
+            "text" : "Resultat av behandling"
           },
           "at0032.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -5190,8 +5190,22 @@
           "at0027.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0027.1",
-            "text" : "Begrunnelse for terapeutisk resultat",
+            "text" : "Kommentar til resultat",
             "description" : "Beskrivelse av årsaken til terapeutisk resultat."
+          },
+          "at0005.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0005.1",
+            "text" : "Status for behandlingsforløp",
+            "description" : "Resultatet av intervensjonen, basert på om den var gjennomført som opprinnelig tiltenkt.",
+            "comment" : "Dette dataelementet bør bare bli brukt etter at intervensjonen har blitt fullført. \"Som opprinnelig tiltenkt\", som er omtalt i beskrivelsen av dette dataelementet kan bety alt fra en uuttalt hensikt hos en enkelt kliniker som respons til en akuttsituasjon, til en formell og evidensbasert klinisk protokoll eller behandlingslinje."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Kommentar på status",
+            "description" : "Beskrivelse av årsaken til gjennomføringsresultatet.",
+            "comment" : "Koding med en terminologi er foretrukket, dersom det er mulig."
           },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
