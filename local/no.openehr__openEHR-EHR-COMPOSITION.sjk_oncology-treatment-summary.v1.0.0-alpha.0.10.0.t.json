@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "913fd626461b9a653fe1c408f450eccf",
+      "MD5-CAM-1.0.1" : "2863fde4c63e157db4a68ed562510c80",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "76.1.0"
+      "sem_ver" : "76.1.1"
     },
     "details" : {
       "ar-sy" : {
@@ -4923,21 +4923,21 @@
                         "code" : "708255002",
                         "value" : "Førstelinjebehandling",
                         "translations" : {
-                          "nb" : "Førstelinjebehandling"
+                          "nb" : "Førstelinje"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708256001",
                         "value" : "Andrelinjebehandling",
                         "translations" : {
-                          "nb" : "Andrelinjebehandling"
+                          "nb" : "Andrelinje"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708257005",
                         "value" : "Tredjelinjebehandling",
                         "translations" : {
-                          "nb" : "Tredjelinjebehandling"
+                          "nb" : "Tredjelinje"
                         }
                       } ]
                     } ]
@@ -5165,7 +5165,7 @@
             "code" : "at0051.1",
             "comment" : "For eksempel: Førstelinje-, andrelinje- eller rednings-/salvage-behandlinger.",
             "description" : "Posisjonen til denne intervensjonen innenfor en sekvens definert av en bredere behandlingsprotokoll.",
-            "text" : "Treatment line"
+            "text" : "Behandlingslinje"
           },
           "at0054.1" : {
             "@type" : "ARCHETYPE_TERM",
