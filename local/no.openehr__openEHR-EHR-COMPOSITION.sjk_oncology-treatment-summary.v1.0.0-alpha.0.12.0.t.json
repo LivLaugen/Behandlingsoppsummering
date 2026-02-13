@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "7cc4d55a7acbf36dfcd18894aa7925d5",
+      "MD5-CAM-1.0.1" : "5c8accab1c8e0398bf7355a3a465c513",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "82.0.1"
+      "sem_ver" : "83.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4855,21 +4855,21 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708255002",
-                        "value" : "Førstelinje",
+                        "value" : "Førstelinjebehandling",
                         "translations" : {
                           "nb" : "Førstelinje"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708256001",
-                        "value" : "Andrelinje",
+                        "value" : "Andrelinjebehandling",
                         "translations" : {
                           "nb" : "Andrelinje"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708257005",
-                        "value" : "Tredjelinje",
+                        "value" : "Tredjelinjebehandling",
                         "translations" : {
                           "nb" : "Tredjelinje"
                         }
@@ -5087,7 +5087,7 @@
           "at0008.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0008.1",
-            "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?",
+            "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?\n\n399056007\t Complete therapeutic response (finding)\n102470001\t Decreased therapeutic response (finding)\n63432002\t Excellent therapeutic response (finding)\n21768001\t Fair therapeutic response (finding)\n78469002\t Good therapeutic response (finding)\n102469002\t Increased therapeutic response (finding)\n84190002\t Minimal therapeutic response (finding)\n399204005\t Partial therapeutic response (finding)\n\n266721009\t Absent response to treatment (situation)\n182986003\t Excellent response to treatment (situation)\n182987007\t Fair response to treatment (situation)\n405786003\t Poor response to treatment (situation)\n182988002\t Slight response to treatment (situation)\n407563006\t Treatment not tolerated (situation)\n275934008\t Very poor response treatment (situation)\n",
             "description" : "Kategori av resultatet av intervensjonen.",
             "text" : "Resultat av behandling"
           },
@@ -7133,13 +7133,6 @@
             "code" : "ac0.1",
             "description" : ""
           },
-          "at0027.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0027.1",
-            "text" : "Begrunnelse for terapeutisk effekt",
-            "description" : "Beskrivelse av årsaken til terapeutisk resultat.",
-            "comment" : "For eksempel: «Legemiddelresistens», «Tumor responderte på behandling» og «Tumor responderte ikke på behandling»."
-          },
           "at0005.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0005.1",
@@ -7153,13 +7146,6 @@
             "text" : "Merknad status gjennomført behandling",
             "description" : "Beskrivelse av årsaken til gjennomføringsresultatet.",
             "comment" : "Koding med en terminologi er foretrukket, dersom det er mulig."
-          },
-          "at0008.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0008.1",
-            "text" : "Klinisk effekt",
-            "description" : "Resultatet av intervensjonen basert på terapeutisk effekt.",
-            "comment" : "For eksempel: vellykket, ikke vellykket, usikker.\r\nKoding med en terminologi er foretrukket, dersom det er mulig."
           },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
