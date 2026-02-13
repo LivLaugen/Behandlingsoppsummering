@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "306dbad5793e671128850369b32a31e7",
+      "MD5-CAM-1.0.1" : "399c336507f96291fbaf9ef2de11d8b5",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "81.0.0"
+      "sem_ver" : "82.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4838,8 +4838,44 @@
                 "rmAttributeName" : "value",
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_TEXT",
-                  "attributes" : [ ],
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "SNOMED-CT"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "SNOMED-CT" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "708255002",
+                        "value" : "Førstelinje",
+                        "translations" : {
+                          "nb" : "Førstelinje"
+                        }
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "708256001",
+                        "value" : "Andrelinje",
+                        "translations" : {
+                          "nb" : "Andrelinje"
+                        }
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "708257005",
+                        "value" : "Tredjelinje",
+                        "translations" : {
+                          "nb" : "Tredjelinje"
+                        }
+                      } ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
