@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "5c8accab1c8e0398bf7355a3a465c513",
+      "MD5-CAM-1.0.1" : "aeafb4332a6329fb991b4640c8bb5c3a",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "83.0.0"
+      "sem_ver" : "83.0.1"
     },
     "details" : {
       "ar-sy" : {
@@ -5087,7 +5087,7 @@
           "at0008.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0008.1",
-            "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?\n\n399056007\t Complete therapeutic response (finding)\n102470001\t Decreased therapeutic response (finding)\n63432002\t Excellent therapeutic response (finding)\n21768001\t Fair therapeutic response (finding)\n78469002\t Good therapeutic response (finding)\n102469002\t Increased therapeutic response (finding)\n84190002\t Minimal therapeutic response (finding)\n399204005\t Partial therapeutic response (finding)\n\n266721009\t Absent response to treatment (situation)\n182986003\t Excellent response to treatment (situation)\n182987007\t Fair response to treatment (situation)\n405786003\t Poor response to treatment (situation)\n182988002\t Slight response to treatment (situation)\n407563006\t Treatment not tolerated (situation)\n275934008\t Very poor response treatment (situation)\n",
+            "comment" : "Designkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?\nSE regneark https://hsorhf.sharepoint.com/:x:/r/sites/OUSHF-X-Strukturertkreftjournal/Shared%20Documents/General/Generisk%20-%20p%C3%A5%20tvers%20av%20tumorgrupper/Behandlingsoppsummering/Kodeverk%20Behandlingsoppsummering.xlsx?d=w2a41213421314c09af4eb56c39c65313&csf=1&web=1&e=nhPhr0\n\n399056007\t Complete therapeutic response (finding)\n102470001\t Decreased therapeutic response (finding)\n63432002\t Excellent therapeutic response (finding)\n21768001\t Fair therapeutic response (finding)\n78469002\t Good therapeutic response (finding)\n102469002\t Increased therapeutic response (finding)\n84190002\t Minimal therapeutic response (finding)\n399204005\t Partial therapeutic response (finding)\n\n266721009\t Absent response to treatment (situation)\n182986003\t Excellent response to treatment (situation)\n182987007\t Fair response to treatment (situation)\n405786003\t Poor response to treatment (situation)\n182988002\t Slight response to treatment (situation)\n407563006\t Treatment not tolerated (situation)\n275934008\t Very poor response treatment (situation)\n",
             "description" : "Kategori av resultatet av intervensjonen.",
             "text" : "Resultat av behandling"
           },
