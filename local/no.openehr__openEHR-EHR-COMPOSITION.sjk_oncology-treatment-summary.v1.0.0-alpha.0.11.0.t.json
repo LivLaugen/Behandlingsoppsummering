@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "9ac12926814c676e74d4330b48e5a56a",
+      "MD5-CAM-1.0.1" : "af1fb690745b258360e35799a7288c6b",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "76.1.5"
+      "sem_ver" : "77.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -2000,11 +2000,6 @@
                       "rmTypeName" : "DV_QUANTITY",
                       "attributes" : [ ],
                       "attributeTuples" : [ ]
-                    }, {
-                      "@type" : "C_COMPLEX_OBJECT",
-                      "rmTypeName" : "DV_TEXT",
-                      "attributes" : [ ],
-                      "attributeTuples" : [ ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -2262,7 +2257,8 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0016.1",
             "description" : "Kumulativ mengde brukt av legemiddelet i denne perioden.",
-            "text" : "Kumulativ mengde"
+            "text" : "Kumulativ mengde",
+            "comment" : "DESIGNKOMMENTAR:\nEnheter må defineres"
           }
         },
         "pt-br" : {
@@ -6900,6 +6896,7 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..1",
               "nodeId" : "at0033.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -6965,6 +6962,34 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "DV_TEXT",
                   "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0005.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "1..1",
+                      "terminologyId" : {
+                        "value" : "local"
+                      },
+                      "constraint" : [ "ac0.1" ],
+                      "selectedTerminologies" : [ ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -7096,7 +7121,14 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { },
+        "en" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.1",
+            "description" : ""
+          }
+        },
         "nb" : {
           "at0054.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -7130,12 +7162,24 @@
             "text" : "???Klinisk indikasjon",
             "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
             "comment" : "Koding av \"Klinisk indikasjon\" med en terminologi er foretrukket, dersom det er mulig. Dette dataelementet tillater flere forekomster, slik at det kan registrere flere kliniske indikasjoner per intervensjon."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.1" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.1",
+          "members" : [ "at0021", "at0022", "at0061", "at0060" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "ad9a02af-f155-46c0-a9f6-0e7352d21c01",
@@ -12280,59 +12324,6 @@
                     "lowerUnbounded" : false,
                     "upperUnbounded" : true
                   } ]
-                } ]
-              } ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "DV_INTERVAL<DV_COUNT>",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "lower",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_COUNT",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "magnitude",
-                    "children" : [ {
-                      "@type" : "C_INTEGER",
-                      "rmTypeName" : "INTEGER",
-                      "occurrences" : "1..1",
-                      "constraint" : [ {
-                        "lower" : 0,
-                        "lowerIncluded" : true,
-                        "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
-                      } ]
-                    } ]
-                  } ],
-                  "attributeTuples" : [ ]
-                } ]
-              }, {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "upper",
-                "children" : [ {
-                  "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_COUNT",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "magnitude",
-                    "children" : [ {
-                      "@type" : "C_INTEGER",
-                      "rmTypeName" : "INTEGER",
-                      "occurrences" : "1..1",
-                      "constraint" : [ {
-                        "lower" : 1,
-                        "lowerIncluded" : true,
-                        "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
-                      } ]
-                    } ]
-                  } ],
-                  "attributeTuples" : [ ]
                 } ]
               } ],
               "attributeTuples" : [ ]
