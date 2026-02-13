@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "c180add48f1c8364d088b1a20011acae",
+      "MD5-CAM-1.0.1" : "e11f4ffd7a28cd6c929c291c2bc915e3",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "80.0.0"
+      "sem_ver" : "80.1.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4840,7 +4840,42 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "DV_CODED_TEXT",
                   "occurrences" : "1..1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "SNOMED-CT"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "SNOMED-CT" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "708255002",
+                        "value" : "Førstelinjebehandling",
+                        "translations" : {
+                          "nb" : "Førstelinje"
+                        }
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "708256001",
+                        "value" : "Andrelinjebehandling",
+                        "translations" : {
+                          "nb" : "Andrelinje"
+                        }
+                      }, {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "708257005",
+                        "value" : "Tredjelinjebehandling",
+                        "translations" : {
+                          "nb" : "Tredjelinje"
+                        }
+                      } ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
