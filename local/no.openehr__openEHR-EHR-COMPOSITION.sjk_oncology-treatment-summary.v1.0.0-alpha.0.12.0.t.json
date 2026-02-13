@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "95bc60e01c5446704672b839f7382be9",
+      "MD5-CAM-1.0.1" : "e11f4ffd7a28cd6c929c291c2bc915e3",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "78.0.0"
+      "sem_ver" : "79.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4674,126 +4674,63 @@
                         "code" : "35688006",
                         "value" : "komplikasjon av medisinsk behandling  (disorder)",
                         "translations" : {
-                          "nb" : "komplikasjon av medisinsk behandling  (disorder)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "55342001",
-                        "value" : "neoplastisk sykdom  (disorder)",
-                        "translations" : {
-                          "nb" : "neoplastisk sykdom  (disorder)"
+                          "nb" : "Komplikasjon av medisinsk behandling  (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "20376005",
                         "value" : "benign neoplastisk sykdom (disorder)",
                         "translations" : {
-                          "nb" : "benign neoplastisk sykdom (disorder)"
+                          "nb" : "Benign neoplastisk sykdom (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "363346000",
                         "value" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)",
                         "translations" : {
-                          "nb" : "kreftsykdom/ malign neoplastisk sykdom  (disorder)"
+                          "nb" : "Malign neoplastisk sykdom  (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "255051004",
                         "value" : "neoplasi /tumor av ukjent opprinnelse  (disorder)",
                         "translations" : {
-                          "nb" : "neoplasi /tumor av ukjent opprinnelse  (disorder)"
+                          "nb" : "Neoplasi /tumor av ukjent opprinnelse  (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "372087000",
                         "value" : "primær malign tumor (disorder)",
                         "translations" : {
-                          "nb" : "primær malign tumor (disorder)"
+                          "nb" : "Primær malign tumor (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "25173007",
                         "value" : "residiviert neoplastisk sykdom/tumor  (disorder)",
                         "translations" : {
-                          "nb" : "residiviert neoplastisk sykdom/tumor  (disorder)"
+                          "nb" : "Residiviert neoplastisk sykdom/tumor  (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1259237005",
                         "value" : "residiv av malign tumor  (disorder)",
                         "translations" : {
-                          "nb" : "residiv av malign tumor  (disorder)"
+                          "nb" : "Residiv av malign tumor  (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "87961000202104",
                         "value" : "lokalt residiv av malign primær neoplasma  (disorder)",
                         "translations" : {
-                          "nb" : "lokalt residiv av malign primær neoplasma  (disorder)"
+                          "nb" : "Lokalt residiv av malign primær neoplasma  (disorder)"
                         }
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "128462008",
                         "value" : "metastase malign tumor  (disorder)",
                         "translations" : {
-                          "nb" : "metastase malign tumor  (disorder)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "74964007",
-                        "value" : "annen (qualifier value)",
-                        "translations" : {
-                          "nb" : "annen (qualifier value)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "63161005",
-                        "value" : "primær (qualifier value)",
-                        "translations" : {
-                          "nb" : "primær (qualifier value)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "255227004",
-                        "value" : "residiverende (qualifier value)",
-                        "translations" : {
-                          "nb" : "residiverende (qualifier value)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1234914003",
-                        "value" : "primær malign neoplastisk proliferasjon (qualifier value)",
-                        "translations" : {
-                          "nb" : "primær malign neoplastisk proliferasjon (qualifier value)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1495041000004108",
-                        "value" : "neoplastisk proliferation (qualifier value)",
-                        "translations" : {
-                          "nb" : "neoplastisk proliferation (qualifier value)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1204295007",
-                        "value" : "malign neoplastisk proliferasjon (qualifier value)",
-                        "translations" : {
-                          "nb" : "malign neoplastisk proliferasjon (qualifier value)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1255587009",
-                        "value" : "regresjon av tumor (qualifier value)",
-                        "translations" : {
-                          "nb" : "regresjon av tumor (qualifier value)"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "1505291000004103",
-                        "value" : "Ikke direkte sammenhengende metastase (qualifier value)",
-                        "translations" : {
-                          "nb" : "Ikke direkte sammenhengende metastase (qualifier value)"
+                          "nb" : "Metastase malign tumor  (disorder)"
                         }
                       } ]
                     } ]
@@ -4947,7 +4884,25 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0032.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "value",
+                    "children" : [ {
+                      "@type" : "C_DATE_TIME",
+                      "rmTypeName" : "DATE_TIME",
+                      "patternedConstraint" : "yyyy-mm-ddTXX:XX:XX",
+                      "constraint" : [ ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -5590,13 +5545,14 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0054.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..1",
+              "occurrences" : "0..0",
               "nodeId" : "at0033.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
@@ -5754,6 +5710,7 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0008.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -5774,7 +5731,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
+              "occurrences" : "0..*",
               "nodeId" : "at0019.1",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -6891,13 +6848,19 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0028.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
               "nodeId" : "at0054.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..1",
+              "occurrences" : "0..0",
               "nodeId" : "at0033.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -7169,6 +7132,26 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.1",
             "description" : ""
+          },
+          "at0005.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0005.1",
+            "text" : "Status gjennomført behandling",
+            "description" : "Resultatet av intervensjonen, basert på om den var gjennomført som opprinnelig tiltenkt.",
+            "comment" : "Dette dataelementet bør bare bli brukt etter at intervensjonen har blitt fullført. \"Som opprinnelig tiltenkt\", som er omtalt i beskrivelsen av dette dataelementet kan bety alt fra en uuttalt hensikt hos en enkelt kliniker som respons til en akuttsituasjon, til en formell og evidensbasert klinisk protokoll eller behandlingslinje."
+          },
+          "at0007.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0007.1",
+            "text" : "Merknad status gjennomført behandling",
+            "description" : "Beskrivelse av årsaken til gjennomføringsresultatet.",
+            "comment" : "Koding med en terminologi er foretrukket, dersom det er mulig."
+          },
+          "at0028.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0028.1",
+            "text" : "Overordnet beskrivelse",
+            "description" : "Fritekstlig beskrivelse om intervensjonen."
           }
         }
       },
@@ -9186,6 +9169,7 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0033.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
