@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "649b7b710b20423bcca00cc39eeb21c5",
+      "MD5-CAM-1.0.1" : "306dbad5793e671128850369b32a31e7",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "80.1.1"
+      "sem_ver" : "81.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4838,44 +4838,8 @@
                 "rmAttributeName" : "value",
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_CODED_TEXT",
-                  "occurrences" : "1..1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "defining_code",
-                    "children" : [ {
-                      "@type" : "C_TERMINOLOGY_CODE",
-                      "rmTypeName" : "TERMINOLOGY_CODE",
-                      "occurrences" : "0..1",
-                      "terminologyId" : {
-                        "value" : "SNOMED-CT"
-                      },
-                      "constraint" : [ ],
-                      "selectedTerminologies" : [ "SNOMED-CT" ],
-                      "includedExternalTerminologyCodes" : [ {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "708255002",
-                        "value" : "Førstelinjebehandling",
-                        "translations" : {
-                          "nb" : "Førstelinje"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "708256001",
-                        "value" : "Andrelinjebehandling",
-                        "translations" : {
-                          "nb" : "Andrelinje"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "708257005",
-                        "value" : "Tredjelinjebehandling",
-                        "translations" : {
-                          "nb" : "Tredjelinje"
-                        }
-                      } ]
-                    } ]
-                  } ],
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -5087,7 +5051,7 @@
           "at0008.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0008.1",
-            "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?\n\n399056007\t Complete therapeutic response (finding)\n102470001\t Decreased therapeutic response (finding)\n63432002\t Excellent therapeutic response (finding)\n21768001\t Fair therapeutic response (finding)\n78469002\t Good therapeutic response (finding)\n102469002\t Increased therapeutic response (finding)\n84190002\t Minimal therapeutic response (finding)\n399204005\t Partial therapeutic response (finding)\n",
+            "comment" : "For eksempel: vellykket, ikke vellykket, usikkert.\nKoding med en terminologi er foretrukket, dersom det er mulig. \n\nDesignkommentar:\n**er dette kodesettet ok? Finnes det noe snomed-ct kodesett for dette?",
             "description" : "Kategori av resultatet av intervensjonen.",
             "text" : "Resultat av behandling"
           },
