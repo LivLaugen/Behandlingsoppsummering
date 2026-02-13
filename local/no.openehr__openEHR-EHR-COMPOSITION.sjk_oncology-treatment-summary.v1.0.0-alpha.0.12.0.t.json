@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "399c336507f96291fbaf9ef2de11d8b5",
+      "MD5-CAM-1.0.1" : "7cc4d55a7acbf36dfcd18894aa7925d5",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "82.0.0"
+      "sem_ver" : "82.0.1"
     },
     "details" : {
       "ar-sy" : {
@@ -7133,6 +7133,13 @@
             "code" : "ac0.1",
             "description" : ""
           },
+          "at0027.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0027.1",
+            "text" : "Begrunnelse for terapeutisk effekt",
+            "description" : "Beskrivelse av årsaken til terapeutisk resultat.",
+            "comment" : "For eksempel: «Legemiddelresistens», «Tumor responderte på behandling» og «Tumor responderte ikke på behandling»."
+          },
           "at0005.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0005.1",
@@ -7146,6 +7153,13 @@
             "text" : "Merknad status gjennomført behandling",
             "description" : "Beskrivelse av årsaken til gjennomføringsresultatet.",
             "comment" : "Koding med en terminologi er foretrukket, dersom det er mulig."
+          },
+          "at0008.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0008.1",
+            "text" : "Klinisk effekt",
+            "description" : "Resultatet av intervensjonen basert på terapeutisk effekt.",
+            "comment" : "For eksempel: vellykket, ikke vellykket, usikker.\r\nKoding med en terminologi er foretrukket, dersom det er mulig."
           },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
