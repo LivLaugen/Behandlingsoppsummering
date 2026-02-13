@@ -21,7 +21,7 @@
         <other_details id="original_namespace"></other_details>
         <other_details id="original_publisher"></other_details>
         <other_details id="PARENT:MD5-CAM-1.0.1">A60D0B7F52F1F9C3C9B3518DB83ACDAE</other_details>
-        <other_details id="sem_ver">77.1.0</other_details>
+        <other_details id="sem_ver">78.0.0</other_details>
         <details>
             <language>
                 <terminology_id>
@@ -7514,18 +7514,6 @@ Enheter må defineres</items>
                                                                         <code_list>at0060</code_list>
                                                                     </children>
                                                                 </attributes>
-                                                            </children>
-                                                            <children xsi:type="C_COMPLEX_OBJECT">
-                                                                <rm_type_name>DV_TEXT</rm_type_name>
-                                                                <occurrences>
-                                                                    <lower_included>true</lower_included>
-                                                                    <upper_included>true</upper_included>
-                                                                    <lower_unbounded>false</lower_unbounded>
-                                                                    <upper_unbounded>false</upper_unbounded>
-                                                                    <lower>1</lower>
-                                                                    <upper>1</upper>
-                                                                </occurrences>
-                                                                <node_id></node_id>
                                                             </children>
                                                         </attributes>
                                                     </children>
