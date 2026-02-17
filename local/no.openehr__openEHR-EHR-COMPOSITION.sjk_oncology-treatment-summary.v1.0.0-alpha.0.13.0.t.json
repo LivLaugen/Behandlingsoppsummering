@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "b79224018611a37c037704438e594b11",
+      "MD5-CAM-1.0.1" : "56b2aa87ed9116c31ff9301893f2c772",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "83.0.2"
+      "sem_ver" : "84.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -2000,7 +2000,83 @@
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "DV_QUANTITY",
                       "attributes" : [ ],
-                      "attributeTuples" : [ ]
+                      "attributeTuples" : [ {
+                        "@type" : "C_ATTRIBUTE_TUPLE",
+                        "members" : [ {
+                          "@type" : "C_ATTRIBUTE",
+                          "rmAttributeName" : "units",
+                          "children" : [ ]
+                        }, {
+                          "@type" : "C_ATTRIBUTE",
+                          "rmAttributeName" : "magnitude",
+                          "children" : [ ]
+                        } ],
+                        "tuples" : [ {
+                          "@type" : "C_PRIMITIVE_TUPLE",
+                          "members" : [ {
+                            "@type" : "C_STRING",
+                            "rmTypeName" : "STRING",
+                            "constraint" : [ "mg" ]
+                          }, {
+                            "@type" : "C_REAL",
+                            "rmTypeName" : "REAL",
+                            "constraint" : [ {
+                              "lowerIncluded" : false,
+                              "upperIncluded" : false,
+                              "lowerUnbounded" : true,
+                              "upperUnbounded" : true
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "C_PRIMITIVE_TUPLE",
+                          "members" : [ {
+                            "@type" : "C_STRING",
+                            "rmTypeName" : "STRING",
+                            "constraint" : [ "ug" ]
+                          }, {
+                            "@type" : "C_REAL",
+                            "rmTypeName" : "REAL",
+                            "constraint" : [ {
+                              "lowerIncluded" : false,
+                              "upperIncluded" : false,
+                              "lowerUnbounded" : true,
+                              "upperUnbounded" : true
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "C_PRIMITIVE_TUPLE",
+                          "members" : [ {
+                            "@type" : "C_STRING",
+                            "rmTypeName" : "STRING",
+                            "constraint" : [ "[iU]" ]
+                          }, {
+                            "@type" : "C_REAL",
+                            "rmTypeName" : "REAL",
+                            "constraint" : [ {
+                              "lowerIncluded" : false,
+                              "upperIncluded" : false,
+                              "lowerUnbounded" : true,
+                              "upperUnbounded" : true
+                            } ]
+                          } ]
+                        }, {
+                          "@type" : "C_PRIMITIVE_TUPLE",
+                          "members" : [ {
+                            "@type" : "C_STRING",
+                            "rmTypeName" : "STRING",
+                            "constraint" : [ "ng" ]
+                          }, {
+                            "@type" : "C_REAL",
+                            "rmTypeName" : "REAL",
+                            "constraint" : [ {
+                              "lowerIncluded" : false,
+                              "upperIncluded" : false,
+                              "lowerUnbounded" : true,
+                              "upperUnbounded" : true
+                            } ]
+                          } ]
+                        } ]
+                      } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
