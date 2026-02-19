@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "c736aa90308eff740c44cd35450e8381",
+      "MD5-CAM-1.0.1" : "7d39a201bb56d2eec6d0302aa13e41f4",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "86.0.0"
+      "sem_ver" : "87.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -5017,8 +5017,64 @@
                 "rmAttributeName" : "value",
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_TEXT",
-                  "attributes" : [ ],
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "lokale_termer"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "lokale_termer" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "lokale_termer",
+                        "code" : "1",
+                        "value" : "Gjennomført som tiltenkt",
+                        "translations" : {
+                          "nb" : "Gjennomført som tiltenkt"
+                        }
+                      }, {
+                        "terminologyId" : "lokale_termer",
+                        "code" : "2",
+                        "value" : "Gjennomført med avvik",
+                        "translations" : {
+                          "nb" : "Gjennomført med avvik"
+                        }
+                      }, {
+                        "terminologyId" : "lokale_termer",
+                        "code" : "3",
+                        "value" : "Delvis gjennomført",
+                        "translations" : {
+                          "nb" : "Delvis gjennomført"
+                        }
+                      }, {
+                        "terminologyId" : "lokale_termer",
+                        "code" : "4",
+                        "value" : "Avventende behandling (ekspektans)",
+                        "translations" : {
+                          "nb" : "Avventende behandling (ekspektans)"
+                        }
+                      }, {
+                        "terminologyId" : "lokale_termer",
+                        "code" : "5",
+                        "value" : "Ingen behandling",
+                        "translations" : {
+                          "nb" : "Ingen behandling"
+                        }
+                      }, {
+                        "terminologyId" : "lokale_termer",
+                        "code" : "6",
+                        "value" : "Ukjent",
+                        "translations" : {
+                          "nb" : "Ukjent"
+                        }
+                      } ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -5278,6 +5334,16 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.6",
           "members" : [ "at0021", "at0022", "at0061", "at0060" ]
+        },
+        "ac0.7" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.7",
+          "members" : [ ]
+        },
+        "ac0.8" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.8",
+          "members" : [ ]
         }
       }
     },
