@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "fe3b66f0fcc5951b00196c5583956500",
+      "MD5-CAM-1.0.1" : "7535c4751a47c0d3e7e0f10aa52fa588",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "84.0.0"
+      "sem_ver" : "85.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4901,7 +4901,28 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "DV_CODED_TEXT",
                   "occurrences" : "1..1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "SNOMED-CT"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "SNOMED-CT" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "373818007",
+                        "value" : "No anti-cancer treatment - watchful waiting",
+                        "translations" : {
+                          "nb" : "No anti-cancer treatment - watchful waiting"
+                        }
+                      } ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -5003,12 +5024,55 @@
                     "children" : [ {
                       "@type" : "C_TERMINOLOGY_CODE",
                       "rmTypeName" : "TERMINOLOGY_CODE",
-                      "occurrences" : "1..1",
+                      "occurrences" : "0..1",
                       "terminologyId" : {
-                        "value" : "local"
+                        "value" : "lokalt_kodesett"
                       },
-                      "constraint" : [ "ac0.2" ],
-                      "selectedTerminologies" : [ ]
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "lokalt_kodesett" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "lokalt_kodesett",
+                        "code" : "1",
+                        "value" : "Avventende behandling (ekspektans)",
+                        "translations" : {
+                          "nb" : "Gjennomført som tiltenkt"
+                        }
+                      }, {
+                        "terminologyId" : "lokalt_kodesett",
+                        "code" : "2",
+                        "value" : "Gjennomført med avvik",
+                        "translations" : {
+                          "nb" : "Gjennomført med avvik"
+                        }
+                      }, {
+                        "terminologyId" : "lokalt_kodesett",
+                        "code" : "3",
+                        "value" : "Delvis gjennomført",
+                        "translations" : {
+                          "nb" : "Delvis gjennomført"
+                        }
+                      }, {
+                        "terminologyId" : "lokalt_kodesett",
+                        "code" : "4",
+                        "value" : "Avventende behandling (ekspektans)",
+                        "translations" : {
+                          "nb" : "Avventende behandling (ekspektans)"
+                        }
+                      }, {
+                        "terminologyId" : "lokalt_kodesett",
+                        "code" : "5",
+                        "value" : "Ingen behandling",
+                        "translations" : {
+                          "nb" : "Ingen behandling"
+                        }
+                      }, {
+                        "terminologyId" : "lokalt_kodesett",
+                        "code" : "6",
+                        "value" : "Ukjent",
+                        "translations" : {
+                          "nb" : "Ukjent"
+                        }
+                      } ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -5020,6 +5084,12 @@
               "rmTypeName" : "ELEMENT",
               "occurrences" : "0..1",
               "nodeId" : "at0007.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0027.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
             }, {
@@ -5076,12 +5146,6 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "nodeId" : "at0027.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            }, {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
               "nodeId" : "at0010.1",
               "attributes" : [ ],
@@ -5133,21 +5197,8 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "ac0.2",
-            "description" : "",
-            "text" : "(Synthesized)"
-          }
-        },
+        "en" : { },
         "nb" : {
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "ac0.2",
-            "description" : "",
-            "text" : "*(Synthesized) (en)"
-          },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
@@ -5232,7 +5283,7 @@
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0007.1",
-            "text" : "Kommentar på status",
+            "text" : "Begrunnelse til status",
             "description" : "Beskrivelse av årsaken til gjennomføringsresultatet.",
             "comment" : "Koding med en terminologi er foretrukket, dersom det er mulig."
           },
@@ -5241,6 +5292,13 @@
             "code" : "at0028.1",
             "text" : "Overordnet beskrivelse av intervensjonen",
             "description" : "Fritekstlig beskrivelse om intervensjonen."
+          },
+          "at0055.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0055.1",
+            "text" : "Terapeutisk rolle",
+            "description" : "Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.",
+            "comment" : "Designkommentar:\nBlir følgende SNOMED koder riktige valg eller må man lage et lokalt kodeverk?\n\nEnten benytte foreslåtte SNOMED- CT koder:\n373818007\tIngen kreftbehandling, aktiv oppfølging\n438758006\tEkseptans (avventende behandling)"
           }
         }
       },
@@ -5256,6 +5314,21 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
           "members" : [ "at0021", "at0022", "at0061", "at0060" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
+          "members" : [ "at0021", "at0022", "at0061", "at0060" ]
+        },
+        "ac0.4" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.4",
+          "members" : [ ]
+        },
+        "ac0.5" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.5",
+          "members" : [ ]
         }
       }
     },
