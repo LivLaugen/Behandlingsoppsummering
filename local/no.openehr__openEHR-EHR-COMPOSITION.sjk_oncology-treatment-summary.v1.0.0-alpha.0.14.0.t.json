@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "7d39a201bb56d2eec6d0302aa13e41f4",
+      "MD5-CAM-1.0.1" : "5ab962b68fe7eed120d519f6654801ff",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "87.0.0"
+      "sem_ver" : "88.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -4936,44 +4936,8 @@
                 "rmAttributeName" : "value",
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_CODED_TEXT",
-                  "occurrences" : "1..1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "defining_code",
-                    "children" : [ {
-                      "@type" : "C_TERMINOLOGY_CODE",
-                      "rmTypeName" : "TERMINOLOGY_CODE",
-                      "occurrences" : "0..1",
-                      "terminologyId" : {
-                        "value" : "SNOMED-CT"
-                      },
-                      "constraint" : [ ],
-                      "selectedTerminologies" : [ "SNOMED-CT" ],
-                      "includedExternalTerminologyCodes" : [ {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "708255002",
-                        "value" : "Førstelinjebehandling",
-                        "translations" : {
-                          "nb" : "Førstelinje"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "708256001",
-                        "value" : "Andrelinjebehandling",
-                        "translations" : {
-                          "nb" : "Andrelinje"
-                        }
-                      }, {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "708257005",
-                        "value" : "Tredjelinjebehandling",
-                        "translations" : {
-                          "nb" : "Tredjelinje"
-                        }
-                      } ]
-                    } ]
-                  } ],
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
