@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "58659349bbf4588dc1759bc05cff2588",
+      "MD5-CAM-1.0.1" : "c736aa90308eff740c44cd35450e8381",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "85.1.0"
+      "sem_ver" : "86.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -5017,64 +5017,8 @@
                 "rmAttributeName" : "value",
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
-                  "rmTypeName" : "DV_CODED_TEXT",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "defining_code",
-                    "children" : [ {
-                      "@type" : "C_TERMINOLOGY_CODE",
-                      "rmTypeName" : "TERMINOLOGY_CODE",
-                      "occurrences" : "0..1",
-                      "terminologyId" : {
-                        "value" : "lokalt_kodesett"
-                      },
-                      "constraint" : [ ],
-                      "selectedTerminologies" : [ "lokalt_kodesett" ],
-                      "includedExternalTerminologyCodes" : [ {
-                        "terminologyId" : "lokalt_kodesett",
-                        "code" : "1",
-                        "value" : "Avventende behandling (ekspektans)",
-                        "translations" : {
-                          "nb" : "Gjennomført som tiltenkt"
-                        }
-                      }, {
-                        "terminologyId" : "lokalt_kodesett",
-                        "code" : "2",
-                        "value" : "Gjennomført med avvik",
-                        "translations" : {
-                          "nb" : "Gjennomført med avvik"
-                        }
-                      }, {
-                        "terminologyId" : "lokalt_kodesett",
-                        "code" : "3",
-                        "value" : "Delvis gjennomført",
-                        "translations" : {
-                          "nb" : "Delvis gjennomført"
-                        }
-                      }, {
-                        "terminologyId" : "lokalt_kodesett",
-                        "code" : "4",
-                        "value" : "Avventende behandling (ekspektans)",
-                        "translations" : {
-                          "nb" : "Avventende behandling (ekspektans)"
-                        }
-                      }, {
-                        "terminologyId" : "lokalt_kodesett",
-                        "code" : "5",
-                        "value" : "Ingen behandling",
-                        "translations" : {
-                          "nb" : "Ingen behandling"
-                        }
-                      }, {
-                        "terminologyId" : "lokalt_kodesett",
-                        "code" : "6",
-                        "value" : "Ukjent",
-                        "translations" : {
-                          "nb" : "Ukjent"
-                        }
-                      } ]
-                    } ]
-                  } ],
+                  "rmTypeName" : "DV_TEXT",
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -5329,6 +5273,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.5",
           "members" : [ ]
+        },
+        "ac0.6" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.6",
+          "members" : [ "at0021", "at0022", "at0061", "at0060" ]
         }
       }
     },
