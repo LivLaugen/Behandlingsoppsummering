@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "e3f53f85d9f43be2e3f80cf084b886ed",
+      "MD5-CAM-1.0.1" : "3029be3c9c7494a4d2685686f5682633",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "90.0.0"
+      "sem_ver" : "90.0.1"
     },
     "details" : {
       "ar-sy" : {
@@ -5229,7 +5229,7 @@
           "at0033.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0033.1",
-            "comment" : "*** Kodeverk må oppdateres (hvilken koder bruker vi?)\nSkal denne være 0..1 eller 0..* (ny indikasjon - ny behandlinsoppsummering)\nhttps://hsorhf.sharepoint.com/:x:/r/sites/OUSHF-X-Strukturertkreftjournal/Shared%20Documents/General/Generisk%20-%20p%C3%A5%20tvers%20av%20tumorgrupper/Behandlingsoppsummering/Klinisk%20indikasjon%20koder%20-%20behandlingsoppsummering.xlsx?d=w76a4e598ae494bbdbffbc429cde57199&csf=1&web=1&e=xi2M2n\n\n\n108369006 -  tumor \n\n63161005 | Principal |\n  en   Principal (qualifier value) (main, primary)\n \n128462008 | metastase |  Metastatic malignant neoplasm (disorder) \n1259237005 | Recurrent malignant neoplasm |\n255227004 | residiverende | Recurrent (qualifier value)\n\n2603003 | Secondary |  Secondary (qualifier value)\n\nkomplikasjon av medisinsk behandling\nSCTID: 35688006 - \nA disorder, which is not a natural consequence or progression of any pre-existing disorder, resulting from a diagnostic procedure or any form of therapy that is not an intended or expected outcome.\n\n\n55342001 | neoplastisk sykdom |Neoplastic disease (disorder)\n\n20376005 | benign neoplastisk sykdom |  Benign neoplastic disease (disorder)\n\n25173007 | Recurrent neoplasm |  Recurrent neoplasm (disorder)\n\nNeoplasm of unknown origin (disorder),\ttumor av ukjent opprinnelse -255051004\n\nBenign neoplastic disease (disorder), benign neoplastisk sykdom, 20376005\n\nMalignant neoplastic disease (disorder),kreftsykdom,\t363346000",
+            "comment" : "*** Kodeverk må oppdateres (hvilken koder bruker vi?)\nSkal denne være 0..1 eller 0..* (ny indikasjon - ny behandlinsoppsummering)\n\nhttps://hsorhf.sharepoint.com/:x:/r/sites/OUSHF-X-Strukturertkreftjournal/Shared%20Documents/General/Generisk%20-%20p%C3%A5%20tvers%20av%20tumorgrupper/Behandlingsoppsummering/Kodeverk%20Behandlingsoppsummering.xlsx?d=w2a41213421314c09af4eb56c39c65313&csf=1&web=1&e=qmSrj7\n\n\n55342001\tNeoplastisk sykdom\n372087000\tPrimær malign tumor (disorder)\n25173007\tResidiv av neoplasme (disorder)\n1259237005\tResidiv av malign tumor (disorder)\n8,7961E+13\tLokalt residiv av malign primær neoplasma (disorder)\n128462008\tMetastase malign tumor (disorder)\n35688006\tKomplikasjon av medisinsk behandling (disorder)\n74964007\tAnnen (qualifier value)\n255127006 \tLokal tumorspredning \n255051004\tTumor av ukjent opprinnelse\n255053001\tBenign tumor av ukjent opprinnelse\n20376005\tBenign neoplastisk sykdom\n363346000 \tKreftsykdom/malign tumor\n255052006\tMalign tumor av ukjent opprinnelse\n706912001\tKomplikasjon til behandling\n",
             "description" : "Symptomet, sykdomstegnet, problemet eller diagnosen som gjør intervensjonen nødvendig.",
             "text" : "Klinisk indikasjon"
           },
