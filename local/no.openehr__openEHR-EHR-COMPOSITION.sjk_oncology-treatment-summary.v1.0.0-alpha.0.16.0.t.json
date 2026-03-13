@@ -21,12 +21,12 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "fba483359be0c08aa66f166e4eb8cea8",
+      "MD5-CAM-1.0.1" : "535341bf93f13b3775c4dfa6af0459fe",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
-      "sem_ver" : "90.0.1"
+      "sem_ver" : "91.0.0"
     },
     "details" : {
       "ar-sy" : {
@@ -6171,39 +6171,39 @@
                       "rmTypeName" : "TERMINOLOGY_CODE",
                       "occurrences" : "0..1",
                       "terminologyId" : {
-                        "value" : "local_terms"
+                        "value" : "SNOMED-CT"
                       },
                       "constraint" : [ ],
-                      "selectedTerminologies" : [ "local_terms" ],
+                      "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
-                        "terminologyId" : "local_terms",
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "65801008",
                         "value" : "Eksisjon (reseksjon)"
                       }, {
-                        "terminologyId" : "local_terms",
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "65854006",
                         "value" : "Reeksisjon (ny utskjæring)",
                         "translations" : {
                           "nb" : "Reeksisjon (ny reseksjon)"
                         }
                       }, {
-                        "terminologyId" : "local_terms",
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "81723002",
                         "value" : "Amputasjon"
                       }, {
-                        "terminologyId" : "local_terms",
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "68688001",
                         "value" : "Curettage"
                       }, {
-                        "terminologyId" : "local_terms",
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "118635009",
                         "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
                       }, {
-                        "terminologyId" : "local_terms",
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "64597002",
                         "value" : "Destruksjon (ablasjon)"
                       }, {
-                        "terminologyId" : "local_terms",
+                        "terminologyId" : "SNOMED-CT",
                         "code" : "74964007",
                         "value" : "Annet"
                       } ]
