@@ -21,7 +21,7 @@
       "custodian_namespace" : "",
       "custodian_organisation" : "",
       "licence" : "",
-      "MD5-CAM-1.0.1" : "3029be3c9c7494a4d2685686f5682633",
+      "MD5-CAM-1.0.1" : "94a2623689343f916a404b58263bd848",
       "original_language" : "ISO_639-1::nb",
       "original_namespace" : "",
       "original_publisher" : "",
@@ -392,7 +392,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -576,6 +576,51 @@
           "keywords" : [ ],
           "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
           "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -704,7 +749,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -873,6 +921,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -885,7 +977,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -1069,6 +1161,51 @@
           "keywords" : [ ],
           "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
           "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -1179,7 +1316,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1348,6 +1488,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -1360,7 +1544,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -1544,6 +1728,51 @@
           "keywords" : [ ],
           "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
           "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -1661,7 +1890,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1830,6 +2062,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -2024,8 +2300,8 @@
                             "constraint" : [ {
                               "lowerIncluded" : false,
                               "upperIncluded" : false,
-                              "lowerUnbounded" : true,
-                              "upperUnbounded" : true
+                              "upperUnbounded" : true,
+                              "lowerUnbounded" : true
                             } ]
                           } ]
                         }, {
@@ -2040,8 +2316,8 @@
                             "constraint" : [ {
                               "lowerIncluded" : false,
                               "upperIncluded" : false,
-                              "lowerUnbounded" : true,
-                              "upperUnbounded" : true
+                              "upperUnbounded" : true,
+                              "lowerUnbounded" : true
                             } ]
                           } ]
                         }, {
@@ -2056,8 +2332,8 @@
                             "constraint" : [ {
                               "lowerIncluded" : false,
                               "upperIncluded" : false,
-                              "lowerUnbounded" : true,
-                              "upperUnbounded" : true
+                              "upperUnbounded" : true,
+                              "lowerUnbounded" : true
                             } ]
                           } ]
                         }, {
@@ -2072,8 +2348,8 @@
                             "constraint" : [ {
                               "lowerIncluded" : false,
                               "upperIncluded" : false,
-                              "lowerUnbounded" : true,
-                              "upperUnbounded" : true
+                              "upperUnbounded" : true,
+                              "lowerUnbounded" : true
                             } ]
                           } ]
                         } ]
@@ -2110,8 +2386,8 @@
                             "lower" : "PT0H",
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "lowerUnbounded" : false,
-                            "upperUnbounded" : true
+                            "upperUnbounded" : true,
+                            "lowerUnbounded" : false
                           } ]
                         } ]
                       } ],
@@ -2187,8 +2463,8 @@
                         "constraint" : [ {
                           "lowerIncluded" : false,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : true,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : true
                         } ]
                       } ]
                     }, {
@@ -2203,8 +2479,8 @@
                         "constraint" : [ {
                           "lowerIncluded" : false,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : true,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : true
                         } ]
                       } ]
                     }, {
@@ -2219,8 +2495,8 @@
                         "constraint" : [ {
                           "lowerIncluded" : false,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : true,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : true
                         } ]
                       } ]
                     }, {
@@ -2236,8 +2512,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : false,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : false
                         } ]
                       } ]
                     } ]
@@ -2281,8 +2557,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
                       } ]
                     } ]
                   } ],
@@ -2420,7 +2696,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -2604,6 +2880,51 @@
           "keywords" : [ ],
           "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
           "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -2721,7 +3042,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -2890,6 +3214,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -2902,7 +3270,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -3086,6 +3454,51 @@
           "keywords" : [ ],
           "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
           "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -3203,7 +3616,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3372,6 +3788,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -3384,7 +3844,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -3568,6 +4028,51 @@
           "keywords" : [ ],
           "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
           "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -3703,7 +4208,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3872,6 +4380,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -3884,7 +4436,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -4070,6 +4622,51 @@
           "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -4137,7 +4734,10 @@
         "sl" : { },
         "sv" : { },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -4306,6 +4906,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -4394,8 +5038,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.dips.oncology",
                     "code" : "TM11",
-                    "value" : "Onkologi behandlingsoppsummering",
-                    "translations" : { }
+                    "value" : "Onkologi behandlingsoppsummering"
                   } ]
                 } ]
               } ],
@@ -4461,7 +5104,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
+        "PARENT:MD5-CAM-1.0.1" : "A1D24421DD6787CBB6665615BE399672"
       },
       "details" : {
         "en" : {
@@ -4491,6 +5134,21 @@
           "keywords" : [ "behandling", "forløp", "protokoll", "terapi", "terapeutisk", "kirurgi", "omsorg", "prosedyre", "forebyggende", "diagnostisk" ],
           "use" : "Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.\r\n\r\nEksempler på bruk inkluderer, men er ikke begrenset til:\r\n- Et stråleterapiforløp som en del av en kreftbehandling.\r\n- En medisinsk behandlingsserie som har blitt gitt.\r\n- Et kirurgisk inngrep som har blitt utført.\r\n- Kognitiv atferdsterapi brukt i behandling av depresjon.\r\n- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.\r\n- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.\r\n- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.\r\n- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.\r\n\r\nElementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:\r\n- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"\r\n- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"\r\n- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".",
           "misuse" : "Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.\r\n\r\nSkal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.\r\n\r\nSkal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper for den aktuelle intervensjonen, for eksempel 'Vaccination summary' (Vaksinasjonssammendrag), 'Transfusion summary' eller 'Medication summary' (Legemiddelsammendrag). Bruk de tilgjengelige spesifikke arketypene til slike formål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer begonnenen oder abgeschlossenen therapeutischen Intervention.",
+          "keywords" : [ "Behandlung", "Behandlungsverlauf", "Protokoll", "Therapie", "therapeutisch", "Chirurgie", "Management", "Pflege", "Verfahren", "präventiv", "diagnostisch" ],
+          "use" : "Zur Erfassung einer Zusammenfassung einer begonnenen oder abgeschlossenen therapeutischen Intervention.\r\n\r\nBeispiele für die Verwendung umfassen unter anderem:\r\n\r\nEine im Rahmen eines Krebsbehandlungsprotokolls durchgeführte Strahlentherapie.\r\n\r\nEine verabreichte medikamentöse Behandlung.\r\n\r\nEin durchgeführter chirurgischer Eingriff.\r\n\r\nSitzungen der kognitiven Verhaltenstherapie zur Behandlung von Depressionen.\r\n\r\nEine Reihe von pflegerischen Interventionen zur Unterstützung des psychischen und körperlichen Wohlbefindens, z. B. die Bereitstellung emotionaler Unterstützung für Patientinnen und Patienten während einer Krebsbehandlung.\r\n\r\nGemeindeorientierte Unterstützungsprogramme zur Minderung sozialer Faktoren wie Wohnungsinstabilität und sozialer Isolation.\r\n\r\nLebensstil-Beratungsangebote mit dem Ziel, gesundheitsfördernde Verhaltensweisen zu fördern und das allgemeine Wohlbefinden zu verbessern.\r\n\r\nHäusliche Pflegedienstleistungen, die einer älteren Person angeboten werden, um Selbstständigkeit und Lebensqualität zu unterstützen.\r\n\r\nDas Element „Interventionskategorie“ kann verwendet werden, um eine übergeordnete Gruppierung des „Interventionsnamens“ zu erfassen. Entsprechend kann der „Interventionstyp“ genutzt werden, um die Methode oder den Prozess der Durchführung der Intervention weiter zu spezifizieren. Zum Beispiel:\r\n\r\nKategorie: „Krebsbehandlung“, Name: „Strahlentherapie“ und Typ: „Brachytherapie“\r\n\r\nKategorie: „Chirurgisch“, Name: „Appendektomie“ und Typ: „laparoskopisch“\r\n\r\nKategorie: „Psychosozial“, Name: „Kurzintervention zur Raucherentwöhnung“ und Typ: „Motivational-Interviewing-Technik“",
+          "misuse" : "Nicht zur Erfassung aller Details einzelner Interventionsereignisse oder -aktivitäten zu verwenden. Verwenden Sie hierfür ein geeignetes ACTION-Archetyp, zum Beispiel ACTION.procedure.\r\n\r\nNicht zur Zusammenfassung geplanter oder vorgeschlagener Interventionen zu verwenden, die noch nicht begonnen wurden. Verwenden Sie hierfür andere geeignete Archetypen, zum Beispiel EVALUATION.recommendation, ein beliebiges INSTRUCTION-Archetyp oder ein ACTION-Archetyp im Status „geplant“ oder „terminiert“.\r\n\r\nNicht zur Erfassung des Immunisierungs- oder Impfstatus einer Person für einen bestimmten Impfstoff oder eine bestimmte Krankheit bzw. einen Erreger zu verwenden. Verwenden Sie hierfür das Archetyp EVALUATION.vaccination_summary.\r\n\r\nNicht in Fällen zu verwenden, in denen für die betreffende Intervention spezifischere Zusammenfassungs-Archetypen verfügbar sind, zum Beispiel „Impfzusammenfassung“, „Transfusionszusammenfassung“ oder „Medikationszusammenfassung“. Verwenden Sie für solche Zwecke die jeweils verfügbaren spezifischen Archetypen.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -4542,10 +5200,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandlig.type",
                         "code" : "1",
-                        "value" : "Kreftbehandling",
-                        "translations" : {
-                          "nb" : "Kreftbehandling"
-                        }
+                        "value" : "Kreftbehandling"
                       } ]
                     } ]
                   } ],
@@ -4580,122 +5235,71 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom",
-                        "translations" : {
-                          "nb" : "Sarkom"
-                        }
+                        "value" : "Sarkom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals",
-                        "translations" : {
-                          "nb" : "Kreft i hode og hals"
-                        }
+                        "value" : "Kreft i hode og hals"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst",
-                        "translations" : {
-                          "nb" : "Hjernesvulst"
-                        }
+                        "value" : "Hjernesvulst"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft",
-                        "translations" : {
-                          "nb" : "Brystkreft"
-                        }
+                        "value" : "Brystkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft",
-                        "translations" : {
-                          "nb" : "Lungekreft"
-                        }
+                        "value" : "Lungekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : {
-                          "nb" : "Kreft i fordøyelsessystemet"
-                        }
+                        "value" : "Kreft i fordøyelsessystemet"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft",
-                        "translations" : {
-                          "nb" : "Gynekologisk kreft"
-                        }
+                        "value" : "Gynekologisk kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier",
-                        "translations" : {
-                          "nb" : "Kreft i nyre og urinveier"
-                        }
+                        "value" : "Kreft i nyre og urinveier"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft",
-                        "translations" : {
-                          "nb" : "Benmargs- og blodkreft"
-                        }
+                        "value" : "Benmargs- og blodkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom",
-                        "translations" : {
-                          "nb" : "Lymfom"
-                        }
+                        "value" : "Lymfom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft",
-                        "translations" : {
-                          "nb" : "Hudkreft"
-                        }
+                        "value" : "Hudkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : {
-                          "nb" : "Kreft i mannlige kjønnsorganer"
-                        }
+                        "value" : "Kreft i mannlige kjønnsorganer"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler",
-                        "translations" : {
-                          "nb" : "Kreft i endokrine kjertler"
-                        }
+                        "value" : "Kreft i endokrine kjertler"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft",
-                        "translations" : {
-                          "nb" : "Nevroendokrin kreft"
-                        }
+                        "value" : "Nevroendokrin kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft",
-                        "translations" : {
-                          "nb" : "Barnekreft"
-                        }
+                        "value" : "Barnekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft",
-                        "translations" : {
-                          "nb" : "Øyekreft"
-                        }
+                        "value" : "Øyekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : {
-                          "nb" : "Svulst av ukjent opprinnelse / Annet"
-                        }
+                        "value" : "Svulst av ukjent opprinnelse / Annet"
                       } ]
                     } ]
                   } ],
@@ -4843,45 +5447,27 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K1",
-                        "value" : "Kurativt",
-                        "translations" : {
-                          "nb" : "Kurativt"
-                        }
+                        "value" : "Kurativt"
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K2",
-                        "value" : "Aktiv overvåkning",
-                        "translations" : {
-                          "nb" : "Aktiv overvåkning"
-                        }
+                        "value" : "Aktiv overvåkning"
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K3",
-                        "value" : "Livsforlengende - ikke kurativ",
-                        "translations" : {
-                          "nb" : "Livsforlengende - ikke kurativ"
-                        }
+                        "value" : "Livsforlengende - ikke kurativ"
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K4",
-                        "value" : "Symptomlindrende - ikke kurativ",
-                        "translations" : {
-                          "nb" : "Symptomlindrende - ikke kurativ"
-                        }
+                        "value" : "Symptomlindrende - ikke kurativ"
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K5",
-                        "value" : "Lokal kontroll - ikke kurativ",
-                        "translations" : {
-                          "nb" : "Lokal kontroll - ikke kurativ"
-                        }
+                        "value" : "Lokal kontroll - ikke kurativ"
                       }, {
                         "terminologyId" : "no.onk.behandlingsintensjon",
                         "code" : "K6",
-                        "value" : "Ukjent",
-                        "translations" : {
-                          "nb" : "Ukjent"
-                        }
+                        "value" : "Ukjent"
                       } ]
                     } ]
                   } ],
@@ -4916,10 +5502,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373818007",
-                        "value" : "No anti-cancer treatment - watchful waiting",
-                        "translations" : {
-                          "nb" : "No anti-cancer treatment - watchful waiting"
-                        }
+                        "value" : "No anti-cancer treatment - watchful waiting"
                       } ]
                     } ]
                   } ],
@@ -4953,24 +5536,15 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708255002",
-                        "value" : "Førstelinje",
-                        "translations" : {
-                          "nb" : "Førstelinje"
-                        }
+                        "value" : "Førstelinje"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708256001",
-                        "value" : "Andrelinje",
-                        "translations" : {
-                          "nb" : "Andrelinje"
-                        }
+                        "value" : "Andrelinje"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "708257005",
-                        "value" : "Tredjelinje",
-                        "translations" : {
-                          "nb" : "Tredjelinje"
-                        }
+                        "value" : "Tredjelinje"
                       } ]
                     } ]
                   } ],
@@ -5033,45 +5607,27 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "lokale_termer",
                         "code" : "1",
-                        "value" : "Gjennomført som tiltenkt",
-                        "translations" : {
-                          "nb" : "Gjennomført som tiltenkt"
-                        }
+                        "value" : "Gjennomført som tiltenkt"
                       }, {
                         "terminologyId" : "lokale_termer",
                         "code" : "2",
-                        "value" : "Gjennomført med avvik",
-                        "translations" : {
-                          "nb" : "Gjennomført med avvik"
-                        }
+                        "value" : "Gjennomført med avvik"
                       }, {
                         "terminologyId" : "lokale_termer",
                         "code" : "3",
-                        "value" : "Delvis gjennomført",
-                        "translations" : {
-                          "nb" : "Delvis gjennomført"
-                        }
+                        "value" : "Delvis gjennomført"
                       }, {
                         "terminologyId" : "lokale_termer",
                         "code" : "4",
-                        "value" : "Avventende behandling (ekspektans)",
-                        "translations" : {
-                          "nb" : "Avventende behandling (ekspektans)"
-                        }
+                        "value" : "Avventende behandling (ekspektans)"
                       }, {
                         "terminologyId" : "lokale_termer",
                         "code" : "5",
-                        "value" : "Ingen behandling",
-                        "translations" : {
-                          "nb" : "Ingen behandling"
-                        }
+                        "value" : "Ingen behandling"
                       }, {
                         "terminologyId" : "lokale_termer",
                         "code" : "6",
-                        "value" : "Ukjent",
-                        "translations" : {
-                          "nb" : "Ukjent"
-                        }
+                        "value" : "Ukjent"
                       } ]
                     } ]
                   } ],
@@ -5112,24 +5668,15 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
-                        "value" : "Vellykket i henhold til intensjon",
-                        "translations" : {
-                          "nb" : "Vellykket i henhold til intensjon"
-                        }
+                        "value" : "Vellykket i henhold til intensjon"
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
-                        "value" : "Ikke vellykket i henhold til intensjon",
-                        "translations" : {
-                          "nb" : "Ikke vellykket i henhold til intensjon"
-                        }
+                        "value" : "Ikke vellykket i henhold til intensjon"
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
-                        "value" : "Usikkert",
-                        "translations" : {
-                          "nb" : "Usikkert"
-                        }
+                        "value" : "Usikkert"
                       } ]
                     } ]
                   } ],
@@ -5300,7 +5847,8 @@
             "description" : "Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.",
             "comment" : "Designkommentar:\nBlir følgende SNOMED koder riktige valg eller må man lage et lokalt kodeverk?\n\nEnten benytte foreslåtte SNOMED- CT koder:\n373818007\tIngen kreftbehandling, aktiv oppfølging\n438758006\tEkseptans (avventende behandling)"
           }
-        }
+        },
+        "de" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -5373,6 +5921,21 @@
         "organisation" : "​Oslo University Hospital, Norway"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Thomas Weikert",
+        "organisation" : "USB",
+        "email" : "t.weikert@usb.ch"
+      },
+      "accreditation" : "USB",
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -5386,7 +5949,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
+        "PARENT:MD5-CAM-1.0.1" : "A1D24421DD6787CBB6665615BE399672"
       },
       "details" : {
         "en" : {
@@ -5416,6 +5979,21 @@
           "keywords" : [ "behandling", "forløp", "protokoll", "terapi", "terapeutisk", "kirurgi", "omsorg", "prosedyre", "forebyggende", "diagnostisk" ],
           "use" : "Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.\r\n\r\nEksempler på bruk inkluderer, men er ikke begrenset til:\r\n- Et stråleterapiforløp som en del av en kreftbehandling.\r\n- En medisinsk behandlingsserie som har blitt gitt.\r\n- Et kirurgisk inngrep som har blitt utført.\r\n- Kognitiv atferdsterapi brukt i behandling av depresjon.\r\n- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.\r\n- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.\r\n- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.\r\n- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.\r\n\r\nElementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:\r\n- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"\r\n- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"\r\n- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".",
           "misuse" : "Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.\r\n\r\nSkal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.\r\n\r\nSkal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper for den aktuelle intervensjonen, for eksempel 'Vaccination summary' (Vaksinasjonssammendrag), 'Transfusion summary' eller 'Medication summary' (Legemiddelsammendrag). Bruk de tilgjengelige spesifikke arketypene til slike formål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer begonnenen oder abgeschlossenen therapeutischen Intervention.",
+          "keywords" : [ "Behandlung", "Behandlungsverlauf", "Protokoll", "Therapie", "therapeutisch", "Chirurgie", "Management", "Pflege", "Verfahren", "präventiv", "diagnostisch" ],
+          "use" : "Zur Erfassung einer Zusammenfassung einer begonnenen oder abgeschlossenen therapeutischen Intervention.\r\n\r\nBeispiele für die Verwendung umfassen unter anderem:\r\n\r\nEine im Rahmen eines Krebsbehandlungsprotokolls durchgeführte Strahlentherapie.\r\n\r\nEine verabreichte medikamentöse Behandlung.\r\n\r\nEin durchgeführter chirurgischer Eingriff.\r\n\r\nSitzungen der kognitiven Verhaltenstherapie zur Behandlung von Depressionen.\r\n\r\nEine Reihe von pflegerischen Interventionen zur Unterstützung des psychischen und körperlichen Wohlbefindens, z. B. die Bereitstellung emotionaler Unterstützung für Patientinnen und Patienten während einer Krebsbehandlung.\r\n\r\nGemeindeorientierte Unterstützungsprogramme zur Minderung sozialer Faktoren wie Wohnungsinstabilität und sozialer Isolation.\r\n\r\nLebensstil-Beratungsangebote mit dem Ziel, gesundheitsfördernde Verhaltensweisen zu fördern und das allgemeine Wohlbefinden zu verbessern.\r\n\r\nHäusliche Pflegedienstleistungen, die einer älteren Person angeboten werden, um Selbstständigkeit und Lebensqualität zu unterstützen.\r\n\r\nDas Element „Interventionskategorie“ kann verwendet werden, um eine übergeordnete Gruppierung des „Interventionsnamens“ zu erfassen. Entsprechend kann der „Interventionstyp“ genutzt werden, um die Methode oder den Prozess der Durchführung der Intervention weiter zu spezifizieren. Zum Beispiel:\r\n\r\nKategorie: „Krebsbehandlung“, Name: „Strahlentherapie“ und Typ: „Brachytherapie“\r\n\r\nKategorie: „Chirurgisch“, Name: „Appendektomie“ und Typ: „laparoskopisch“\r\n\r\nKategorie: „Psychosozial“, Name: „Kurzintervention zur Raucherentwöhnung“ und Typ: „Motivational-Interviewing-Technik“",
+          "misuse" : "Nicht zur Erfassung aller Details einzelner Interventionsereignisse oder -aktivitäten zu verwenden. Verwenden Sie hierfür ein geeignetes ACTION-Archetyp, zum Beispiel ACTION.procedure.\r\n\r\nNicht zur Zusammenfassung geplanter oder vorgeschlagener Interventionen zu verwenden, die noch nicht begonnen wurden. Verwenden Sie hierfür andere geeignete Archetypen, zum Beispiel EVALUATION.recommendation, ein beliebiges INSTRUCTION-Archetyp oder ein ACTION-Archetyp im Status „geplant“ oder „terminiert“.\r\n\r\nNicht zur Erfassung des Immunisierungs- oder Impfstatus einer Person für einen bestimmten Impfstoff oder eine bestimmte Krankheit bzw. einen Erreger zu verwenden. Verwenden Sie hierfür das Archetyp EVALUATION.vaccination_summary.\r\n\r\nNicht in Fällen zu verwenden, in denen für die betreffende Intervention spezifischere Zusammenfassungs-Archetypen verfügbar sind, zum Beispiel „Impfzusammenfassung“, „Transfusionszusammenfassung“ oder „Medikationszusammenfassung“. Verwenden Sie für solche Zwecke die jeweils verfügbaren spezifischen Archetypen.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -5467,10 +6045,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "387713003",
-                        "value" : "Kirurgisk inngrep",
-                        "translations" : {
-                          "nb" : "Kirurgisk inngrep"
-                        }
+                        "value" : "Kirurgisk inngrep"
                       } ]
                     } ]
                   } ],
@@ -5505,122 +6080,71 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom",
-                        "translations" : {
-                          "nb" : "Sarkom"
-                        }
+                        "value" : "Sarkom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals",
-                        "translations" : {
-                          "nb" : "Kreft i hode og hals"
-                        }
+                        "value" : "Kreft i hode og hals"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst",
-                        "translations" : {
-                          "nb" : "Hjernesvulst"
-                        }
+                        "value" : "Hjernesvulst"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft",
-                        "translations" : {
-                          "nb" : "Brystkreft"
-                        }
+                        "value" : "Brystkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft",
-                        "translations" : {
-                          "nb" : "Lungekreft"
-                        }
+                        "value" : "Lungekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : {
-                          "nb" : "Kreft i fordøyelsessystemet"
-                        }
+                        "value" : "Kreft i fordøyelsessystemet"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft",
-                        "translations" : {
-                          "nb" : "Gynekologisk kreft"
-                        }
+                        "value" : "Gynekologisk kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier",
-                        "translations" : {
-                          "nb" : "Kreft i nyre og urinveier"
-                        }
+                        "value" : "Kreft i nyre og urinveier"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft",
-                        "translations" : {
-                          "nb" : "Benmargs- og blodkreft"
-                        }
+                        "value" : "Benmargs- og blodkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom",
-                        "translations" : {
-                          "nb" : "Lymfom"
-                        }
+                        "value" : "Lymfom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft",
-                        "translations" : {
-                          "nb" : "Hudkreft"
-                        }
+                        "value" : "Hudkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : {
-                          "nb" : "Kreft i mannlige kjønnsorganer"
-                        }
+                        "value" : "Kreft i mannlige kjønnsorganer"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler",
-                        "translations" : {
-                          "nb" : "Kreft i endokrine kjertler"
-                        }
+                        "value" : "Kreft i endokrine kjertler"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft",
-                        "translations" : {
-                          "nb" : "Nevroendokrin kreft"
-                        }
+                        "value" : "Nevroendokrin kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft",
-                        "translations" : {
-                          "nb" : "Barnekreft"
-                        }
+                        "value" : "Barnekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft",
-                        "translations" : {
-                          "nb" : "Øyekreft"
-                        }
+                        "value" : "Øyekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : {
-                          "nb" : "Svulst av ukjent opprinnelse / Annet"
-                        }
+                        "value" : "Svulst av ukjent opprinnelse / Annet"
                       } ]
                     } ]
                   } ],
@@ -5654,10 +6178,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "65801008",
-                        "value" : "Eksisjon (reseksjon)",
-                        "translations" : {
-                          "nb" : "Eksisjon (reseksjon)"
-                        }
+                        "value" : "Eksisjon (reseksjon)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "65854006",
@@ -5668,38 +6189,23 @@
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "81723002",
-                        "value" : "Amputasjon",
-                        "translations" : {
-                          "nb" : "Amputasjon"
-                        }
+                        "value" : "Amputasjon"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "68688001",
-                        "value" : "Curettage",
-                        "translations" : {
-                          "nb" : "Curettage"
-                        }
+                        "value" : "Curettage"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "118635009",
-                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)",
-                        "translations" : {
-                          "nb" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
-                        }
+                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "64597002",
-                        "value" : "Destruksjon (ablasjon)",
-                        "translations" : {
-                          "nb" : "Destruksjon (ablasjon)"
-                        }
+                        "value" : "Destruksjon (ablasjon)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
-                        "value" : "Annet",
-                        "translations" : {
-                          "nb" : "Annet"
-                        }
+                        "value" : "Annet"
                       } ]
                     } ]
                   } ],
@@ -5741,10 +6247,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "??",
-                        "value" : "Samkøres med det som ligger i hovedbolken",
-                        "translations" : {
-                          "nb" : "Samkøres med det som ligger i hovedbolken"
-                        }
+                        "value" : "Samkøres med det som ligger i hovedbolken"
                       } ]
                     } ]
                   } ],
@@ -5786,10 +6289,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
-                        "value" : "Hovedbehandling",
-                        "translations" : {
-                          "nb" : "Hovedbehandling"
-                        }
+                        "value" : "Hovedbehandling"
                       } ]
                     } ]
                   } ],
@@ -6019,6 +6519,14 @@
             "description" : "Den kliniske hensikten med en intervensjon innenfor rammen av en bredere behandlingsprotokoll, som spesifiserer dens tiltenkte tidspunkt eller funksjon i forhold til den overordnede terapeutiske strategien.",
             "comment" : "Designkommentar:\nBrukes for å definere at dette er hovedbehandling og tilleggsbehandling rekkefølge er i forhold til hovedbehanlingen. "
           }
+        },
+        "de" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "ac0.1",
+            "description" : "",
+            "text" : "(Synthesized)"
+          }
         }
       },
       "termBindings" : { },
@@ -6056,6 +6564,21 @@
         "name" : "Liv Laugen, Vebjørn Arntzen",
         "organisation" : "​Oslo University Hospital, Norway"
       },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Thomas Weikert",
+        "organisation" : "USB",
+        "email" : "t.weikert@usb.ch"
+      },
+      "accreditation" : "USB",
       "otherDetails" : { }
     } ]
   }, {
@@ -6710,7 +7233,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
+        "PARENT:MD5-CAM-1.0.1" : "A1D24421DD6787CBB6665615BE399672"
       },
       "details" : {
         "en" : {
@@ -6740,6 +7263,21 @@
           "keywords" : [ "behandling", "forløp", "protokoll", "terapi", "terapeutisk", "kirurgi", "omsorg", "prosedyre", "forebyggende", "diagnostisk" ],
           "use" : "Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.\r\n\r\nEksempler på bruk inkluderer, men er ikke begrenset til:\r\n- Et stråleterapiforløp som en del av en kreftbehandling.\r\n- En medisinsk behandlingsserie som har blitt gitt.\r\n- Et kirurgisk inngrep som har blitt utført.\r\n- Kognitiv atferdsterapi brukt i behandling av depresjon.\r\n- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.\r\n- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.\r\n- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.\r\n- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.\r\n\r\nElementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:\r\n- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"\r\n- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"\r\n- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".",
           "misuse" : "Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.\r\n\r\nSkal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.\r\n\r\nSkal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper for den aktuelle intervensjonen, for eksempel 'Vaccination summary' (Vaksinasjonssammendrag), 'Transfusion summary' eller 'Medication summary' (Legemiddelsammendrag). Bruk de tilgjengelige spesifikke arketypene til slike formål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer begonnenen oder abgeschlossenen therapeutischen Intervention.",
+          "keywords" : [ "Behandlung", "Behandlungsverlauf", "Protokoll", "Therapie", "therapeutisch", "Chirurgie", "Management", "Pflege", "Verfahren", "präventiv", "diagnostisch" ],
+          "use" : "Zur Erfassung einer Zusammenfassung einer begonnenen oder abgeschlossenen therapeutischen Intervention.\r\n\r\nBeispiele für die Verwendung umfassen unter anderem:\r\n\r\nEine im Rahmen eines Krebsbehandlungsprotokolls durchgeführte Strahlentherapie.\r\n\r\nEine verabreichte medikamentöse Behandlung.\r\n\r\nEin durchgeführter chirurgischer Eingriff.\r\n\r\nSitzungen der kognitiven Verhaltenstherapie zur Behandlung von Depressionen.\r\n\r\nEine Reihe von pflegerischen Interventionen zur Unterstützung des psychischen und körperlichen Wohlbefindens, z. B. die Bereitstellung emotionaler Unterstützung für Patientinnen und Patienten während einer Krebsbehandlung.\r\n\r\nGemeindeorientierte Unterstützungsprogramme zur Minderung sozialer Faktoren wie Wohnungsinstabilität und sozialer Isolation.\r\n\r\nLebensstil-Beratungsangebote mit dem Ziel, gesundheitsfördernde Verhaltensweisen zu fördern und das allgemeine Wohlbefinden zu verbessern.\r\n\r\nHäusliche Pflegedienstleistungen, die einer älteren Person angeboten werden, um Selbstständigkeit und Lebensqualität zu unterstützen.\r\n\r\nDas Element „Interventionskategorie“ kann verwendet werden, um eine übergeordnete Gruppierung des „Interventionsnamens“ zu erfassen. Entsprechend kann der „Interventionstyp“ genutzt werden, um die Methode oder den Prozess der Durchführung der Intervention weiter zu spezifizieren. Zum Beispiel:\r\n\r\nKategorie: „Krebsbehandlung“, Name: „Strahlentherapie“ und Typ: „Brachytherapie“\r\n\r\nKategorie: „Chirurgisch“, Name: „Appendektomie“ und Typ: „laparoskopisch“\r\n\r\nKategorie: „Psychosozial“, Name: „Kurzintervention zur Raucherentwöhnung“ und Typ: „Motivational-Interviewing-Technik“",
+          "misuse" : "Nicht zur Erfassung aller Details einzelner Interventionsereignisse oder -aktivitäten zu verwenden. Verwenden Sie hierfür ein geeignetes ACTION-Archetyp, zum Beispiel ACTION.procedure.\r\n\r\nNicht zur Zusammenfassung geplanter oder vorgeschlagener Interventionen zu verwenden, die noch nicht begonnen wurden. Verwenden Sie hierfür andere geeignete Archetypen, zum Beispiel EVALUATION.recommendation, ein beliebiges INSTRUCTION-Archetyp oder ein ACTION-Archetyp im Status „geplant“ oder „terminiert“.\r\n\r\nNicht zur Erfassung des Immunisierungs- oder Impfstatus einer Person für einen bestimmten Impfstoff oder eine bestimmte Krankheit bzw. einen Erreger zu verwenden. Verwenden Sie hierfür das Archetyp EVALUATION.vaccination_summary.\r\n\r\nNicht in Fällen zu verwenden, in denen für die betreffende Intervention spezifischere Zusammenfassungs-Archetypen verfügbar sind, zum Beispiel „Impfzusammenfassung“, „Transfusionszusammenfassung“ oder „Medikationszusammenfassung“. Verwenden Sie für solche Zwecke die jeweils verfügbaren spezifischen Archetypen.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -6791,10 +7329,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "416608005",
-                        "value" : "Medikamentell behandling (procedure)",
-                        "translations" : {
-                          "nb" : "Medikamentell behandling (procedure)"
-                        }
+                        "value" : "Medikamentell behandling (procedure)"
                       } ]
                     } ]
                   } ],
@@ -6829,122 +7364,71 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom",
-                        "translations" : {
-                          "nb" : "Sarkom"
-                        }
+                        "value" : "Sarkom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals",
-                        "translations" : {
-                          "nb" : "Kreft i hode og hals"
-                        }
+                        "value" : "Kreft i hode og hals"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst",
-                        "translations" : {
-                          "nb" : "Hjernesvulst"
-                        }
+                        "value" : "Hjernesvulst"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft",
-                        "translations" : {
-                          "nb" : "Brystkreft"
-                        }
+                        "value" : "Brystkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft",
-                        "translations" : {
-                          "nb" : "Lungekreft"
-                        }
+                        "value" : "Lungekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : {
-                          "nb" : "Kreft i fordøyelsessystemet"
-                        }
+                        "value" : "Kreft i fordøyelsessystemet"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft",
-                        "translations" : {
-                          "nb" : "Gynekologisk kreft"
-                        }
+                        "value" : "Gynekologisk kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier",
-                        "translations" : {
-                          "nb" : "Kreft i nyre og urinveier"
-                        }
+                        "value" : "Kreft i nyre og urinveier"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft",
-                        "translations" : {
-                          "nb" : "Benmargs- og blodkreft"
-                        }
+                        "value" : "Benmargs- og blodkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom",
-                        "translations" : {
-                          "nb" : "Lymfom"
-                        }
+                        "value" : "Lymfom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft",
-                        "translations" : {
-                          "nb" : "Hudkreft"
-                        }
+                        "value" : "Hudkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : {
-                          "nb" : "Kreft i mannlige kjønnsorganer"
-                        }
+                        "value" : "Kreft i mannlige kjønnsorganer"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler",
-                        "translations" : {
-                          "nb" : "Kreft i endokrine kjertler"
-                        }
+                        "value" : "Kreft i endokrine kjertler"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft",
-                        "translations" : {
-                          "nb" : "Nevroendokrin kreft"
-                        }
+                        "value" : "Nevroendokrin kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft",
-                        "translations" : {
-                          "nb" : "Barnekreft"
-                        }
+                        "value" : "Barnekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft",
-                        "translations" : {
-                          "nb" : "Øyekreft"
-                        }
+                        "value" : "Øyekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : {
-                          "nb" : "Svulst av ukjent opprinnelse / Annet"
-                        }
+                        "value" : "Svulst av ukjent opprinnelse / Annet"
                       } ]
                     } ]
                   } ],
@@ -6978,31 +7462,19 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "367336001",
-                        "value" : "Kjemoterapi",
-                        "translations" : {
-                          "nb" : "Kjemoterapi"
-                        }
+                        "value" : "Kjemoterapi"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "347531000202105",
-                        "value" : "Målrettet medikamentell kreftbehandling",
-                        "translations" : {
-                          "nb" : "Målrettet medikamentell kreftbehandling"
-                        }
+                        "value" : "Målrettet medikamentell kreftbehandling"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "76334006",
-                        "value" : "Immunterapi for kreft",
-                        "translations" : {
-                          "nb" : "Immunterapi for kreft"
-                        }
+                        "value" : "Immunterapi for kreft"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "169413002",
-                        "value" : "Hormonterapi",
-                        "translations" : {
-                          "nb" : "Hormonterapi"
-                        }
+                        "value" : "Hormonterapi"
                       } ]
                     } ]
                   } ],
@@ -7063,10 +7535,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
-                        "value" : "Hovedbehandling",
-                        "translations" : {
-                          "nb" : "Hovedbehandling"
-                        }
+                        "value" : "Hovedbehandling"
                       } ]
                     } ]
                   } ],
@@ -7156,24 +7625,15 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
-                        "value" : "Vellykket i henhold til intensjon",
-                        "translations" : {
-                          "nb" : "Vellykket i henhold til intensjon"
-                        }
+                        "value" : "Vellykket i henhold til intensjon"
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
-                        "value" : "Ikke vellykket i henhold til intensjon",
-                        "translations" : {
-                          "nb" : "Ikke vellykket i henhold til intensjon"
-                        }
+                        "value" : "Ikke vellykket i henhold til intensjon"
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
-                        "value" : "Usikkert",
-                        "translations" : {
-                          "nb" : "Usikkert"
-                        }
+                        "value" : "Usikkert"
                       } ]
                     } ]
                   } ],
@@ -7332,6 +7792,14 @@
             "description" : "Resultatet av intervensjonen basert på terapeutisk effekt.",
             "comment" : "For eksempel: vellykket, ikke vellykket, usikker.\r\nKoding med en terminologi er foretrukket, dersom det er mulig."
           }
+        },
+        "de" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.1",
+            "description" : ""
+          }
         }
       },
       "termBindings" : { },
@@ -7369,6 +7837,21 @@
         "name" : "Liv Laugen, Vebjørn Arntzen",
         "organisation" : "​Oslo University Hospital, Norway"
       },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Thomas Weikert",
+        "organisation" : "USB",
+        "email" : "t.weikert@usb.ch"
+      },
+      "accreditation" : "USB",
       "otherDetails" : { }
     } ]
   }, {
@@ -8009,7 +8492,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
+        "PARENT:MD5-CAM-1.0.1" : "A1D24421DD6787CBB6665615BE399672"
       },
       "details" : {
         "en" : {
@@ -8039,6 +8522,21 @@
           "keywords" : [ "behandling", "forløp", "protokoll", "terapi", "terapeutisk", "kirurgi", "omsorg", "prosedyre", "forebyggende", "diagnostisk" ],
           "use" : "Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.\r\n\r\nEksempler på bruk inkluderer, men er ikke begrenset til:\r\n- Et stråleterapiforløp som en del av en kreftbehandling.\r\n- En medisinsk behandlingsserie som har blitt gitt.\r\n- Et kirurgisk inngrep som har blitt utført.\r\n- Kognitiv atferdsterapi brukt i behandling av depresjon.\r\n- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.\r\n- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.\r\n- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.\r\n- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.\r\n\r\nElementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:\r\n- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"\r\n- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"\r\n- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".",
           "misuse" : "Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.\r\n\r\nSkal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.\r\n\r\nSkal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper for den aktuelle intervensjonen, for eksempel 'Vaccination summary' (Vaksinasjonssammendrag), 'Transfusion summary' eller 'Medication summary' (Legemiddelsammendrag). Bruk de tilgjengelige spesifikke arketypene til slike formål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer begonnenen oder abgeschlossenen therapeutischen Intervention.",
+          "keywords" : [ "Behandlung", "Behandlungsverlauf", "Protokoll", "Therapie", "therapeutisch", "Chirurgie", "Management", "Pflege", "Verfahren", "präventiv", "diagnostisch" ],
+          "use" : "Zur Erfassung einer Zusammenfassung einer begonnenen oder abgeschlossenen therapeutischen Intervention.\r\n\r\nBeispiele für die Verwendung umfassen unter anderem:\r\n\r\nEine im Rahmen eines Krebsbehandlungsprotokolls durchgeführte Strahlentherapie.\r\n\r\nEine verabreichte medikamentöse Behandlung.\r\n\r\nEin durchgeführter chirurgischer Eingriff.\r\n\r\nSitzungen der kognitiven Verhaltenstherapie zur Behandlung von Depressionen.\r\n\r\nEine Reihe von pflegerischen Interventionen zur Unterstützung des psychischen und körperlichen Wohlbefindens, z. B. die Bereitstellung emotionaler Unterstützung für Patientinnen und Patienten während einer Krebsbehandlung.\r\n\r\nGemeindeorientierte Unterstützungsprogramme zur Minderung sozialer Faktoren wie Wohnungsinstabilität und sozialer Isolation.\r\n\r\nLebensstil-Beratungsangebote mit dem Ziel, gesundheitsfördernde Verhaltensweisen zu fördern und das allgemeine Wohlbefinden zu verbessern.\r\n\r\nHäusliche Pflegedienstleistungen, die einer älteren Person angeboten werden, um Selbstständigkeit und Lebensqualität zu unterstützen.\r\n\r\nDas Element „Interventionskategorie“ kann verwendet werden, um eine übergeordnete Gruppierung des „Interventionsnamens“ zu erfassen. Entsprechend kann der „Interventionstyp“ genutzt werden, um die Methode oder den Prozess der Durchführung der Intervention weiter zu spezifizieren. Zum Beispiel:\r\n\r\nKategorie: „Krebsbehandlung“, Name: „Strahlentherapie“ und Typ: „Brachytherapie“\r\n\r\nKategorie: „Chirurgisch“, Name: „Appendektomie“ und Typ: „laparoskopisch“\r\n\r\nKategorie: „Psychosozial“, Name: „Kurzintervention zur Raucherentwöhnung“ und Typ: „Motivational-Interviewing-Technik“",
+          "misuse" : "Nicht zur Erfassung aller Details einzelner Interventionsereignisse oder -aktivitäten zu verwenden. Verwenden Sie hierfür ein geeignetes ACTION-Archetyp, zum Beispiel ACTION.procedure.\r\n\r\nNicht zur Zusammenfassung geplanter oder vorgeschlagener Interventionen zu verwenden, die noch nicht begonnen wurden. Verwenden Sie hierfür andere geeignete Archetypen, zum Beispiel EVALUATION.recommendation, ein beliebiges INSTRUCTION-Archetyp oder ein ACTION-Archetyp im Status „geplant“ oder „terminiert“.\r\n\r\nNicht zur Erfassung des Immunisierungs- oder Impfstatus einer Person für einen bestimmten Impfstoff oder eine bestimmte Krankheit bzw. einen Erreger zu verwenden. Verwenden Sie hierfür das Archetyp EVALUATION.vaccination_summary.\r\n\r\nNicht in Fällen zu verwenden, in denen für die betreffende Intervention spezifischere Zusammenfassungs-Archetypen verfügbar sind, zum Beispiel „Impfzusammenfassung“, „Transfusionszusammenfassung“ oder „Medikationszusammenfassung“. Verwenden Sie für solche Zwecke die jeweils verfügbaren spezifischen Archetypen.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -8090,10 +8588,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "387713003",
-                        "value" : "Kirurgisk inngrep",
-                        "translations" : {
-                          "nb" : "Kirurgisk inngrep"
-                        }
+                        "value" : "Kirurgisk inngrep"
                       } ]
                     } ]
                   } ],
@@ -8128,122 +8623,71 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom",
-                        "translations" : {
-                          "nb" : "Sarkom"
-                        }
+                        "value" : "Sarkom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals",
-                        "translations" : {
-                          "nb" : "Kreft i hode og hals"
-                        }
+                        "value" : "Kreft i hode og hals"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst",
-                        "translations" : {
-                          "nb" : "Hjernesvulst"
-                        }
+                        "value" : "Hjernesvulst"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft",
-                        "translations" : {
-                          "nb" : "Brystkreft"
-                        }
+                        "value" : "Brystkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft",
-                        "translations" : {
-                          "nb" : "Lungekreft"
-                        }
+                        "value" : "Lungekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : {
-                          "nb" : "Kreft i fordøyelsessystemet"
-                        }
+                        "value" : "Kreft i fordøyelsessystemet"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft",
-                        "translations" : {
-                          "nb" : "Gynekologisk kreft"
-                        }
+                        "value" : "Gynekologisk kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier",
-                        "translations" : {
-                          "nb" : "Kreft i nyre og urinveier"
-                        }
+                        "value" : "Kreft i nyre og urinveier"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft",
-                        "translations" : {
-                          "nb" : "Benmargs- og blodkreft"
-                        }
+                        "value" : "Benmargs- og blodkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom",
-                        "translations" : {
-                          "nb" : "Lymfom"
-                        }
+                        "value" : "Lymfom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft",
-                        "translations" : {
-                          "nb" : "Hudkreft"
-                        }
+                        "value" : "Hudkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : {
-                          "nb" : "Kreft i mannlige kjønnsorganer"
-                        }
+                        "value" : "Kreft i mannlige kjønnsorganer"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler",
-                        "translations" : {
-                          "nb" : "Kreft i endokrine kjertler"
-                        }
+                        "value" : "Kreft i endokrine kjertler"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft",
-                        "translations" : {
-                          "nb" : "Nevroendokrin kreft"
-                        }
+                        "value" : "Nevroendokrin kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft",
-                        "translations" : {
-                          "nb" : "Barnekreft"
-                        }
+                        "value" : "Barnekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft",
-                        "translations" : {
-                          "nb" : "Øyekreft"
-                        }
+                        "value" : "Øyekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : {
-                          "nb" : "Svulst av ukjent opprinnelse / Annet"
-                        }
+                        "value" : "Svulst av ukjent opprinnelse / Annet"
                       } ]
                     } ]
                   } ],
@@ -8278,52 +8722,31 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "65801008",
-                        "value" : "Eksisjon (reseksjon)",
-                        "translations" : {
-                          "nb" : "Eksisjon (reseksjon)"
-                        }
+                        "value" : "Eksisjon (reseksjon)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "65854006",
-                        "value" : "Reeksisjon (ny utskjæring)",
-                        "translations" : {
-                          "nb" : "Reeksisjon (ny utskjæring)"
-                        }
+                        "value" : "Reeksisjon (ny utskjæring)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "81723002",
-                        "value" : "Amputasjon",
-                        "translations" : {
-                          "nb" : "Amputasjon"
-                        }
+                        "value" : "Amputasjon"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "68688001",
-                        "value" : "Curettage",
-                        "translations" : {
-                          "nb" : "Curettage"
-                        }
+                        "value" : "Curettage"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "118635009",
-                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)",
-                        "translations" : {
-                          "nb" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
-                        }
+                        "value" : "Revisjon (gjentakelse av tidligere prosedyre for å korrigere eller forbedre resultat)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "64597002",
-                        "value" : "Destruksjon (ablasjon)",
-                        "translations" : {
-                          "nb" : "Destruksjon (ablasjon)"
-                        }
+                        "value" : "Destruksjon (ablasjon)"
                       }, {
                         "terminologyId" : "local_terms",
                         "code" : "74964007",
-                        "value" : "Annet",
-                        "translations" : {
-                          "nb" : "Annet"
-                        }
+                        "value" : "Annet"
                       } ]
                     } ]
                   } ],
@@ -8378,24 +8801,15 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
-                        "value" : "Adjuvant hensikt",
-                        "translations" : {
-                          "nb" : "Adjuvant hensikt"
-                        }
+                        "value" : "Adjuvant hensikt"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
-                        "value" : "Neoadjuvant hensikt",
-                        "translations" : {
-                          "nb" : "Neoadjuvant hensikt"
-                        }
+                        "value" : "Neoadjuvant hensikt"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
-                        "value" : "Konkomitant (adjunkt) hensikt)",
-                        "translations" : {
-                          "nb" : "Konkomitant (adjunkt) hensikt)"
-                        }
+                        "value" : "Konkomitant (adjunkt) hensikt)"
                       } ]
                     } ]
                   } ],
@@ -8605,6 +9019,14 @@
             "text" : "Intervensjonsnavn",
             "description" : "Navnet på intervensjonen."
           }
+        },
+        "de" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "ac0.1",
+            "description" : "",
+            "text" : "(Synthesized)"
+          }
         }
       },
       "termBindings" : { },
@@ -8643,6 +9065,21 @@
         "organisation" : "​Oslo University Hospital, Norway"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Thomas Weikert",
+        "organisation" : "USB",
+        "email" : "t.weikert@usb.ch"
+      },
+      "accreditation" : "USB",
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -8655,7 +9092,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -8841,6 +9278,51 @@
           "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -8956,7 +9438,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -9125,6 +9610,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -9137,7 +9666,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
+        "PARENT:MD5-CAM-1.0.1" : "A1D24421DD6787CBB6665615BE399672"
       },
       "details" : {
         "en" : {
@@ -9167,6 +9696,21 @@
           "keywords" : [ "behandling", "forløp", "protokoll", "terapi", "terapeutisk", "kirurgi", "omsorg", "prosedyre", "forebyggende", "diagnostisk" ],
           "use" : "Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.\r\n\r\nEksempler på bruk inkluderer, men er ikke begrenset til:\r\n- Et stråleterapiforløp som en del av en kreftbehandling.\r\n- En medisinsk behandlingsserie som har blitt gitt.\r\n- Et kirurgisk inngrep som har blitt utført.\r\n- Kognitiv atferdsterapi brukt i behandling av depresjon.\r\n- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.\r\n- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.\r\n- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.\r\n- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.\r\n\r\nElementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:\r\n- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"\r\n- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"\r\n- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".",
           "misuse" : "Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.\r\n\r\nSkal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.\r\n\r\nSkal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper for den aktuelle intervensjonen, for eksempel 'Vaccination summary' (Vaksinasjonssammendrag), 'Transfusion summary' eller 'Medication summary' (Legemiddelsammendrag). Bruk de tilgjengelige spesifikke arketypene til slike formål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer begonnenen oder abgeschlossenen therapeutischen Intervention.",
+          "keywords" : [ "Behandlung", "Behandlungsverlauf", "Protokoll", "Therapie", "therapeutisch", "Chirurgie", "Management", "Pflege", "Verfahren", "präventiv", "diagnostisch" ],
+          "use" : "Zur Erfassung einer Zusammenfassung einer begonnenen oder abgeschlossenen therapeutischen Intervention.\r\n\r\nBeispiele für die Verwendung umfassen unter anderem:\r\n\r\nEine im Rahmen eines Krebsbehandlungsprotokolls durchgeführte Strahlentherapie.\r\n\r\nEine verabreichte medikamentöse Behandlung.\r\n\r\nEin durchgeführter chirurgischer Eingriff.\r\n\r\nSitzungen der kognitiven Verhaltenstherapie zur Behandlung von Depressionen.\r\n\r\nEine Reihe von pflegerischen Interventionen zur Unterstützung des psychischen und körperlichen Wohlbefindens, z. B. die Bereitstellung emotionaler Unterstützung für Patientinnen und Patienten während einer Krebsbehandlung.\r\n\r\nGemeindeorientierte Unterstützungsprogramme zur Minderung sozialer Faktoren wie Wohnungsinstabilität und sozialer Isolation.\r\n\r\nLebensstil-Beratungsangebote mit dem Ziel, gesundheitsfördernde Verhaltensweisen zu fördern und das allgemeine Wohlbefinden zu verbessern.\r\n\r\nHäusliche Pflegedienstleistungen, die einer älteren Person angeboten werden, um Selbstständigkeit und Lebensqualität zu unterstützen.\r\n\r\nDas Element „Interventionskategorie“ kann verwendet werden, um eine übergeordnete Gruppierung des „Interventionsnamens“ zu erfassen. Entsprechend kann der „Interventionstyp“ genutzt werden, um die Methode oder den Prozess der Durchführung der Intervention weiter zu spezifizieren. Zum Beispiel:\r\n\r\nKategorie: „Krebsbehandlung“, Name: „Strahlentherapie“ und Typ: „Brachytherapie“\r\n\r\nKategorie: „Chirurgisch“, Name: „Appendektomie“ und Typ: „laparoskopisch“\r\n\r\nKategorie: „Psychosozial“, Name: „Kurzintervention zur Raucherentwöhnung“ und Typ: „Motivational-Interviewing-Technik“",
+          "misuse" : "Nicht zur Erfassung aller Details einzelner Interventionsereignisse oder -aktivitäten zu verwenden. Verwenden Sie hierfür ein geeignetes ACTION-Archetyp, zum Beispiel ACTION.procedure.\r\n\r\nNicht zur Zusammenfassung geplanter oder vorgeschlagener Interventionen zu verwenden, die noch nicht begonnen wurden. Verwenden Sie hierfür andere geeignete Archetypen, zum Beispiel EVALUATION.recommendation, ein beliebiges INSTRUCTION-Archetyp oder ein ACTION-Archetyp im Status „geplant“ oder „terminiert“.\r\n\r\nNicht zur Erfassung des Immunisierungs- oder Impfstatus einer Person für einen bestimmten Impfstoff oder eine bestimmte Krankheit bzw. einen Erreger zu verwenden. Verwenden Sie hierfür das Archetyp EVALUATION.vaccination_summary.\r\n\r\nNicht in Fällen zu verwenden, in denen für die betreffende Intervention spezifischere Zusammenfassungs-Archetypen verfügbar sind, zum Beispiel „Impfzusammenfassung“, „Transfusionszusammenfassung“ oder „Medikationszusammenfassung“. Verwenden Sie für solche Zwecke die jeweils verfügbaren spezifischen Archetypen.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -9218,10 +9762,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1287742003",
-                        "value" : "Radiotherapy (procedure)",
-                        "translations" : {
-                          "nb" : "Radiotherapy (procedure)"
-                        }
+                        "value" : "Radiotherapy (procedure)"
                       } ]
                     } ]
                   } ],
@@ -9256,122 +9797,71 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom",
-                        "translations" : {
-                          "nb" : "Sarkom"
-                        }
+                        "value" : "Sarkom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals",
-                        "translations" : {
-                          "nb" : "Kreft i hode og hals"
-                        }
+                        "value" : "Kreft i hode og hals"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst",
-                        "translations" : {
-                          "nb" : "Hjernesvulst"
-                        }
+                        "value" : "Hjernesvulst"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft",
-                        "translations" : {
-                          "nb" : "Brystkreft"
-                        }
+                        "value" : "Brystkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft",
-                        "translations" : {
-                          "nb" : "Lungekreft"
-                        }
+                        "value" : "Lungekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : {
-                          "nb" : "Kreft i fordøyelsessystemet"
-                        }
+                        "value" : "Kreft i fordøyelsessystemet"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft",
-                        "translations" : {
-                          "nb" : "Gynekologisk kreft"
-                        }
+                        "value" : "Gynekologisk kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier",
-                        "translations" : {
-                          "nb" : "Kreft i nyre og urinveier"
-                        }
+                        "value" : "Kreft i nyre og urinveier"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft",
-                        "translations" : {
-                          "nb" : "Benmargs- og blodkreft"
-                        }
+                        "value" : "Benmargs- og blodkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom",
-                        "translations" : {
-                          "nb" : "Lymfom"
-                        }
+                        "value" : "Lymfom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft",
-                        "translations" : {
-                          "nb" : "Hudkreft"
-                        }
+                        "value" : "Hudkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : {
-                          "nb" : "Kreft i mannlige kjønnsorganer"
-                        }
+                        "value" : "Kreft i mannlige kjønnsorganer"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler",
-                        "translations" : {
-                          "nb" : "Kreft i endokrine kjertler"
-                        }
+                        "value" : "Kreft i endokrine kjertler"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft",
-                        "translations" : {
-                          "nb" : "Nevroendokrin kreft"
-                        }
+                        "value" : "Nevroendokrin kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft",
-                        "translations" : {
-                          "nb" : "Barnekreft"
-                        }
+                        "value" : "Barnekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft",
-                        "translations" : {
-                          "nb" : "Øyekreft"
-                        }
+                        "value" : "Øyekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : {
-                          "nb" : "Svulst av ukjent opprinnelse / Annet"
-                        }
+                        "value" : "Svulst av ukjent opprinnelse / Annet"
                       } ]
                     } ]
                   } ],
@@ -9405,52 +9895,31 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156506007",
-                        "value" : "Fotonterapi - Stråle (ekstern)",
-                        "translations" : {
-                          "nb" : "Fotonterapi - Stråle (ekstern)"
-                        }
+                        "value" : "Fotonterapi - Stråle (ekstern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10611004",
-                        "value" : "Protonterapi -Stråle (ekstern)",
-                        "translations" : {
-                          "nb" : "Protonterapi -Stråle (ekstern)"
-                        }
+                        "value" : "Protonterapi -Stråle (ekstern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "45643008",
-                        "value" : "Elektronterapi - Stråle (ekstern)",
-                        "translations" : {
-                          "nb" : "Elektronterapi - Stråle (ekstern)"
-                        }
+                        "value" : "Elektronterapi - Stråle (ekstern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "152198000",
-                        "value" : "Brakyterapi - Stråle (intern)",
-                        "translations" : {
-                          "nb" : "Brakyterapi - Stråle (intern)"
-                        }
+                        "value" : "Brakyterapi - Stråle (intern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399315003",
-                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)",
-                        "translations" : {
-                          "nb" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
-                        }
+                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113117004",
-                        "value" : "External beam radiation therapy particulate radiation (procedure)",
-                        "translations" : {
-                          "nb" : "External beam radiation therapy particulate radiation (procedure)"
-                        }
+                        "value" : "External beam radiation therapy particulate radiation (procedure)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156505006",
-                        "value" : "External beam radiation therapy using carbon ions (procedure)",
-                        "translations" : {
-                          "nb" : "External beam radiation therapy using carbon ions (procedure)"
-                        }
+                        "value" : "External beam radiation therapy using carbon ions (procedure)"
                       } ]
                     } ]
                   } ],
@@ -9511,10 +9980,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.kategori",
                         "code" : "1",
-                        "value" : "Hovedbehandling",
-                        "translations" : {
-                          "nb" : "Hovedbehandling"
-                        }
+                        "value" : "Hovedbehandling"
                       } ]
                     } ]
                   } ],
@@ -9741,6 +10207,14 @@
             "code" : "ac0.1",
             "description" : ""
           }
+        },
+        "de" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.1",
+            "description" : ""
+          }
         }
       },
       "termBindings" : { },
@@ -9779,6 +10253,21 @@
         "organisation" : "​Oslo University Hospital, Norway"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Thomas Weikert",
+        "organisation" : "USB",
+        "email" : "t.weikert@usb.ch"
+      },
+      "accreditation" : "USB",
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -9792,7 +10281,7 @@
       "conversionDetails" : { },
       "otherDetails" : {
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.",
-        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
+        "PARENT:MD5-CAM-1.0.1" : "A1D24421DD6787CBB6665615BE399672"
       },
       "details" : {
         "en" : {
@@ -9822,6 +10311,21 @@
           "keywords" : [ "behandling", "forløp", "protokoll", "terapi", "terapeutisk", "kirurgi", "omsorg", "prosedyre", "forebyggende", "diagnostisk" ],
           "use" : "Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.\r\n\r\nEksempler på bruk inkluderer, men er ikke begrenset til:\r\n- Et stråleterapiforløp som en del av en kreftbehandling.\r\n- En medisinsk behandlingsserie som har blitt gitt.\r\n- Et kirurgisk inngrep som har blitt utført.\r\n- Kognitiv atferdsterapi brukt i behandling av depresjon.\r\n- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.\r\n- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.\r\n- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.\r\n- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.\r\n\r\nElementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:\r\n- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"\r\n- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"\r\n- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".",
           "misuse" : "Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.\r\n\r\nSkal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.\r\n\r\nSkal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper for den aktuelle intervensjonen, for eksempel 'Vaccination summary' (Vaksinasjonssammendrag), 'Transfusion summary' eller 'Medication summary' (Legemiddelsammendrag). Bruk de tilgjengelige spesifikke arketypene til slike formål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer begonnenen oder abgeschlossenen therapeutischen Intervention.",
+          "keywords" : [ "Behandlung", "Behandlungsverlauf", "Protokoll", "Therapie", "therapeutisch", "Chirurgie", "Management", "Pflege", "Verfahren", "präventiv", "diagnostisch" ],
+          "use" : "Zur Erfassung einer Zusammenfassung einer begonnenen oder abgeschlossenen therapeutischen Intervention.\r\n\r\nBeispiele für die Verwendung umfassen unter anderem:\r\n\r\nEine im Rahmen eines Krebsbehandlungsprotokolls durchgeführte Strahlentherapie.\r\n\r\nEine verabreichte medikamentöse Behandlung.\r\n\r\nEin durchgeführter chirurgischer Eingriff.\r\n\r\nSitzungen der kognitiven Verhaltenstherapie zur Behandlung von Depressionen.\r\n\r\nEine Reihe von pflegerischen Interventionen zur Unterstützung des psychischen und körperlichen Wohlbefindens, z. B. die Bereitstellung emotionaler Unterstützung für Patientinnen und Patienten während einer Krebsbehandlung.\r\n\r\nGemeindeorientierte Unterstützungsprogramme zur Minderung sozialer Faktoren wie Wohnungsinstabilität und sozialer Isolation.\r\n\r\nLebensstil-Beratungsangebote mit dem Ziel, gesundheitsfördernde Verhaltensweisen zu fördern und das allgemeine Wohlbefinden zu verbessern.\r\n\r\nHäusliche Pflegedienstleistungen, die einer älteren Person angeboten werden, um Selbstständigkeit und Lebensqualität zu unterstützen.\r\n\r\nDas Element „Interventionskategorie“ kann verwendet werden, um eine übergeordnete Gruppierung des „Interventionsnamens“ zu erfassen. Entsprechend kann der „Interventionstyp“ genutzt werden, um die Methode oder den Prozess der Durchführung der Intervention weiter zu spezifizieren. Zum Beispiel:\r\n\r\nKategorie: „Krebsbehandlung“, Name: „Strahlentherapie“ und Typ: „Brachytherapie“\r\n\r\nKategorie: „Chirurgisch“, Name: „Appendektomie“ und Typ: „laparoskopisch“\r\n\r\nKategorie: „Psychosozial“, Name: „Kurzintervention zur Raucherentwöhnung“ und Typ: „Motivational-Interviewing-Technik“",
+          "misuse" : "Nicht zur Erfassung aller Details einzelner Interventionsereignisse oder -aktivitäten zu verwenden. Verwenden Sie hierfür ein geeignetes ACTION-Archetyp, zum Beispiel ACTION.procedure.\r\n\r\nNicht zur Zusammenfassung geplanter oder vorgeschlagener Interventionen zu verwenden, die noch nicht begonnen wurden. Verwenden Sie hierfür andere geeignete Archetypen, zum Beispiel EVALUATION.recommendation, ein beliebiges INSTRUCTION-Archetyp oder ein ACTION-Archetyp im Status „geplant“ oder „terminiert“.\r\n\r\nNicht zur Erfassung des Immunisierungs- oder Impfstatus einer Person für einen bestimmten Impfstoff oder eine bestimmte Krankheit bzw. einen Erreger zu verwenden. Verwenden Sie hierfür das Archetyp EVALUATION.vaccination_summary.\r\n\r\nNicht in Fällen zu verwenden, in denen für die betreffende Intervention spezifischere Zusammenfassungs-Archetypen verfügbar sind, zum Beispiel „Impfzusammenfassung“, „Transfusionszusammenfassung“ oder „Medikationszusammenfassung“. Verwenden Sie für solche Zwecke die jeweils verfügbaren spezifischen Archetypen.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -9873,10 +10377,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "local_terms",
                         "code" : "416608005",
-                        "value" : "Medikamentell behandling (procedure)",
-                        "translations" : {
-                          "nb" : "Medikamentell behandling (procedure)"
-                        }
+                        "value" : "Medikamentell behandling (procedure)"
                       } ]
                     } ]
                   } ],
@@ -9911,122 +10412,71 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom",
-                        "translations" : {
-                          "nb" : "Sarkom"
-                        }
+                        "value" : "Sarkom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals",
-                        "translations" : {
-                          "nb" : "Kreft i hode og hals"
-                        }
+                        "value" : "Kreft i hode og hals"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst",
-                        "translations" : {
-                          "nb" : "Hjernesvulst"
-                        }
+                        "value" : "Hjernesvulst"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft",
-                        "translations" : {
-                          "nb" : "Brystkreft"
-                        }
+                        "value" : "Brystkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft",
-                        "translations" : {
-                          "nb" : "Lungekreft"
-                        }
+                        "value" : "Lungekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : {
-                          "nb" : "Kreft i fordøyelsessystemet"
-                        }
+                        "value" : "Kreft i fordøyelsessystemet"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft",
-                        "translations" : {
-                          "nb" : "Gynekologisk kreft"
-                        }
+                        "value" : "Gynekologisk kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier",
-                        "translations" : {
-                          "nb" : "Kreft i nyre og urinveier"
-                        }
+                        "value" : "Kreft i nyre og urinveier"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft",
-                        "translations" : {
-                          "nb" : "Benmargs- og blodkreft"
-                        }
+                        "value" : "Benmargs- og blodkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom",
-                        "translations" : {
-                          "nb" : "Lymfom"
-                        }
+                        "value" : "Lymfom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft",
-                        "translations" : {
-                          "nb" : "Hudkreft"
-                        }
+                        "value" : "Hudkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : {
-                          "nb" : "Kreft i mannlige kjønnsorganer"
-                        }
+                        "value" : "Kreft i mannlige kjønnsorganer"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler",
-                        "translations" : {
-                          "nb" : "Kreft i endokrine kjertler"
-                        }
+                        "value" : "Kreft i endokrine kjertler"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft",
-                        "translations" : {
-                          "nb" : "Nevroendokrin kreft"
-                        }
+                        "value" : "Nevroendokrin kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft",
-                        "translations" : {
-                          "nb" : "Barnekreft"
-                        }
+                        "value" : "Barnekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft",
-                        "translations" : {
-                          "nb" : "Øyekreft"
-                        }
+                        "value" : "Øyekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : {
-                          "nb" : "Svulst av ukjent opprinnelse / Annet"
-                        }
+                        "value" : "Svulst av ukjent opprinnelse / Annet"
                       } ]
                     } ]
                   } ],
@@ -10060,31 +10510,19 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "367336001",
-                        "value" : "Kjemoterapi",
-                        "translations" : {
-                          "nb" : "Kjemoterapi"
-                        }
+                        "value" : "Kjemoterapi"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "347531000202105",
-                        "value" : "Målrettet medikamentell kreftbehandling",
-                        "translations" : {
-                          "nb" : "Målrettet medikamentell kreftbehandling"
-                        }
+                        "value" : "Målrettet medikamentell kreftbehandling"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "76334006",
-                        "value" : "Immunterapi for kreft",
-                        "translations" : {
-                          "nb" : "Immunterapi for kreft"
-                        }
+                        "value" : "Immunterapi for kreft"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "169413002",
-                        "value" : "Hormonterapi",
-                        "translations" : {
-                          "nb" : "Hormonterapi"
-                        }
+                        "value" : "Hormonterapi"
                       } ]
                     } ]
                   } ],
@@ -10139,24 +10577,15 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
-                        "value" : "Adjuvant hensikt",
-                        "translations" : {
-                          "nb" : "Adjuvant hensikt"
-                        }
+                        "value" : "Adjuvant hensikt"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
-                        "value" : "Neoadjuvant hensikt",
-                        "translations" : {
-                          "nb" : "Neoadjuvant hensikt"
-                        }
+                        "value" : "Neoadjuvant hensikt"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
-                        "value" : "Konkomitant (adjunkt) hensikt)",
-                        "translations" : {
-                          "nb" : "Konkomitant (adjunkt) hensikt)"
-                        }
+                        "value" : "Konkomitant (adjunkt) hensikt)"
                       } ]
                     } ]
                   } ],
@@ -10219,24 +10648,15 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "1",
-                        "value" : "Vellykket i henhold til intensjon",
-                        "translations" : {
-                          "nb" : "Vellykket i henhold til intensjon"
-                        }
+                        "value" : "Vellykket i henhold til intensjon"
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "2",
-                        "value" : "Ikke vellykket i henhold til intensjon",
-                        "translations" : {
-                          "nb" : "Ikke vellykket i henhold til intensjon"
-                        }
+                        "value" : "Ikke vellykket i henhold til intensjon"
                       }, {
                         "terminologyId" : "no.onk.behandling.resultatkategori",
                         "code" : "3",
-                        "value" : "Usikkert",
-                        "translations" : {
-                          "nb" : "Usikkert"
-                        }
+                        "value" : "Usikkert"
                       } ]
                     } ]
                   } ],
@@ -10342,7 +10762,8 @@
             "text" : "Intervensjonsnavn",
             "description" : "Navnet på intervensjonen."
           }
-        }
+        },
+        "de" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -10374,6 +10795,21 @@
         "organisation" : "​Oslo University Hospital, Norway"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Thomas Weikert",
+        "organisation" : "USB",
+        "email" : "t.weikert@usb.ch"
+      },
+      "accreditation" : "USB",
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -10386,7 +10822,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -10572,6 +11008,51 @@
           "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -10702,7 +11183,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -10871,6 +11355,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -10883,7 +11411,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "CEA1A3EEE2DAC904730EB146397D7BE9"
+        "PARENT:MD5-CAM-1.0.1" : "A1D24421DD6787CBB6665615BE399672"
       },
       "details" : {
         "en" : {
@@ -10913,6 +11441,21 @@
           "keywords" : [ "behandling", "forløp", "protokoll", "terapi", "terapeutisk", "kirurgi", "omsorg", "prosedyre", "forebyggende", "diagnostisk" ],
           "use" : "Bruk for å registrere et sammendrag av en terapeutisk intervensjon som er i ferd med å bli, eller har blitt gjennomført.\r\n\r\nEksempler på bruk inkluderer, men er ikke begrenset til:\r\n- Et stråleterapiforløp som en del av en kreftbehandling.\r\n- En medisinsk behandlingsserie som har blitt gitt.\r\n- Et kirurgisk inngrep som har blitt utført.\r\n- Kognitiv atferdsterapi brukt i behandling av depresjon.\r\n- En rekke omsorgsintervensjoner for å støtte psykisk og fysisk velvære, for eksempel emosjonell støtte til pasienter som gjennomgår kreftbehandling.\r\n- Støttetiltak i kommunale eller andre offentlige tjenester for å bedre sosiale faktorer, som ustabil boligsituasjon og sosial isolasjon.\r\n- Livsstilsveiledning med mål om å fremme sunne vaner og forbedre generell livskvalitet.\r\n- Hjemmebaserte tjenester til eldre for å støtte selvstendighet og livskvalitet.\r\n\r\nElementet \"Intervensjonskategori\" kan brukes til å dokumentere en overordnet gruppering av \"Intervensjonsnavn\". Tilsvarende kan \"Intervensjonstype\" brukes til å spesifisere metoden eller prosessen som ble benyttet for å gjennomføre intervensjonen. For eksempel:\r\n- Kategori: \"Kreftbehandling\", Navn: \"Stråleterapi\", og Type: \"Brakyterapi\"\r\n- Kategori: \"Kirurgisk\", Navn: \"Appendektomi\", og Type: \"Laparoskopisk\"\r\n- Kategori: \"Psykososial\", Navn: \"Kort intervensjon for røykeslutt\", og Type: \"Motiverende intervju (MI)\".",
           "misuse" : "Skal ikke brukes til å registrere alle detaljer om hver enkelt intervensjonshendelse eller aktivitet. Bruk en passende ACTION-arketype til dette formålet, for eksempel ACTION.procedure.\r\n\r\nSkal ikke brukes til å registrere individets vaksinasjonsstatus eller status for immunisering mot en spesifikk sykdom eller agens. Bruk EVALUATION.vaccination_summary arketypen til dette formålet.\r\n\r\nSkal ikke brukes i tilfeller der det finnes mer spesifikke sammendragsarketyper for den aktuelle intervensjonen, for eksempel 'Vaccination summary' (Vaksinasjonssammendrag), 'Transfusion summary' eller 'Medication summary' (Legemiddelsammendrag). Bruk de tilgjengelige spesifikke arketypene til slike formål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer begonnenen oder abgeschlossenen therapeutischen Intervention.",
+          "keywords" : [ "Behandlung", "Behandlungsverlauf", "Protokoll", "Therapie", "therapeutisch", "Chirurgie", "Management", "Pflege", "Verfahren", "präventiv", "diagnostisch" ],
+          "use" : "Zur Erfassung einer Zusammenfassung einer begonnenen oder abgeschlossenen therapeutischen Intervention.\r\n\r\nBeispiele für die Verwendung umfassen unter anderem:\r\n\r\nEine im Rahmen eines Krebsbehandlungsprotokolls durchgeführte Strahlentherapie.\r\n\r\nEine verabreichte medikamentöse Behandlung.\r\n\r\nEin durchgeführter chirurgischer Eingriff.\r\n\r\nSitzungen der kognitiven Verhaltenstherapie zur Behandlung von Depressionen.\r\n\r\nEine Reihe von pflegerischen Interventionen zur Unterstützung des psychischen und körperlichen Wohlbefindens, z. B. die Bereitstellung emotionaler Unterstützung für Patientinnen und Patienten während einer Krebsbehandlung.\r\n\r\nGemeindeorientierte Unterstützungsprogramme zur Minderung sozialer Faktoren wie Wohnungsinstabilität und sozialer Isolation.\r\n\r\nLebensstil-Beratungsangebote mit dem Ziel, gesundheitsfördernde Verhaltensweisen zu fördern und das allgemeine Wohlbefinden zu verbessern.\r\n\r\nHäusliche Pflegedienstleistungen, die einer älteren Person angeboten werden, um Selbstständigkeit und Lebensqualität zu unterstützen.\r\n\r\nDas Element „Interventionskategorie“ kann verwendet werden, um eine übergeordnete Gruppierung des „Interventionsnamens“ zu erfassen. Entsprechend kann der „Interventionstyp“ genutzt werden, um die Methode oder den Prozess der Durchführung der Intervention weiter zu spezifizieren. Zum Beispiel:\r\n\r\nKategorie: „Krebsbehandlung“, Name: „Strahlentherapie“ und Typ: „Brachytherapie“\r\n\r\nKategorie: „Chirurgisch“, Name: „Appendektomie“ und Typ: „laparoskopisch“\r\n\r\nKategorie: „Psychosozial“, Name: „Kurzintervention zur Raucherentwöhnung“ und Typ: „Motivational-Interviewing-Technik“",
+          "misuse" : "Nicht zur Erfassung aller Details einzelner Interventionsereignisse oder -aktivitäten zu verwenden. Verwenden Sie hierfür ein geeignetes ACTION-Archetyp, zum Beispiel ACTION.procedure.\r\n\r\nNicht zur Zusammenfassung geplanter oder vorgeschlagener Interventionen zu verwenden, die noch nicht begonnen wurden. Verwenden Sie hierfür andere geeignete Archetypen, zum Beispiel EVALUATION.recommendation, ein beliebiges INSTRUCTION-Archetyp oder ein ACTION-Archetyp im Status „geplant“ oder „terminiert“.\r\n\r\nNicht zur Erfassung des Immunisierungs- oder Impfstatus einer Person für einen bestimmten Impfstoff oder eine bestimmte Krankheit bzw. einen Erreger zu verwenden. Verwenden Sie hierfür das Archetyp EVALUATION.vaccination_summary.\r\n\r\nNicht in Fällen zu verwenden, in denen für die betreffende Intervention spezifischere Zusammenfassungs-Archetypen verfügbar sind, zum Beispiel „Impfzusammenfassung“, „Transfusionszusammenfassung“ oder „Medikationszusammenfassung“. Verwenden Sie für solche Zwecke die jeweils verfügbaren spezifischen Archetypen.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -10964,10 +11507,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1287742003",
-                        "value" : "Radiotherapy (procedure)",
-                        "translations" : {
-                          "nb" : "Radiotherapy (procedure)"
-                        }
+                        "value" : "Radiotherapy (procedure)"
                       } ]
                     } ]
                   } ],
@@ -11002,122 +11542,71 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "1",
-                        "value" : "Sarkom",
-                        "translations" : {
-                          "nb" : "Sarkom"
-                        }
+                        "value" : "Sarkom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "2",
-                        "value" : "Kreft i hode og hals",
-                        "translations" : {
-                          "nb" : "Kreft i hode og hals"
-                        }
+                        "value" : "Kreft i hode og hals"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "3",
-                        "value" : "Hjernesvulst",
-                        "translations" : {
-                          "nb" : "Hjernesvulst"
-                        }
+                        "value" : "Hjernesvulst"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "4",
-                        "value" : "Brystkreft",
-                        "translations" : {
-                          "nb" : "Brystkreft"
-                        }
+                        "value" : "Brystkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "5",
-                        "value" : "Lungekreft",
-                        "translations" : {
-                          "nb" : "Lungekreft"
-                        }
+                        "value" : "Lungekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "6",
-                        "value" : "Kreft i fordøyelsessystemet",
-                        "translations" : {
-                          "nb" : "Kreft i fordøyelsessystemet"
-                        }
+                        "value" : "Kreft i fordøyelsessystemet"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "7",
-                        "value" : "Gynekologisk kreft",
-                        "translations" : {
-                          "nb" : "Gynekologisk kreft"
-                        }
+                        "value" : "Gynekologisk kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "8",
-                        "value" : "Kreft i nyre og urinveier",
-                        "translations" : {
-                          "nb" : "Kreft i nyre og urinveier"
-                        }
+                        "value" : "Kreft i nyre og urinveier"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "9",
-                        "value" : "Benmargs- og blodkreft",
-                        "translations" : {
-                          "nb" : "Benmargs- og blodkreft"
-                        }
+                        "value" : "Benmargs- og blodkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "10",
-                        "value" : "Lymfom",
-                        "translations" : {
-                          "nb" : "Lymfom"
-                        }
+                        "value" : "Lymfom"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "11",
-                        "value" : "Hudkreft",
-                        "translations" : {
-                          "nb" : "Hudkreft"
-                        }
+                        "value" : "Hudkreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "12",
-                        "value" : "Kreft i mannlige kjønnsorganer",
-                        "translations" : {
-                          "nb" : "Kreft i mannlige kjønnsorganer"
-                        }
+                        "value" : "Kreft i mannlige kjønnsorganer"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "13",
-                        "value" : "Kreft i endokrine kjertler",
-                        "translations" : {
-                          "nb" : "Kreft i endokrine kjertler"
-                        }
+                        "value" : "Kreft i endokrine kjertler"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "14",
-                        "value" : "Nevroendokrin kreft",
-                        "translations" : {
-                          "nb" : "Nevroendokrin kreft"
-                        }
+                        "value" : "Nevroendokrin kreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "15",
-                        "value" : "Barnekreft",
-                        "translations" : {
-                          "nb" : "Barnekreft"
-                        }
+                        "value" : "Barnekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "16",
-                        "value" : "Øyekreft",
-                        "translations" : {
-                          "nb" : "Øyekreft"
-                        }
+                        "value" : "Øyekreft"
                       }, {
                         "terminologyId" : "no.onk.kreftgruppering",
                         "code" : "17",
-                        "value" : "Svulst av ukjent opprinnelse / Annet",
-                        "translations" : {
-                          "nb" : "Svulst av ukjent opprinnelse / Annet"
-                        }
+                        "value" : "Svulst av ukjent opprinnelse / Annet"
                       } ]
                     } ]
                   } ],
@@ -11151,52 +11640,31 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156506007",
-                        "value" : "Fotonterapi - Stråle (ekstern)",
-                        "translations" : {
-                          "nb" : "Fotonterapi - Stråle (ekstern)"
-                        }
+                        "value" : "Fotonterapi - Stråle (ekstern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10611004",
-                        "value" : "Protonterapi -Stråle (ekstern)",
-                        "translations" : {
-                          "nb" : "Protonterapi -Stråle (ekstern)"
-                        }
+                        "value" : "Protonterapi -Stråle (ekstern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "45643008",
-                        "value" : "Elektronterapi - Stråle (ekstern)",
-                        "translations" : {
-                          "nb" : "Elektronterapi - Stråle (ekstern)"
-                        }
+                        "value" : "Elektronterapi - Stråle (ekstern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "152198000",
-                        "value" : "Brakyterapi - Stråle (intern)",
-                        "translations" : {
-                          "nb" : "Brakyterapi - Stråle (intern)"
-                        }
+                        "value" : "Brakyterapi - Stråle (intern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399315003",
-                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)",
-                        "translations" : {
-                          "nb" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
-                        }
+                        "value" : "Radioisotope/systemisk radionuklidebehandling - Stråle (intern)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113117004",
-                        "value" : "External beam radiation therapy particulate radiation (procedure)",
-                        "translations" : {
-                          "nb" : "External beam radiation therapy particulate radiation (procedure)"
-                        }
+                        "value" : "External beam radiation therapy particulate radiation (procedure)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1156505006",
-                        "value" : "External beam radiation therapy using carbon ions (procedure)",
-                        "translations" : {
-                          "nb" : "External beam radiation therapy using carbon ions (procedure)"
-                        }
+                        "value" : "External beam radiation therapy using carbon ions (procedure)"
                       } ]
                     } ]
                   } ],
@@ -11257,24 +11725,15 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373846009",
-                        "value" : "Adjuvant hensikt",
-                        "translations" : {
-                          "nb" : "Adjuvant hensikt"
-                        }
+                        "value" : "Adjuvant hensikt"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "373847000",
-                        "value" : "Neoadjuvant hensikt",
-                        "translations" : {
-                          "nb" : "Neoadjuvant hensikt"
-                        }
+                        "value" : "Neoadjuvant hensikt"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "421974008",
-                        "value" : "Konkomitant (adjunkt) hensikt)",
-                        "translations" : {
-                          "nb" : "Konkomitant (adjunkt) hensikt)"
-                        }
+                        "value" : "Konkomitant (adjunkt) hensikt)"
                       } ]
                     } ]
                   } ],
@@ -11447,7 +11906,8 @@
             "description" : "En overordnet gruppering for intervensjonen identifisert i «Intervensjonsnavn».",
             "text" : "Behandling for krefttype"
           }
-        }
+        },
+        "de" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -11479,6 +11939,21 @@
         "organisation" : "​Oslo University Hospital, Norway"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Thomas Weikert",
+        "organisation" : "USB",
+        "email" : "t.weikert@usb.ch"
+      },
+      "accreditation" : "USB",
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -11491,7 +11966,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -11675,6 +12150,51 @@
           "keywords" : [ ],
           "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
           "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -11792,7 +12312,10 @@
           }
         },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -11961,6 +12484,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -11973,7 +12540,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "9FC6BA2D63BE451F034CE25153F4E298"
       },
       "details" : {
         "de" : {
@@ -12159,6 +12726,51 @@
           "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-pt" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-pt"
+          },
+          "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+          "keywords" : [ ],
+          "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+          "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "tr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "tr"
+          },
+          "purpose" : "Belirli bir klinik bağlama uyacak şekilde bir şablonda yeniden adlandırılacak genel bir bölüm başlığı sağlamak için.",
+          "keywords" : [ ],
+          "use" : "Bir şablonda, belirli klinik bağlama uyacak şekilde yeniden adlandırılacak bir bölüm başlığı oluşturmak için kullanılır. Örneğin: “Geçici başlık”ın “Muayene bulguları” olarak yeniden adlandırılması.",
+          "misuse" : "Bir şablonda değiştirilmeden bırakılmamalıdır.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -12242,7 +12854,10 @@
         "sl" : { },
         "sv" : { },
         "ca" : { },
-        "es" : { }
+        "es" : { },
+        "pt-pt" : { },
+        "pt" : { },
+        "tr" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -12411,6 +13026,50 @@
         "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-pt"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "tr"
+      },
+      "author" : {
+        "name" : "Olha Nikolaieva",
+        "organisation" : "University Hospital Basel",
+        "email" : "olha.nikolaieva@usb.ch"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Koray Atalag, GALATA-Digital, New Zealand"
+      }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -12520,8 +13179,8 @@
                     "lower" : 1,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : true
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -12569,8 +13228,8 @@
                     "lower" : "PT0S",
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : true
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -12600,8 +13259,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
                       } ]
                     } ]
                   } ],
@@ -12624,8 +13283,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
                       } ]
                     } ]
                   } ],
@@ -12657,8 +13316,8 @@
                     "lower" : 1,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : true
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -12927,8 +13586,8 @@
                     "lower" : 1,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : true
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -12976,8 +13635,8 @@
                     "lower" : "PT0S",
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : true
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -13007,8 +13666,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
                       } ]
                     } ]
                   } ],
@@ -13031,8 +13690,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
                       } ]
                     } ]
                   } ],
@@ -13397,8 +14056,8 @@
                             "lower" : "PT0H",
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "lowerUnbounded" : false,
-                            "upperUnbounded" : true
+                            "upperUnbounded" : true,
+                            "lowerUnbounded" : false
                           } ]
                         } ]
                       } ],
@@ -13474,8 +14133,8 @@
                         "constraint" : [ {
                           "lowerIncluded" : false,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : true,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : true
                         } ]
                       } ]
                     }, {
@@ -13490,8 +14149,8 @@
                         "constraint" : [ {
                           "lowerIncluded" : false,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : true,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : true
                         } ]
                       } ]
                     }, {
@@ -13506,8 +14165,8 @@
                         "constraint" : [ {
                           "lowerIncluded" : false,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : true,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : true
                         } ]
                       } ]
                     }, {
@@ -13523,8 +14182,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "lowerUnbounded" : false,
-                          "upperUnbounded" : true
+                          "upperUnbounded" : true,
+                          "lowerUnbounded" : false
                         } ]
                       } ]
                     } ]
@@ -13568,8 +14227,8 @@
                         "lower" : "PT0S",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "lowerUnbounded" : false,
-                        "upperUnbounded" : true
+                        "upperUnbounded" : true,
+                        "lowerUnbounded" : false
                       } ]
                     } ]
                   } ],
